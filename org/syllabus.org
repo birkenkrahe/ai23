@@ -74,24 +74,24 @@ Notes:
 
 * Dates and class schedule
 
-| Week | Date          | Assignments       | Datacamp         | Proj |
-|------+---------------+-------------------+------------------+------|
-|    1 | Aug 21-Aug 25 | Intro to AI       |                  |      |
-|    2 | Aug 28-Sep 01 | AI History        |                  |      |
-|    3 | Sep 04-Sep 08 | AI agents         |                  |      |
-|    4 | Sep 11-Sep 15 | State-of-the-Art  | Understanding AI | 1st  |
-|    5 | Sep 18-Sep 22 | Future of AI      |                  |      |
-|    6 | Sep 25-Sep 29 | Machine Learning  | Intro to ChatGPT |      |
-|    7 | Oct 02-Oct 06 | Sales/marketing   |                  |      |
-|    8 | Oct 09-Oct 13 | Natural Language  | Understanding ML | 2nd  |
-|    9 | Oct 16-Oct 20 | Medical AI        |                  |      |
-|   10 | Oct 23-Oct 27 | AI coding, Pres 1 |                  |      |
-|   11 | Oct 30-Nov 03 | Pres 2,3,4        |                  |      |
-|   12 | Nov 06-Nov 10 | Pres 5,6,7        | LLM Concepts     | 3rd  |
-|   13 | Nov 13-Nov 17 | Pres 8,9,10       |                  |      |
-|   14 | Nov 20-Nov 24 | Pres 11           |                  |      |
-|   15 | Nov 27-Dec 01 | Pres 12,13,14     |                  |      |
-|   16 | Dec 04-Dec 08 | PROJECTS          | Generative AI    | 4th  |
+| Week | Date          | Assignments       | Datacamp                        | Proj |
+|------+---------------+-------------------+---------------------------------+------|
+|    1 | Aug 21-Aug 25 | Intro to AI       | What is AI?                     |      |
+|    2 | Aug 28-Sep 01 | AI History        | Tasks AI can solve              |      |
+|    3 | Sep 04-Sep 08 | AI agents         | Harnessing AI in organizations  |      |
+|    4 | Sep 11-Sep 15 | State-of-the-Art  | The human side of AI            | 1st  |
+|    5 | Sep 18-Sep 22 | Future of AI      | Interacting with ChatGPT        |      |
+|    6 | Sep 25-Sep 29 | Machine Learning  | Adopting ChatGPT                |      |
+|    7 | Oct 02-Oct 06 | Sales/marketing   | What is Machine Learning        |      |
+|    8 | Oct 09-Oct 13 | Natural Language  | Machine Learning Models         | 2nd  |
+|    9 | Oct 16-Oct 20 | Medical AI        | Deep Learning                   |      |
+|   10 | Oct 23-Oct 27 | AI coding, Pres 1 | Introduction to LLMs            |      |
+|   11 | Oct 30-Nov 03 | Pres 2,3,4        | Building Blocks of LLMs         |      |
+|   12 | Nov 06-Nov 10 | Pres 5,6,7        | Training methods and techniques | 3rd  |
+|   13 | Nov 13-Nov 17 | Pres 8,9,10       | Concerns and considerations     |      |
+|   14 | Nov 20-Nov 24 | Pres 11           | Introduction to Generative AI   |      |
+|   15 | Nov 27-Dec 01 | Pres 12,13,14     | Developing Generative AI Models |      |
+|   16 | Dec 04-Dec 08 | PROJECTS          | Using AI Models Responsibly     | 4th  |
 
 - NO CLASSES: Aug 21, Oct 9 (Fall break), Nov 22 + 24
   (Thanksgiving). See [[https://catalog.lyon.edu/202324-academic-calendar][2023-2024 academic calendar]].
