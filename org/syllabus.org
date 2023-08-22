@@ -61,10 +61,10 @@ ethics.
 | TBD    | AI application       |    25% | Team   |
 
 Notes:
-- To pass: 60%
+- To pass: 60% of all available points.
 - DataCamp assignments: there are 16 assignments spread out over 5
   courses. Each assignment contributes 1.5625% (25/16) to your final
-  grade. Late assignments are counted as 60% complete only.
+  grade. Late assignments are counted as 50% complete only.
 - Session protocol: every participant completes 1 protocol for the
   topical presentation of another participant.
 - Presentation: by individual course participants on AI topics
