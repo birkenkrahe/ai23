@@ -1,0 +1,94 @@
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_INIT_OPTIONS: transition: 'cube'
+#+REVEAL_THEME: black
+:END:
+#+title: Artificial Intelligence
+#+author: Marcus Birkenkrahe
+#+subtitle: Advanced Seminar Fall 2023 (CSC/DSC 482.01)
+#+startup: overview hideblocks indent inlineimages
+#+OPTIONS: toc:1 num:nil
+* Course orientation
+#+attr_html: :width 600px
+[[../img/cover.jpg]]
+
+* Housekeeping
+
+- Can you see the GMail space "AI Chat"?
+- Do you have the link for datacamp.com?
+- Do you have access to Canvas and Zoom?
+- Can you see my GitHub repository (ai23)
+- Let's look at the [[https://lyon.instructure.com/courses/1446/assignments/syllabus][syllabus]] for details
+  
+* Contradictory information
+#+attr_html: :width 400px
+[[../img/goose.gif]]
+
+** It's unstoppable
+#+attr_html: :width 700px
+[[../img/chatgpt_time_to_market.png]]
+
+** It's going down
+#+attr_html: :width 350px
+[[../img/chatgpt_bankrupt.png]] 
+
+** It's friendly
+#+attr_html: :width 700px
+[[../img/friendly.png]]
+
+** It's hostile
+#+attr_html: :width 700px
+[[../img/hostile.png]]
+
+** It's human & creative
+#+attr_html: :width 700px
+[[../img/human.png]]
+
+** It's alien & stupid
+#+attr_html: :width 700px
+[[../img/alien.png]]
+
+** It's game over for us
+#+attr_html: :width 700px
+[[../img/gameover.png]]
+** It's a new beginning for us
+#+attr_html: :width 700px
+[[../img/newstart.png]]
+
+** Are we being lied to?
+#+attr_html: :width 500px
+[[../img/lies.gif]]
+
+** Let's find out!
+#+attr_html: :width 500px
+[[../img/james-bond-007.gif]]
+
+* Your motivation
+#+attr_html: :width 400px
+[[../img/joinme.gif]]
+
+What do you want to learn?
+
+** My motivation
+#+attr_html: :width 500px
+[[../img/motivation.png]]
+
+* Topics (planned)
+
+#+begin_center
+- History of AI
+- Agent-based approach to AI
+- Risks and benefits of AI
+- Large Language Models
+- Generative AI
+- AI coding assistance
+- Medical AI research
+#+end_center
+
+* Questions?
+#+attr_html: :width 400px
+[[../img/end.gif]]
+
+
+
