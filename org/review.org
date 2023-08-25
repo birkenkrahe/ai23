@@ -1,0 +1,22 @@
+#+title: AI - Review
+#+startup: overview hideblocks indent inlineimages
+#+property: header-args:R :results output :noweb yes
+#+property: header-args:python :results output :noweb yes
+#+options: toc:1 num:1
+#+attr_latex: :width 400px
+[[../img/motivation.png]]
+* Aug-23
+
+Summary:
+- 
+
+Review questions:
+#+begin_quote
+- What is the purpose and meaning of IMRaD?
+- What is meant by 'prompt engineering'?
+- What is the problem with intelligence?
+#+end_quote
+  
+* Aug-29
+
+
