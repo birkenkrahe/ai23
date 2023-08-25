@@ -64,22 +64,25 @@
 #+attr_html: :width 500px
 [[../img/james-bond-007.gif]]
 
-* Your motivation
+* My motivation
+#+attr_html: :width 500px
+[[../img/motivation.png]]
+
+- How will LLMs change data science teaching?
+- How will LLMs change coding practice?
+- How will LLMs change the nature of work?
+
+** Your motivation
 #+attr_html: :width 400px
 [[../img/joinme.gif]]
 
-What do you want to learn? Actually, I don't care :-)
-
-More to the point of the class: how did available AI change your life
-as a student (or as a professional) in the past 9 months?
-
-** My motivation
-#+attr_html: :width 500px
-[[../img/motivation.png]]
+How did available AI change your life as a student (or as a
+professional) in the past 9 months?
 
 * Topics (planned)
 
 #+begin_center
+- What is AI
 - History of AI
 - Agent-based approach to AI
 - Risks and benefits of AI
