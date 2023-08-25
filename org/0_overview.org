@@ -68,7 +68,10 @@
 #+attr_html: :width 400px
 [[../img/joinme.gif]]
 
-What do you want to learn?
+What do you want to learn? Actually, I don't care :-)
+
+More to the point of the class: how did available AI change your life
+as a student (or as a professional) in the past 9 months?
 
 ** My motivation
 #+attr_html: :width 500px
