@@ -7,209 +7,321 @@
 #+TITLE: What is AI?
 #+AUTHOR: Marcus Birkenkrahe
 #+Subtitle: Seminar on Artificial Intelligence Fall 2023
-#+STARTUP: hideblocks
+#+STARTUP: hideblocks overview indent inlineimages
 #+OPTIONS: toc:nil num:nil ^:nil
 * What're you going to learn?
 
-  - What is intelligence?
-  - Different approaches to AI
-  - The standard model of AI
-  - Bounded rationality
-  - The Value alignment problem
-  - Asimov's Robot Laws
-  - What's next?
+- What is intelligence?
+- Different approaches to AI
+- The standard model of AI
+- Bounded rationality
+- The Value alignment problem
+- Asimov's Robot Laws
+- What's next?
 
 * What is intelligence?
-  #+attr_html: :height 500px
-  [[../img/intelligence.gif]]
+#+attr_html: :height 500px
+[[../img/intelligence.gif]]
 
 ** Search patterns
-   #+attr_html: :width 600px
-   [[../img/googletrends.png]]
+#+attr_html: :width 700px
+[[../img/googletrends23.png]]
 
 ** Group work
-   #+attr_html: :height 200px
-   [[../img/groupwork.gif]]
+#+attr_html: :height 200px
+[[../img/groupwork.gif]]
 
-   - Get together in groups of 2-3
-   - Define INTELLIGENCE (5')
-   - Define ARTIFICIAL INTELLIGENCE (5')
-   - Briefly present your results (10')
+- Get together in groups of 2-3
+- Define INTELLIGENCE (5')
+- Define ARTIFICIAL INTELLIGENCE (5')
+- Briefly present your results (10')
+
+** ChatGPT's view
+#+attr_html: :width 700px
+[[../img/chatgpt.jpeg]]
+
+Is there something about human intelligence that is specifically
+human and not shared by machines or other non-human beings?
+
+#+begin_example
+"While AI has made significant strides in replicating specific tasks
+that were once the domain of human intelligence, there remain several
+aspects that are uniquely human and are far from being fully
+understood or replicated by machines."
+#+end_example
+#+begin_notes
+Source:  [[https://shareg.pt/xk8YkuO][ChatGPT]]
+
+Highlighted specifically human intelligences: Emotional intelligence,
+Creativity, Contextual Understanding, Generalization and Transfer
+Learning, Self-awareness and Consciousness, Moral and Ethical
+Reasoning, Social Intelligence.
+
+Image: produced with Dall-E by OpenAI with the prompt "Give me a
+portrait of ChatGPT in three different styles - as an 18th century
+drawing, as a Renaissance painting, and as a graphics image.
+#+end_notes
 
 * Different approaches to AI
-  #+attr_html: :height 300px
-  [[../img/fields.gif]]
+#+attr_html: :height 300px
+[[../img/approach.gif]]
 
-  Which fields of inquiry (= disciplines) to use?
+Which fields of inquiry (= disciplines) to use?
 
 ** Fields of systematic inquiry
-   #+attr_html: :height 200px
-   [[../img/fields.gif]]
+#+attr_html: :height 200px
+[[../img/fields.gif]]
 
-   - Language
-   - Philosophy
-   - Science
-   - History
+- Language
+- Philosophy
+- Science
+- History
 
 ** Fundamental questions
-   #+attr_html: :width 500px
-   [[../img/humanmachine.jpg]]
+#+attr_html: :width 500px
+[[../img/humanmachine.jpg]]
 
-   - Should we focus on humans?
-   - Should we focus on machines?
+- Should we focus on humans?
+- Should we focus on machines?
 
 ** Four approaches
-   |               | THOUGHT / LOGIC      | BEHAVIOR / ACTION   |
-   |---------------+----------------------+---------------------|
-   | HUMANITY      | Cognitive modeling   | Turing Test         |
-   | RATIONALITY   | Laws of Thought      | Rational Agents     |
+|             | BEHAVIOR / ACTION | THOUGHT / LOGIC    |
+|-------------+-------------------+--------------------|
+| HUMAN       | Turing Test       | Cognitive modeling |
+| RATIONALITY | Rational Agents   | Laws of Thought    |
+
+#+begin_notes
+Like human vs. non-human and body vs. soul.
+
+Problems with this categorisation:
+1) the axes are not independent of one another - rationality
+   ('reasoning') is linked to thought;
+2) Behaviour and thought are not independent from another.
+#+end_notes
 
 *** Four scenarios
-    #+attr_html: :height 500px
-    [[../img/approaches1.png]]
+#+attr_html: :height 500px
+[[../img/approaches1.png]]
 
 *** Acting humanly ("Turing test" approach)
 
-    | Natural language processing |
-    | Knowledge representation    |
-    | Automated reasoning         |
-    | Machine learning            |
-    | Computer vision             |
-    | Robotics                    |
+| Natural language processing |
+| Knowledge representation    |
+| Automated reasoning         |
+| Machine learning            |
+| Computer vision             |
+| Robotics                    |
+
+#+begin_notes
+Turing (1950) Can a machine think? Test: if a human cannot tell the
+machine from a human ([[https://youtu.be/Umc9ezAyJv0?si=lNemHMH2A3uYEhST][Voight-Kampff Test, Blade Runner]]).
+
+Six disciplines dominate AI research today. Emphasis shifted away from
+the Turing test - "aeronautical engineers do not define the goal of
+their field as making 'machines that fly so exactly like pigeons that
+they can fool even other pigeons'". Except: flight is not intelligence.
+#+end_notes
 
 *** Thinking humanly ("cognitive modeling" approach)
-    |  Introspection              |
-    |  Psychological experiments  |
-    |  Brain imaging              |
-    |  Cognitive science          |
-    |  Algorithms                 |
+|  Introspection              |
+|  Psychological experiments  |
+|  Brain imaging              |
+|  Cognitive science          |
+|  Algorithms                 |
+
+#+begin_notes
+Goal: establish a theory of mind. Newell and Simon ("The sciences of
+the artificial", 1955), Nobel Prize Economics, designed a General
+Problem Solver that solves problems like a human (cognitively).
+
+The two fields have since separated - machine cognition is not human
+cognition.
+#+end_notes
 
 *** Thinking rationally ("laws of thought" approach)
-    |  Syllogistic reasoning  |
-    |  Logic                  |
-    |  Expert systems         |
-    |  Uncertainty            |
-    |  Probability            |
+|  Syllogistic reasoning  |
+|  Logic                  |
+|  Expert systems         |
+|  Uncertainty            |
+|  Probability            |
+
+#+begin_notes
+Syllogistic reasoning: 1. Humans think. 2. The machine
+thinks. 3. Therefore the machine is human.
+
+Logic via its rules provides certainty. The real world is uncertain -
+we don't know the complete set of rules (expert systems).
+
+Probability (computing chances based on samples) fills this gap:
+machine learning algorithms combine rigorous reasoning with uncertain
+data. Emphasis is now on the data.
+#+end_notes
 
 *** Acting rationally ("rational agent" approach)
-    |  Combination approach   |
-    |  Constructivist         |
-    |  Doing the right thing  |
-    |  Standard model         |
-    |  Control theory         |
+|  Combination approach   |
+|  Constructivist         |
+|  Doing the right thing  |
+|  Standard model         |
+|  Control theory         |
+
+#+begin_notes
+Advantages of this approach:
+1) more general than 'Laws of thought'/rational thinking because
+   logical inference is only one way of achieving rationality (which
+   others are there? E.g. heuristics based on recognized patterns).
+2) the standard of rationality is mathematically well-defined so that
+   we can often work back from a mathematical law to a specific agent
+   design. E.g. Rumba robots, which use topology in their algorithms.
+#+end_notes
 
 ** Major issues
-   #+attr_html: :height 200px
-   [[../img/issues.gif]]
+#+attr_html: :height 200px
+[[../img/issues.gif]]
 
-   - Bounded Rationality
-   - Value alignment problem
+- Bounded Rationality
+- Value alignment problem
 
 ** Bounded rationality
-   #+attr_html: :width 300px
-   [[../img/bakopoulos.png]]
+#+attr_html: :width 300px
+[[../img/bakopoulos.png]]
 
-   Image: [[bakopoulos1985][Bakopoulos, 1985]]
+Image: [[bakopoulos1985][Bakopoulos, 1985]]
 
-   #+begin_quote
-   AIMA: "For perfect rationality, the computational demands are just
-   too high."
-   #+end_quote
+#+begin_quote
+AIMA: "For perfect rationality, the computational demands are just
+too high."
+#+end_quote
 
-   #+begin_notes
-   The article by [[bakopoulos1985][Bakopoulos (1985)]] helped to move IT from an arcane
-   discipline for technologists and nerds to a mainstream service
-   industry. To do this, Bakopoulos capitalized on the notion that
-   humans are not perfectly rational, that their rationality is
-   bounded by their humanity: "Data has no value unless put in the
-   context of the appropriate models, a process taxing the human
-   capacities to communicate, memorize and process information, and
-   thus leading to /bounded rationality/, which is a central concept
-   in organizational behavior theory."
+#+begin_notes
+The article by [[bakopoulos1985][Bakopoulos (1985)]] helped to move IT from an arcane
+discipline for technologists and nerds to a mainstream service
+industry. To do this, Bakopoulos capitalized on the notion that
+humans are not perfectly rational, that their rationality is
+bounded by their humanity: "Data has no value unless put in the
+context of the appropriate models, a process taxing the human
+capacities to communicate, memorize and process information, and
+thus leading to /bounded rationality/, which is a central concept
+in organizational behavior theory."
 
-   I worked through this article a while back for a lecture I was
-   preparing, and found it remarkably difficult for such an old paper,
-   with a lot of connections in different directions - technology,
-   business, information theory, and philosophy.
+I worked through this article a while back for a lecture I was
+preparing, and found it remarkably difficult for such an old paper,
+with a lot of connections in different directions - technology,
+business, information theory, and philosophy.
 
-   Bakopoulos' result that information systems have no (or only
-   little) value without being properly integrated into business, and
-   that IT is useless if it does not 'speak" to people in ways that
-   they can understand and with results that they can measure, is
-   wonderfully relevant for the future development of AI, too.
-   #+end_notes
+Bakopoulos' result that information systems have no (or only
+little) value without being properly integrated into business, and
+that IT is useless if it does not 'speak" to people in ways that
+they can understand and with results that they can measure, is
+wonderfully relevant for the future development of AI, too.
+#+end_notes
 
 ** Value alignment
-   #+attr_html: :width 200px
-   [[../img/mechanicalturk.png]]
+#+attr_html: :width 200px
+[[../img/mechanicalturk.png]]
 
-   Image: [[https://www.amazon.com/Turk-Famous-Eighteenth-Century-Chess-Playing-Machine/dp/B000HWZ28Q][The Mechanical Turk]]
+Image: [[https://www.amazon.com/Turk-Famous-Eighteenth-Century-Chess-Playing-Machine/dp/B000HWZ28Q][The Mechanical Turk]]
 
-   #+begin_quote
-   AIMA: "The values or objectives put into the machine must be
-   aligned with those of the human."
-   #+end_quote
+#+begin_quote
+AIMA: "The values or objectives put into the machine must be
+aligned with those of the human."
+#+end_quote
 
-   #+begin_notes
-   This kind of "alignment" sounds like an engineering task, but
-   actually it is a lot more complicated (or actually complex in a
-   technical sense): if rational agents are supposed to "do the right
-   thing", then their actions have to be not just logical, but
-   appropriate and moral. There is no algorithm for that - both
-   appropriateness (e.g. to a situation) and morality depend on the
-   circumstances. Take the example of Grace, the "ultra-lifelike
-   robotic nurse" from Hanson Robotics: she was designed for a certain
-   set of circumstances and both by, and for a particular set of moral
-   values. Will she do equally well in Japan and in Belgium, the
-   country with the "[[https://www.pbs.org/newshour/show/right-die-belgium-inside-worlds-liberal-euthanasia-laws][world's most liberal euthanasia law]]", and
-   therefore possibly a different approach to caring for the elderly?
+#+begin_notes
+This kind of "alignment" sounds like an engineering task, but
+actually it is a lot more complicated (or actually complex in a
+technical sense): if rational agents are supposed to "do the right
+thing", then their actions have to be not just logical, but
+appropriate and moral. There is no algorithm for that - both
+appropriateness (e.g. to a situation) and morality depend on the
+circumstances. Take the example of Grace, the "ultra-lifelike
+robotic nurse" from Hanson Robotics: she was designed for a certain
+set of circumstances and both by, and for a particular set of moral
+values. Will she do equally well in Japan and in Belgium, the
+country with the "[[https://www.pbs.org/newshour/show/right-die-belgium-inside-worlds-liberal-euthanasia-laws][world's most liberal euthanasia law]]", and
+therefore possibly a different approach to caring for the elderly?
 
-   The example of an 'unethical rational agent' chosen by AIMA, which
-   relates to the "Mechanical Turk", a chess machine that was operated
-   by a human hidden inside the machine, is admittedly a lot less
-   critical than when taking care of the sick and elderly is at
-   stake. However, the age of AI that dazzled us by beating chess
-   champions is long behind us, and the age of robots like Grace is
-   upon us!
-   #+end_notes
+The example of an 'unethical rational agent' chosen by AIMA, which
+relates to the "Mechanical Turk", a chess machine that was operated
+by a human hidden inside the machine, is admittedly a lot less
+critical than when taking care of the sick and elderly is at
+stake. However, the age of AI that dazzled us by beating chess
+champions is long behind us, and the age of robots like Grace is
+upon us!
+#+end_notes
 
 ** Pros and cons
-   #+attr_html: :height 200px
-   [[../img/groupwork.gif]]
+#+attr_html: :height 200px
+[[../img/groupwork.gif]]
 
-   - Get together in groups of 2-3
-   - Each group covers one approach
-   - List pros and cons of your approach
-   - Put your results [[https://ideaboardz.com/for/AI%20approaches%20pros%20&amp;%20cons/4063343][on the Kanban board]]
+- Get together in groups of 2-3
+- Each group covers one approach
+- List pros and cons of your approach
+- Put your results [[https://ideaboardz.com/for/AI%20approaches%20pros%20&amp;%20cons/4063343][on the Kanban board]]
 
-** [[https://en.wikipedia.org/wiki/Three_Laws_of_Robotics][Asimov's robot laws]]
-   #+attr_html: :height 400px
-   [[../img/asimov.jpg]]
+* [[https://en.wikipedia.org/wiki/Three_Laws_of_Robotics][Asimov's robot laws]]
+#+attr_html: :height 400px
+[[../img/asimov.jpg]]
 
-   Image: cover of "I, Robot" by Isaac Asimov (1940)
+Image: cover of "I, Robot" by Isaac Asimov (1940)
 
-*** Which approach fits these laws best?
+** Which approach fits these laws best?
 
-    1) A robot may not injure a human being or, through inaction, allow
-       a human being to come to harm.
-    2) A robot must obey the orders given it by human beings except
-       where such orders would conflict with the First Law.
-    3) A robot must protect its own existence as long as such
-       protection does not conflict with the First or Second Law.
+1) A robot may not injure a human being or, through inaction, allow
+   a human being to come to harm.
+2) A robot must obey the orders given it by human beings except
+   where such orders would conflict with the First Law.
+3) A robot must protect its own existence as long as such
+   protection does not conflict with the First or Second Law.
+
+** Russell's AI Principles (Asimov 2.0)
+
+1) The machine's only objective is to maximis the realisation of human
+   preferences.
+2) The machine is initially uncertain about what those preferences
+   are.
+3) The ultimate source of information about human preferences is human
+   behaviour.
+
+#+begin_notes
+Source: Eve Poole, Robot Souls, Routledge 2023.
+
+Russell is Vice Chair of the World Economic Forum's Council on AI and
+Robotics - strict controls of AI especially for warfare. AI must only
+ever be instrumentally beneficial to humans and should attach no
+intrinsic value to its own well-being or existence.
+
+1) In any conflict of programming, human interests must prevail.
+2) Protect (1) by not making the AI too certain of itself
+3) Further risk mitigation: must observe human behaviour.
+#+end_notes
+
+** Pasquale's Laws
+
+1. Robotic systems and AI should complement professionals, not replace
+   them.
+2. Robotic systems and AI should not counterfeit humanity.
+3. Robotic systems and AI should not intensify zero-sum arms races.
+4. Robotic systems and AI must always indicate the identity of their
+   creator(s), controller(s), and owner(s).
+
+#+begin_notes
+Frank Pasquale is a expert on AI law, professor at Brooklyn Law
+School, on the US Natinal AI Advisory Committee.
+#+end_notes
 
 * What's next?
-  #+attr_html: :height 300px
-  [[../img/river.gif]]
+#+attr_html: :height 300px
+[[../img/river.gif]]
 
-  - Scientific foundations of AI
-  - History of AI
+- Scientific foundations of AI
+- History of AI
 
 * Any questions?
-  #+attr_html: :height 400px
-  [[../img/thankyou.gif]]
+#+attr_html: :height 400px
+[[../img/thankyou.gif]]
 
 * References
 
-  <<bakopoulos1985>> Bakopoulos, J. Yannis, "Toward a More Precise
-  Concept of Information Technology" (1985). ICIS 1985 Proceedings. 4.
-  http://aisel.aisnet.org/icis1985/4
+<<bakopoulos1985>> Bakopoulos, J. Yannis, "Toward a More Precise
+Concept of Information Technology" (1985). ICIS 1985 Proceedings. 4.
+http://aisel.aisnet.org/icis1985/4

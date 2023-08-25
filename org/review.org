@@ -12,6 +12,10 @@ Summary:
 
 Review questions:
 #+begin_quote
+- What are conditions for solving problems with a computer?
+  1) Input data (something to work with)
+  2) Transformation of the data into numbers
+  3) Algorithm (something to process the data with)
 - What is the purpose and meaning of IMRaD?
 - What is meant by 'prompt engineering'?
 - What is the problem with intelligence?
