@@ -8,7 +8,14 @@
 * Aug-23
 
 Summary:
-- 
+- ChatGPT's rise to fame (issues with graph)
+- What's people's hangup with AI ('intelligence')
+- AI is an area of massive change (in the public eye)
+- Machine learning is a branch of AI
+- Large Language Models (LLMs) is a branch of ML
+- Contradictory reports about the benefits of AI
+- Term project process follows the "Scrum"
+- Recent critique of IQ research (from complexity)
 
 Review questions:
 #+begin_quote

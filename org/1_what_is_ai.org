@@ -195,7 +195,7 @@ too high."
 #+begin_notes
 HOME READING ASSIGNMENT - 6 pages. ([[https://shareg.pt/MzzqdF0][ChatGPT summary.]])
 
-The article by [[bakopoulos1985][Bakopoulos (1985)]] helped to move IT from an arcane
+The article by Bakopoulos helped to move IT from an arcane
 discipline for technologists and nerds to a mainstream service
 industry. To do this, Bakopoulos capitalized on the notion that
 humans are not perfectly rational, that their rationality is
