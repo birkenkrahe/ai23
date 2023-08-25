@@ -185,7 +185,7 @@ Advantages of this approach:
 #+attr_html: :width 300px
 [[../img/bakopoulos.png]]
 
-Image: [[bakopoulos1985][Bakopoulos, 1985]]
+Image: [[https://aisel.aisnet.org/icis1985/4/][Bakopoulos, 1985]]
 
 #+begin_quote
 AIMA: "For perfect rationality, the computational demands are just
@@ -193,6 +193,8 @@ too high."
 #+end_quote
 
 #+begin_notes
+HOME READING ASSIGNMENT - 6 pages. ([[https://shareg.pt/MzzqdF0][ChatGPT summary.]])
+
 The article by [[bakopoulos1985][Bakopoulos (1985)]] helped to move IT from an arcane
 discipline for technologists and nerds to a mainstream service
 industry. To do this, Bakopoulos capitalized on the notion that
@@ -322,6 +324,6 @@ School, on the US Natinal AI Advisory Committee.
 
 * References
 
-<<bakopoulos1985>> Bakopoulos, J. Yannis, "Toward a More Precise
-Concept of Information Technology" (1985). ICIS 1985 Proceedings. 4.
+Bakopoulos, J. Yannis, "Toward a More Precise Concept of Information
+Technology" (1985). ICIS 1985 Proceedings. 4.
 http://aisel.aisnet.org/icis1985/4
