@@ -28,6 +28,72 @@ Review questions:
 - What is the problem with intelligence?
 #+end_quote
   
-* Aug-29
+* Aug-25
 
+** Summary:
+
+- There are many different use cases for Generative AI
+- Learning with AI assistance may require (more) self-control
+- Today's cheating may be tomorrow's standard practice
+
+** Review questions ([[https://app.datacamp.com/learn/courses/understanding-artificial-intelligence][DataCamp]], [[https://lyon.instructure.com/courses/1446/assignments/syllabus][Syllabus]]):
+
+- What's the relationship between an AI algorithm and an "AI system"?
+  #+begin_notes
+  1) An algorithm is a set of instructions for the computer.
+  2) An AI algorithm is a trained algorithm that performs an
+     optimization task for an unknown input
+  3) An AI system includes both hardware and software, network and
+     data storage to develop, test and deploy AI algorithms in the
+     real world.
+  4) E.g. ChatGPT employs a neural-network based algorithm but the
+     ChatGPT app system includes a user interface (playground or
+     conversation), a mobile user app or a browser-based desktop app,
+     a database and network connection to retrieve and store the
+     results of a session, plugins to extend the functionality, and
+     much more.
+  5) The algorithm and the public training data change rarely, while the
+     non-algorithmic system parts and the test data change often.
+  #+end_notes
+- What do you need to do to pass this class and by when?
+  #+begin_notes
+  See syllabus: 1) solo presentation (data to be chosen), 
+  #+end_notes
+- What is a "use case" anyway?
+  #+begin_notes
+  A "use case" is the equivalent of a case study in software
+  engineering and product design. It describes how a system achieves a
+  specific goal. It outlines interactions between users and the system
+  to manage scope, establish requirements, manage risk. See:
+  [[https://en.wikipedia.org/wiki/Use_case][Wikipedia]].
+
+  Elements of a use case:
+  - System description
+  - Actor description
+  - Scenario example(s)
+
+  Simple example: use case for a meal delivery application
+  (Daly, 2022).
+  1) *System*: Food delivery application
+  2) *Scenario*: Individuals use app to place food orders directly to
+     restaurants. When ordering, user is prompted to pay through app
+     or pay when food arrives. Restaurant receives request through
+     their system. Food is prepared, packaged, and delivered.
+  3) *Actors:* customer, restaurant.
+  4) *Requirements*: App must be able to: receive orders, process
+     payments, communicate with restaurant.
+  #+end_notes
+  
+** Links (AI App/Team project ideas):
+
+- [[https://lyon.instructure.com/courses/1446/pages/solo-presentations][Signup sheet for solo project / protocol (Canvas)]]
+- [[https://twitter.com/chaseleantj/status/1695046699855831138?s=20][Inpainting with Midjourney]]
+- [[https://twitter.com/emollick/status/1695191857532170350?s=20][Building interactive educational tools with Code Interpreter]]
+- [[https://www.tesmanian.com/blogs/tesmanian-blog/elon-musk-shows-fsd-beta-v12-live-test-drive-on-x][Elon Musk test-drives an autonomous Tesla through Austin TX]]
+
+
+* References 
+
+What Is a Use Case? Daly N (April 25, 2022). URL:
+[[https://www.wrike.com/blog/what-is-a-use-case/][wrike.com/blog/what-is-a-use-case]] [27 Aug 2023]
 
