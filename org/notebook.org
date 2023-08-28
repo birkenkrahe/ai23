@@ -1,4 +1,4 @@
-#+title: AI - Review
+#+title: AI - Notebook
 #+startup: overview hideblocks indent inlineimages
 #+property: header-args:R :results output :noweb yes
 #+property: header-args:python :results output :noweb yes
@@ -32,9 +32,11 @@ Review questions:
 
 ** Summary:
 
-- There are many different use cases for Generative AI
+- There are many different use cases for Generative AI (like ChatGPT)
 - Learning with AI assistance may require (more) self-control
 - Today's cheating may be tomorrow's standard practice
+- "Large language models are not knowledge bases but they are
+  stochastic models of knowledge bases." (Tom Dietterich)
 
 ** Review questions ([[https://app.datacamp.com/learn/courses/understanding-artificial-intelligence][DataCamp]], [[https://lyon.instructure.com/courses/1446/assignments/syllabus][Syllabus]]):
 
@@ -86,10 +88,12 @@ Review questions:
   
 ** Links (AI App/Team project ideas):
 
-- [[https://lyon.instructure.com/courses/1446/pages/solo-presentations][Signup sheet for solo project / protocol (Canvas)]]
-- [[https://twitter.com/chaseleantj/status/1695046699855831138?s=20][Inpainting with Midjourney]]
-- [[https://twitter.com/emollick/status/1695191857532170350?s=20][Building interactive educational tools with Code Interpreter]]
-- [[https://www.tesmanian.com/blogs/tesmanian-blog/elon-musk-shows-fsd-beta-v12-live-test-drive-on-x][Elon Musk test-drives an autonomous Tesla through Austin TX]]
+- Assignment: [[https://lyon.instructure.com/courses/1446/discussion_topics/5436][Your solo project / your protocol]]
+- Assignment: [[https://lyon.instructure.com/courses/1446/assignments/17992][1st sprint review assignment (ideation)]]
+- Use case: [[https://twitter.com/chaseleantj/status/1695046699855831138?s=20][Inpainting with Midjourney]] 
+- Use case: [[https://twitter.com/emollick/status/1695191857532170350?s=20][Building interactive educational tools with Code Interpreter]]
+- Use case:[[https://www.tesmanian.com/blogs/tesmanian-blog/elon-musk-shows-fsd-beta-v12-live-test-drive-on-x][Elon Musk test-drives an autonomous Tesla]]
+- Insight: [[https://youtu.be/cEyHsMzbZBs?si=yDVgScmS_0BfczUD&t=1329][What's wrong with LLMs and what we should be building instead]]
 
 
 * References 
