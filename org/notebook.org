@@ -57,9 +57,15 @@ Review questions:
   5) The algorithm and the public training data change rarely, while the
      non-algorithmic system parts and the test data change often.
   #+end_notes
+
 - What do you need to do to pass this class and by when?
   #+begin_notes
-  See syllabus: 1) solo presentation (data to be chosen), 
+  - Solo presentation on an AI topic
+  - Team project - develop an AI application
+  - Sprint review presentations (presentation of prototype)
+  
+  #+end_notes
+  
   #+end_notes
 - What is a "use case" anyway?
   #+begin_notes
@@ -81,7 +87,7 @@ Review questions:
      restaurants. When ordering, user is prompted to pay through app
      or pay when food arrives. Restaurant receives request through
      their system. Food is prepared, packaged, and delivered.
-  3) *Actors:* customer, restaurant.
+  3) *Actors:* customer, restaurant, hardware and software producers.
   4) *Requirements*: App must be able to: receive orders, process
      payments, communicate with restaurant.
   #+end_notes
@@ -90,11 +96,29 @@ Review questions:
 
 - Assignment: [[https://lyon.instructure.com/courses/1446/discussion_topics/5436][Your solo project / your protocol]]
 - Assignment: [[https://lyon.instructure.com/courses/1446/assignments/17992][1st sprint review assignment (ideation)]]
-- Use case: [[https://twitter.com/chaseleantj/status/1695046699855831138?s=20][Inpainting with Midjourney]] 
+- Use case: [[https://twitter.com/chaseleantj/status/1695046699855831138?s=20][Inpainting with Midjourney]] or Leonardo.ai or DALL-E etc.
 - Use case: [[https://twitter.com/emollick/status/1695191857532170350?s=20][Building interactive educational tools with Code Interpreter]]
 - Use case:[[https://www.tesmanian.com/blogs/tesmanian-blog/elon-musk-shows-fsd-beta-v12-live-test-drive-on-x][Elon Musk test-drives an autonomous Tesla]]
 - Insight: [[https://youtu.be/cEyHsMzbZBs?si=yDVgScmS_0BfczUD&t=1329][What's wrong with LLMs and what we should be building instead]]
 
+
+* Plan for week 2
+
+- What is AI?
+- 
+- Ideation exercise: Project Canvas
+
+* Aug-28
+
+** Summary ([[https://drive.google.com/drive/folders/15g6RM7VjrKkfp6w02BZfqyzAMmnTxY6v?usp=drive_link][Whiteboard photos]])
+
+- Most of the current discussion is about the AI system without the
+  algorithm (because it is a black-box algorithm)
+- When asked for examples of "specifically human intelligences",
+  ChatGPT listed: Emotional intelligence, creativity, contextual
+  understanding, generalization and transfer learning, self-awareness
+  and consciousness, moral and ethical reasoning, and social
+  intelligence.
 
 * References 
 
