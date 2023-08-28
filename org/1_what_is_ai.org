@@ -36,7 +36,7 @@
 - Define ARTIFICIAL INTELLIGENCE (5')
 - Briefly present your results (10')
 
-** ChatGPT's view
+** AI's view
 #+attr_html: :width 700px
 [[../img/chatgpt.jpeg]]
 
@@ -47,7 +47,7 @@ human and not shared by machines or other non-human beings?
 "While AI has made significant strides in replicating specific tasks
 that were once the domain of human intelligence, there remain several
 aspects that are uniquely human and are far from being fully
-understood or replicated by machines."
+understood or replicated by machines." (ChatGPT)
 #+end_example
 #+begin_notes
 Source:  [[https://shareg.pt/xk8YkuO][ChatGPT]]
