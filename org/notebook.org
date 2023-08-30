@@ -154,7 +154,8 @@ Review questions:
   in Creative Mode, and Google’s Bard.
   #+end_quote
 
-- Games: LLMs as Dungeon Masters' Assistants (15 Aug 2023)
+- Games: LLMs as Dungeon Masters' Assistants (15 Aug 2023):
+  https://arxiv.org/pdf/2308.07540.pdf
   #+begin_quote
   The role of a Dungeon Master, or DM, in the game Dungeons & Dragons
   is to perform multiple tasks simultaneously.  The DM must digest
@@ -185,7 +186,9 @@ Review questions:
 ** Projects
 
 - Pick a team and a team topic by Sep-6
+
 - Our ideation exercise will take place on Sep-8
+
 - Pick a solo presentation topic, date, and protocol date by Sep-29
 
 ** Reading assignment: ELIZA
@@ -202,6 +205,7 @@ Review questions:
 ** Schedule
 
 - On Friday, September 1, we will watch a classic film on AI together
+
 - There will be NO CLASS on September 3 (Labor Day), on September 15
   (work on your proposal based on the project canvas), and on
   September 22 (go to ACTEB @Lyon instead - I'll give a short talk on
