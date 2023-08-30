@@ -27,7 +27,7 @@ Review questions:
 - What is meant by 'prompt engineering'?
 - What is the problem with intelligence?
 #+end_quote
-  
+
 * Aug-25
 
 ** Summary:
@@ -63,9 +63,9 @@ Review questions:
   - Solo presentation on an AI topic
   - Team project - develop an AI application
   - Sprint review presentations (presentation of prototype)
-  
+
   #+end_notes
-  
+
   #+end_notes
 - What is a "use case" anyway?
   #+begin_notes
@@ -91,7 +91,7 @@ Review questions:
   4) *Requirements*: App must be able to: receive orders, process
      payments, communicate with restaurant.
   #+end_notes
-  
+
 ** Links (AI App/Team project ideas):
 
 - Assignment: [[https://lyon.instructure.com/courses/1446/discussion_topics/5436][Your solo project / your protocol]]
@@ -101,15 +101,13 @@ Review questions:
 - Use case:[[https://www.tesmanian.com/blogs/tesmanian-blog/elon-musk-shows-fsd-beta-v12-live-test-drive-on-x][Elon Musk test-drives an autonomous Tesla]]
 - Insight: [[https://youtu.be/cEyHsMzbZBs?si=yDVgScmS_0BfczUD&t=1329][What's wrong with LLMs and what we should be building instead]]
 
-
 * Plan for week 2
 
 - What is AI?
-- 
-- Ideation exercise: Project Canvas
+- History of AI
+- Details on team project, solo presentation, solo protocol
 
 * Aug-28
-
 ** Summary ([[https://drive.google.com/drive/folders/15g6RM7VjrKkfp6w02BZfqyzAMmnTxY6v?usp=drive_link][Whiteboard photos]])
 
 - Most of the current discussion is about the AI system without the
@@ -119,9 +117,110 @@ Review questions:
   understanding, generalization and transfer learning, self-awareness
   and consciousness, moral and ethical reasoning, and social
   intelligence.
+* Aug-30
 
-* References 
+** Links (solo presentation / AI app ideas?)
 
-What Is a Use Case? Daly N (April 25, 2022). URL:
+- Consciousness: "Consciousness in AI: insights from the science of
+  consciousness" (23 Aug 2023) - 80 page report.
+  #+begin_quote
+  Whether current or near-term AI systems could be conscious is a topic
+  of scientific interest and increasing public concern. This report
+  argues for, and exemplifies, a rigorous and empirically grounded
+  approach to AI consciousness: assessing existing AI systems in detail,
+  in light of our best-supported neuroscientific theories of
+  consciousness. We survey several prominent scientific theories of
+  consciousness, including recurrent processing theory, global workspace
+  theory, higher-order theories, predictive processing, and attention
+  schema theory. From these theories we derive "indicator properties" of
+  consciousness, elucidated in computational terms that allow us to
+  assess AI systems for these properties. We use these indicator
+  properties to assess several recent AI systems, and we discuss how
+  future systems might implement them. Our analysis suggests that no
+  current AI systems are conscious, but also suggests that there are no
+  obvious technical barriers to building AI systems which satisfy these
+  indicators.
+  #+end_quote
+
+- Education: Practical AI for teachers and students: 5-part YouTube
+  playlist https://t.co/XKQUlnFJLz:
+  #+begin_quote
+  In this introduction, Wharton Interactive's Faculty Director Ethan
+  Mollick and Director of Pedagogy Lilach Mollick provide an overview
+  of how large language models (LLMs) work and explain how this latest
+  generation of models has impacted how we work and how we learn. They
+  also discuss the different types of large language models referenced
+  in their five-part crash course: OpenAI’s ChatGPT4, Microsoft’s Bing
+  in Creative Mode, and Google’s Bard.
+  #+end_quote
+
+- Games: LLMs as Dungeon Masters' Assistants (15 Aug 2023)
+  #+begin_quote
+  The role of a Dungeon Master, or DM, in the game Dungeons & Dragons
+  is to perform multiple tasks simultaneously.  The DM must digest
+  information about the game setting and monsters, synthesize scenes
+  to present to other players, and respond to the players’
+  interactions with the scene. Doing all of these tasks while
+  maintaining consistency within the narrative and story world is no
+  small feat of human cognition, making the task tiring and
+  unapproachable to new players. Large language models (LLMs) like
+  GPT-3 and ChatGPT have shown remarkable abilities to generate
+  coherent natural language text. In this paper, we conduct a
+  formative evaluation with DMs to establish the use cases of LLMs in
+  D&D and tabletop gaming generally. We introduce CALYPSO, a system of
+  LLM-powered interfaces that support DMs with information and
+  inspiration specific to their own scenario. CALYPSO distills game
+  context into bite-sized prose and helps brainstorm ideas without
+  distracting the DM from the game.  When given access to CALYPSO, DMs
+  reported that it generated high-fidelity text suitable for direct
+  presentation to players, and low-fidelity ideas that the DM could
+  develop further while maintaining their creative agency. We see
+  CALYPSO as exemplifying a paradigm of AI-augmented tools that
+  provide synchronous creative assistance within established game
+  worlds, and tabletop gaming more broadly
+  #+end_quote  
+
+- Freak show: [[https://twitter.com/The_DailyAi/status/1696087222255222866?s=20][Adding animation to Midjourney images]] (Aug 28)
+  
+** Projects
+
+- Pick a team and a team topic by Sep-6
+- Our ideation exercise will take place on Sep-8
+- Pick a solo presentation topic, date, and protocol date by Sep-29
+
+** Reading assignment: ELIZA
+
+- Read: Weizenbaum's 1966 article on ELIZA ([[https://dl.acm.org/doi/10.1145/365153.365168][pdf]] / [[https://en.wikipedia.org/wiki/ELIZA][wiki]]) - BY WED SEP-6
+
+- Let's look at this chatbot online (JavaScript version):
+  [[https://www.masswerk.at/elizabot/eliza.html][www.masswerk.at/elizabot/eliza.html]]
+
+- [[https://www.return.life/p/please-stop-talking-about-the-eliza-chatbot][This guy thinks we should stop talking about ELIZA]]: "Your ELIZA
+  story is old and no longer relevant, gramps. You can quietly retire
+  it."
+
+** Schedule
+
+- On Friday, September 1, we will watch a classic film on AI together
+- There will be NO CLASS on September 3 (Labor Day), on September 15
+  (work on your proposal based on the project canvas), and on
+  September 22 (go to ACTEB @Lyon instead - I'll give a short talk on
+  [[roam:https://github.com/birkenkrahe/org/blob/master/research/ACTEB_2023.org][the role of AI in Education]].
+
+** TODO Summary
+
+
+
+* References
+
+Butlin P, Long R, Elmoznino E, Bengio Y, Birch J, Constant A, Deane G,
+Fleming SM, Frith C, Ji X, Kanai R. Consciousness in Artificial
+Intelligence: Insights from the Science of Consciousness. arXiv
+preprint arXiv:2308.08708. 2023 Aug 17.
+
+Daly N. What Is a Use Case? (April 25, 2022). URL:
 [[https://www.wrike.com/blog/what-is-a-use-case/][wrike.com/blog/what-is-a-use-case]] [27 Aug 2023]
 
+Weizenbaum J. ELIZA—a computer program for the study of natural
+language communication between man and machine. Commun
+ACM. 1966;9(1):36-45. doi:10.1145/365153.365168
