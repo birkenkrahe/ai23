@@ -117,6 +117,7 @@ Review questions:
   understanding, generalization and transfer learning, self-awareness
   and consciousness, moral and ethical reasoning, and social
   intelligence.
+
 * Aug-30
 
 ** Links (solo presentation / AI app ideas?)
@@ -211,9 +212,29 @@ Review questions:
   September 22 (go to ACTEB @Lyon instead - I'll give a short talk on
   [[roam:https://github.com/birkenkrahe/org/blob/master/research/ACTEB_2023.org][the role of AI in Education]].
 
-** TODO Summary
+** Summary
 
+- Among the four AI approaches (machines behaving like humans,
+  machines thinking like humans, rational machines, rational agents),
+  the "rational agent" approach currently has the greatest appeal.
+- Rationality is computationally always bounded, and also human
+  rationality is bounded (cp. Bakopoulos 1985).
+- Values and objectives of the machine must be aligned with those of
+  the human (as in Asimov's robot laws).
 
+* Sep-6
+
+** Ideation next Monday: must pick projects/teams
+
+** Summary: see [[https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film]["Thinking machines" (1961)]]
+
+* Sep-8
+
+** Discussion: [[https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film]["Thinking machines" (1961)]]
+
+* Sep-11
+
+** Ideation with the [[https://github.com/birkenkrahe/ai23/blob/main/pdf/OTF-ProjectCanvas_EN.pdf][Project Canvas]]
 
 * References
 
