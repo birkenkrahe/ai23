@@ -223,17 +223,39 @@ Review questions:
   the human (as in Asimov's robot laws).
 
 * Sep-6
-
+** Watching "The Thinking Machine" (1961)
 ** Ideation next Monday: must pick projects/teams
+* Sep-8
 
 ** Summary: see [[https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film]["Thinking machines" (1961)]]
 
-* Sep-8
+[[https://chat.openai.com/share/f5b9b0ec-96fa-454c-b079-96e257de989c][ChatGPT auto-generated summary]]
 
-** Discussion: [[https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film]["Thinking machines" (1961)]]
+Questions:
+- Which research presented made the deepest impression on you and why?
+- Which part of the research presented rings most true in 2023?
+- Which assumptions did the researchers of the 1950s make?
+
+** Discussion: Weizenbaum's Eliza article
+
+[[https://chat.openai.com/c/9f7e208f-d5b7-43ee-84e6-bde501cb7170][Imitating Eliza with ChatGPT]]
+
+Questions:
+- What were the technical problems that Weizenbaum had to solve?
+- Which illusion made ELIZA (technically) possible? 
+- What did you think about the quality of the example conversation?
+- How does ELIZA compare with ChatGPT?
+- What is a "script" for ELIZA?
+- What do you think about subjecting human language to processing?
+- Does ELIZA have a memory of the conversation?
+- Does ELIZA learn from experience?
+- Why does ELIZA simulate a "Rogerian therapist"?
+- What is the importance of credibility vs. plausibility for ELIZA?
+- What experimental design would make ELIZA more Turing-test capable?
+- What is meant by Bobrow's program STUDENT?
+- What is ELIZA's principal objective?
 
 * Sep-11
-
 ** Ideation with the [[https://github.com/birkenkrahe/ai23/blob/main/pdf/OTF-ProjectCanvas_EN.pdf][Project Canvas]]
 
 * References
