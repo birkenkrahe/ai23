@@ -226,7 +226,6 @@ Review questions:
 ** Watching "The Thinking Machine" (1961)
 ** Ideation next Monday: must pick projects/teams
 * Sep-8
-
 ** Summary: see [[https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film]["Thinking machines" (1961)]]
 
 [[https://chat.openai.com/share/f5b9b0ec-96fa-454c-b079-96e257de989c][ChatGPT auto-generated summary]]
@@ -238,7 +237,8 @@ Questions:
 
 ** Discussion: Weizenbaum's Eliza article
 
-[[https://chat.openai.com/c/9f7e208f-d5b7-43ee-84e6-bde501cb7170][Imitating Eliza with ChatGPT]]
+- Script: [[https://chat.openai.com/c/9f7e208f-d5b7-43ee-84e6-bde501cb7170][Imitating Eliza with ChatGPT]]
+- Using Eliza (JavaScript implementation): [[https://www.masswerk.at/elizabot/][masswerk.at/elizabot/]]
 
 Questions:
 - What were the technical problems that Weizenbaum had to solve?
