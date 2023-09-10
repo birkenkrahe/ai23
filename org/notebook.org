@@ -5,7 +5,7 @@
 #+options: toc:1 num:1
 #+attr_latex: :width 400px
 [[../img/motivation.png]]
-* Aug-23
+* 1.1 Aug-23
 
 Summary:
 - ChatGPT's rise to fame (issues with graph)
@@ -28,7 +28,7 @@ Review questions:
 - What is the problem with intelligence?
 #+end_quote
 
-* Aug-25
+* 1.2 Aug-25
 
 ** Summary:
 
@@ -101,13 +101,13 @@ Review questions:
 - Use case:[[https://www.tesmanian.com/blogs/tesmanian-blog/elon-musk-shows-fsd-beta-v12-live-test-drive-on-x][Elon Musk test-drives an autonomous Tesla]]
 - Insight: [[https://youtu.be/cEyHsMzbZBs?si=yDVgScmS_0BfczUD&t=1329][What's wrong with LLMs and what we should be building instead]]
 
-* Plan for week 2
+** Plan for week 2
 
 - What is AI?
 - History of AI
 - Details on team project, solo presentation, solo protocol
 
-* Aug-28
+* 2.1 Aug-28
 ** Summary ([[https://drive.google.com/drive/folders/15g6RM7VjrKkfp6w02BZfqyzAMmnTxY6v?usp=drive_link][Whiteboard photos]])
 
 - Most of the current discussion is about the AI system without the
@@ -118,8 +118,7 @@ Review questions:
   and consciousness, moral and ethical reasoning, and social
   intelligence.
 
-* Aug-30
-
+* 2.2 Aug-30
 ** Links (solo presentation / AI app ideas?)
 
 - Consciousness: "Consciousness in AI: insights from the science of
@@ -212,6 +211,8 @@ Review questions:
   September 22 (go to ACTEB @Lyon instead - I'll give a short talk on
   [[roam:https://github.com/birkenkrahe/org/blob/master/research/ACTEB_2023.org][the role of AI in Education]].
 
+* 2.3 Sep-1
+
 ** Summary
 
 - Among the four AI approaches (machines behaving like humans,
@@ -222,11 +223,11 @@ Review questions:
 - Values and objectives of the machine must be aligned with those of
   the human (as in Asimov's robot laws).
 
-* Sep-6
+* 3.1 Sep-6
 ** Watching "The Thinking Machine" (1961)
 ** Ideation next Monday: must pick projects/teams
-* Sep-8
-** Summary: see [[https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film]["Thinking machines" (1961)]]
+* 3.2 Sep-8
+** Discussion: [[https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film]["Thinking machines" (1961)]]
 
 [[https://chat.openai.com/share/f5b9b0ec-96fa-454c-b079-96e257de989c][ChatGPT auto-generated summary]]
 
@@ -235,6 +236,7 @@ Questions:
 - Which part of the research presented rings most true in 2023?
 - Which assumptions did the researchers of the 1950s make?
 
+* 4.1 Sep-11
 ** Discussion: Weizenbaum's Eliza article
 
 - Script: [[https://chat.openai.com/c/9f7e208f-d5b7-43ee-84e6-bde501cb7170][Imitating Eliza with ChatGPT]]
@@ -255,7 +257,7 @@ Questions:
 - What is meant by Bobrow's program STUDENT?
 - What is ELIZA's principal objective?
 
-* Sep-11
+* NEXT 4.2 Sep-13
 ** Ideation with the [[https://github.com/birkenkrahe/ai23/blob/main/pdf/OTF-ProjectCanvas_EN.pdf][Project Canvas]]
 
 * References
