@@ -236,7 +236,7 @@ Questions:
 - Which part of the research presented rings most true in 2023?
 - Which assumptions did the researchers of the 1950s make?
 
-* NEXT 4.1 Sep-11
+* 4.1 Sep-11
 
 ** Vote for Lyon College this week!
 
@@ -270,6 +270,8 @@ Questions:
 - What experimental design would make ELIZA more Turing-test capable?
 - What is meant by Bobrow's program STUDENT?
 - What is ELIZA's principal objective?
+
+Answers (PDF)
 
 ** Review: DataCamp "[[https://app.datacamp.com/learn/courses/understanding-artificial-intelligence][Harnessing AI in organizations]]"
 
