@@ -179,10 +179,10 @@ Review questions:
   CALYPSO as exemplifying a paradigm of AI-augmented tools that
   provide synchronous creative assistance within established game
   worlds, and tabletop gaming more broadly
-  #+end_quote  
+  #+end_quote
 
 - Freak show: [[https://twitter.com/The_DailyAi/status/1696087222255222866?s=20][Adding animation to Midjourney images]] (Aug 28)
-  
+
 ** Projects
 
 - Pick a team and a team topic by Sep-6
@@ -237,6 +237,20 @@ Questions:
 - Which assumptions did the researchers of the 1950s make?
 
 * NEXT 4.1 Sep-11
+
+** Vote for Lyon College this week!
+
+Put this in your daily calendar for daily vote through September 15!
+From Lyon marketing:
+#+begin_quote
+Lyon College is a finalist for best four-year college in the AMP
+(Arkansas Money and Politics) Best of 2023!
+
+You can vote once per day through Sept. 15! Go Scots!
+
+https://arkansasmoneypolitics.secondstreetapp.com/og/e404fba6-f03f-4d70-939a-b72afd1dcb42/gallery/396819790
+#+end_quote
+
 ** Discussion: Weizenbaum's Eliza article
 
 - Script: [[https://chat.openai.com/c/9f7e208f-d5b7-43ee-84e6-bde501cb7170][Imitating Eliza with ChatGPT]]
@@ -244,7 +258,7 @@ Questions:
 
 Questions:
 - What were the technical problems that Weizenbaum had to solve?
-- Which illusion made ELIZA (technically) possible? 
+- Which illusion made ELIZA (technically) possible?
 - What did you think about the quality of the example conversation?
 - How does ELIZA compare with ChatGPT?
 - What is a "script" for ELIZA?
@@ -257,18 +271,59 @@ Questions:
 - What is meant by Bobrow's program STUDENT?
 - What is ELIZA's principal objective?
 
-** Review: DataCamp "Harnessing AI in organizations"
+** Review: DataCamp "[[https://app.datacamp.com/learn/courses/understanding-artificial-intelligence][Harnessing AI in organizations]]"
+
+1. What's a "roadmap" in this context? Is there no GPS?
+   #+begin_quote
+   People used to orient themselves when driving or walking around
+   with printed, foldable maps. GPS (global positioning system) relies
+   on satellite connections so that you don't need a map anymore. An
+   "AI GPS" app would in itself be a useful (AI) innovation!
+   #+end_quote
+2. How can AI destroy value in organizations?
+   #+begin_quote
+   For example, "AI for personalization" could also lead to alienation
+   and decreased product loyalty if the AI gets it wrong or if the
+   marketing is too offensive to values or intrusive on a daily basis.
+   #+end_quote
+3. What are the building blocks of an "AI-driven
+   organisation"?
+   #+attr_html: :width 400px
+   [[../img/ai_business.png]]
+4. Which of these are most important for your own AI innovation
+   project at the start of planning for it - and why?
+   #+begin_quote
+   1) Vision = which value does your product deliver to customers?
+   2) Success = how're you going to measure success?
+   #+end_quote
+5. Which objectives does the insurance company have for AI?
+   #+begin_quote
+   To make the claim processing more efficient by detecting fraud and
+   automatically classifying claims including a customer service
+   interface (i.e. giving customers direct access to the AI).
+   #+end_quote
+6. The chapter demands "cross-functional collaboration". Can you think
+   of an argument against that?
+   #+begin_quote
+   "Collaboration" is not always the best option, especially for
+   untested technologies, or if the demands are very specific
+   (e.g. finance), or if the teams/departments have very different
+   cultures or knowledge background (e.g. research vs. truckers).
+   #+end_quote
+
 ** Project canvas ("Ideation")
 
 - Make sure you have signed your project up [[https://lyon.instructure.com/courses/1446/pages/team-project][here in Canvas]].
 - [[https://drive.google.com/drive/folders/1IDiZv7PlySRaseCbWd2cLRUjusBt9Rzl?usp=sharing][Access the link]] and copy the project canvas to your own GDrive.
 - Review "[[https://campus.datacamp.com/courses/understanding-artificial-intelligence/112672?ex=1][Harnessing AI in Organisations]]" for the ideation.
-  
-* TODO 4.2 Sep-13
+
+
+* 4.2 Sep-13
+
 ** Ideation with the [[https://github.com/birkenkrahe/ai23/blob/main/pdf/OTF-ProjectCanvas_EN.pdf][Project Canvas]]
 
 1) "[[https://youtu.be/uQ3HizQyXYs?si=2VS8xe10V8KwyNxm][The Project Canvas-a Tool For Your Project Journeys]]".
-   
+
 2) Preparations:
    - [[https://lyon.instructure.com/courses/1446/pages/team-project][You've signed up for a team project in Canvas]].
    - You've copied the project canvas to your GDrive.
@@ -285,6 +340,7 @@ Questions:
    11:59 pm and upload the URL as a submission to [[https://lyon.instructure.com/courses/1446/assignments/17992][this assignment]].
 
 7) You will get additional comments from me via Google Docs (slides).
+
 
 * References
 
