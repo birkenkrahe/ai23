@@ -236,7 +236,7 @@ Questions:
 - Which part of the research presented rings most true in 2023?
 - Which assumptions did the researchers of the 1950s make?
 
-* 4.1 Sep-11
+* NEXT 4.1 Sep-11
 ** Discussion: Weizenbaum's Eliza article
 
 - Script: [[https://chat.openai.com/c/9f7e208f-d5b7-43ee-84e6-bde501cb7170][Imitating Eliza with ChatGPT]]
@@ -257,8 +257,34 @@ Questions:
 - What is meant by Bobrow's program STUDENT?
 - What is ELIZA's principal objective?
 
-* NEXT 4.2 Sep-13
+** Review: DataCamp "Harnessing AI in organizations"
+** Project canvas ("Ideation")
+
+- Make sure you have signed your project up [[https://lyon.instructure.com/courses/1446/pages/team-project][here in Canvas]].
+- [[https://drive.google.com/drive/folders/1IDiZv7PlySRaseCbWd2cLRUjusBt9Rzl?usp=sharing][Access the link]] and copy the project canvas to your own GDrive.
+- Review "[[https://campus.datacamp.com/courses/understanding-artificial-intelligence/112672?ex=1][Harnessing AI in Organisations]]" for the ideation.
+  
+* TODO 4.2 Sep-13
 ** Ideation with the [[https://github.com/birkenkrahe/ai23/blob/main/pdf/OTF-ProjectCanvas_EN.pdf][Project Canvas]]
+
+1) "[[https://youtu.be/uQ3HizQyXYs?si=2VS8xe10V8KwyNxm][The Project Canvas-a Tool For Your Project Journeys]]".
+   
+2) Preparations:
+   - [[https://lyon.instructure.com/courses/1446/pages/team-project][You've signed up for a team project in Canvas]].
+   - You've copied the project canvas to your GDrive.
+
+3) Complete the Canvas in your team by going through all sections of
+   the canvas and sketching answers, which you put in your canvas
+   copy (time = 30 minutes).
+
+4) Upload your finished Canvas [[https://drive.google.com/drive/folders/1IDiZv7PlySRaseCbWd2cLRUjusBt9Rzl?usp=sharing][to my GDrive repo]].
+
+5) Report from your project canvas journey (15 minutes).
+
+6) Complete your project canvas as a Google Docs file by September 15,
+   11:59 pm and upload the URL as a submission to [[https://lyon.instructure.com/courses/1446/assignments/17992][this assignment]].
+
+7) You will get additional comments from me via Google Docs (slides).
 
 * References
 
