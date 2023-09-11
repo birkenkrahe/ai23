@@ -236,7 +236,7 @@ Questions:
 - Which part of the research presented rings most true in 2023?
 - Which assumptions did the researchers of the 1950s make?
 
-Summary (PDF)
+[[https://github.com/birkenkrahe/ai23/blob/main/pdf/ThinkingMachine.pdf][Summary (PDF)]]
 
 * 4.1 Sep-11
 
@@ -321,7 +321,6 @@ Questions:
 - [[https://drive.google.com/drive/folders/1IDiZv7PlySRaseCbWd2cLRUjusBt9Rzl?usp=sharing][Access the link]] and copy the project canvas to your own GDrive.
 - Review "[[https://campus.datacamp.com/courses/understanding-artificial-intelligence/112672?ex=1][Harnessing AI in Organisations]]" for the ideation.
 
-
 * 4.2 Sep-13
 
 ** Ideation with the [[https://github.com/birkenkrahe/ai23/blob/main/pdf/OTF-ProjectCanvas_EN.pdf][Project Canvas]]
@@ -344,7 +343,6 @@ Questions:
    11:59 pm and upload the URL as a submission to [[https://lyon.instructure.com/courses/1446/assignments/17992][this assignment]].
 
 7) You will get additional comments from me via Google Docs (slides).
-
 
 * References
 
