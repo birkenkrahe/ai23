@@ -236,6 +236,8 @@ Questions:
 - Which part of the research presented rings most true in 2023?
 - Which assumptions did the researchers of the 1950s make?
 
+Summary (PDF)
+
 * 4.1 Sep-11
 
 ** Vote for Lyon College this week!
@@ -271,7 +273,7 @@ Questions:
 - What is meant by Bobrow's program STUDENT?
 - What is ELIZA's principal objective?
 
-Answers (PDF)
+[[https://github.com/birkenkrahe/ai23/blob/main/pdf/Weizenbaum.pdf][Answers (PDF)]]
 
 ** Review: DataCamp "[[https://app.datacamp.com/learn/courses/understanding-artificial-intelligence][Harnessing AI in organizations]]"
 
