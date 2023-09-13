@@ -323,26 +323,41 @@ Questions:
 
 * 4.2 Sep-13
 
+** Vote for Lyon College this week!
+
+Put this in your daily calendar for daily vote through September 15!
+From Lyon marketing:
+#+begin_quote
+Lyon College is a finalist for best four-year college in the AMP
+(Arkansas Money and Politics) Best of 2023!
+
+You can vote once per day through Sept. 15! Go Scots!
+
+https://arkansasmoneypolitics.secondstreetapp.com/og/e404fba6-f03f-4d70-939a-b72afd1dcb42/gallery/396819790
+#+end_quote
+
 ** Ideation with the [[https://github.com/birkenkrahe/ai23/blob/main/pdf/OTF-ProjectCanvas_EN.pdf][Project Canvas]]
 
 1) "[[https://youtu.be/uQ3HizQyXYs?si=2VS8xe10V8KwyNxm][The Project Canvas-a Tool For Your Project Journeys]]".
-
+   
 2) Preparations:
    - [[https://lyon.instructure.com/courses/1446/pages/team-project][You've signed up for a team project in Canvas]].
    - You've copied the project canvas to your GDrive.
 
 3) Complete the Canvas in your team by going through all sections of
-   the canvas and sketching answers, which you put in your canvas
-   copy (time = 30 minutes).
+   the canvas ([[https://docs.google.com/presentation/d/178yZBnJqJvV6mxAE-ObvFaKBSdRolORPW_GJatwynDk/edit?usp=sharing][copy from here]]) and sketching answers, which you put in
+   your canvas copy (time = 30 minutes).
 
 4) Upload your finished Canvas [[https://drive.google.com/drive/folders/1IDiZv7PlySRaseCbWd2cLRUjusBt9Rzl?usp=sharing][to my GDrive repo]].
 
 5) Report from your project canvas journey (15 minutes).
 
-6) Complete your project canvas as a Google Docs file by September 15,
-   11:59 pm and upload the URL as a submission to [[https://lyon.instructure.com/courses/1446/assignments/17992][this assignment]].
+6) Complete your project canvas by September 15, 11:59 pm and upload
+   it as a Google Docs file [[https://drive.google.com/drive/folders/1BuSuB3D1seNhjWvgXyQpywpW_8_EGYdW?usp=sharing][to this GDrive repo]] (you'll find your
+   project team there).
 
 7) You will get additional comments from me via Google Docs (slides).
+
 
 * References
 
