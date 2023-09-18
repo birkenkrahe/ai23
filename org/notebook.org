@@ -409,15 +409,16 @@ in the real world.
 2) [[https://www.datacamp.com/cheat-sheet/chatgpt-cheat-sheet-data-science][ChatGPT Cheat Sheet]]
 3) [[https://arxiv.org/pdf/2308.07540.pdf][CALYPSO: LLMs as Dungeon Masters' Assistants]]
 4) [[https://arxiv.org/pdf/2308.03228.pdf][Why Linguistics Will Thrive in the 21st Century]]
-5) [[https://www.thenewatlantis.com/publications/ai-cant-beat-stupid][AI Can't Beat Stupid]]
-6) [[https://arxiv.org/ftp/arxiv/papers/2308/2308.04445.pdf][Getting from Generative AI to Trustworthy AI]]
-7) [[https://garymarcus.substack.com/p/the-dirty-underbelly-of-ai][The dirty underbelly of AI]]
-8) [[https://www.simplypsychology.org/piaget.html][Jean Piaget And His Theory & Stages Of Cognitive Development]]
-9) [[https://www.researchgate.net/publication/365353558_A_Comparative_Study_of_Chatbot_Catered_Toward_Mental_Health][A Comparative Study of Chatbot Catered Toward Mental Health]]
-10) [[https://arxiv.org/abs/2309.03926][Large-Scale Automatic Audiobook Creation]]
-11) [[https://thealgorithmicbridge.substack.com/p/why-ai-cant-make-human-creativity][Why AI Can't Make Human Creativity Obsolete]]
-12) [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321][Navigating the Jagged Technological Frontier]]
-13) [[https://aisel.aisnet.org/icis1985/4/][Towards a More Precise Concept of Information Technology]]
+5) [[https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00401/full][The mystery of language evolution]]
+6) [[https://www.thenewatlantis.com/publications/ai-cant-beat-stupid][AI Can't Beat Stupid]]
+7) [[https://arxiv.org/ftp/arxiv/papers/2308/2308.04445.pdf][Getting from Generative AI to Trustworthy AI]]
+8) [[https://garymarcus.substack.com/p/the-dirty-underbelly-of-ai][The dirty underbelly of AI]]
+9) [[https://www.simplypsychology.org/piaget.html][Jean Piaget And His Theory & Stages Of Cognitive Development]]
+10) [[https://www.researchgate.net/publication/365353558_A_Comparative_Study_of_Chatbot_Catered_Toward_Mental_Health][A Comparative Study of Chatbot Catered Toward Mental Health]]
+11) [[https://arxiv.org/abs/2309.03926][Large-Scale Automatic Audiobook Creation]]
+12) [[https://thealgorithmicbridge.substack.com/p/why-ai-cant-make-human-creativity][Why AI Can't Make Human Creativity Obsolete]]
+13) [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321][Navigating the Jagged Technological Frontier]]
+14) [[https://aisel.aisnet.org/icis1985/4/][Towards a More Precise Concept of Information Technology]]
 
 ** Review: "The human side of AI" (15')
 
@@ -489,7 +490,7 @@ in the real world.
 
    #+end_quote
 
-** SHAP tutorial (with notebook, 35')
+** SHAP tutorial (with notebook, 20')
 ** Preview: Interacting with ChatGPT (5')
 
 - Covers:
@@ -506,9 +507,7 @@ in the real world.
   own: getting ChatGPT to do what I want.
 
 * 5.2 Sep-20
-
 ** TODO Review: First sprint review (30')
-
 ** TODO ACTEB talk: The Future of AI education (20')
 
 - You can look at my slides [[https://github.com/birkenkrahe/org/blob/master/research/ACTEB_2023.org][here on GitHub]].
