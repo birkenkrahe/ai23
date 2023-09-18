@@ -489,7 +489,7 @@ in the real world.
 
    #+end_quote
 
-** TODO SHAP tutorial (with notebook, 35' )
+** SHAP tutorial (with notebook, 35')
 ** Preview: Interacting with ChatGPT (5')
 
 - Covers:
@@ -515,7 +515,7 @@ in the real world.
 - Take notes during the short (10 minutes) presentation.
 - Articulate questions or view points for the discussion (10 min)
 
-* No meeting on Sep-22 go to [[https://www.lyon.edu/acteb-conference][ACTEB]] instead!
+* 5.3 No meeting on Sep-22 go to [[https://www.lyon.edu/acteb-conference][ACTEB]] instead!
 
 Extra credit: get a [[https://docs.google.com/document/d/1nya8YnjmXJRtSAi3VLCj-llfHgOie9RGd87rJ5H-YAI/edit?usp=sharing][signature]] from me for attending either the plenary
 session (9am-12pm) of from a session chair (1-3 pm) for points!
