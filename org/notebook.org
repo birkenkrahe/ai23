@@ -526,8 +526,16 @@ in the real world.
   education: gather arguments for a debate! You will be judged!
 
   [[https://www.americandebateleague.org/what-is-debate.html#/][See also: what's a debate?]]
+
+  Questions from the audience:
+  - How do you explain the difference between software developers who
+    already use or want to use AI and those who trust its accuracy?
+  - What is the purpose of AI in learning: to program itself to get
+    better? Could this be a way to circumvent the input cutoff
+    problem?
+  - What about copyright issue with the input for training the model?
     
-** NEXT Read "The Unreasonable Effectiveness of Data"
+** Read "The Unreasonable Effectiveness of Data"
 
 Read this article co-authored by Peter Norvig (Director of Research,
 Google) - figure out if you can what came to pass since then and what
