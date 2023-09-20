@@ -358,7 +358,7 @@ https://arkansasmoneypolitics.secondstreetapp.com/og/e404fba6-f03f-4d70-939a-b72
 7) You will get additional comments from me via Google Docs (slides).
 
 * 4.3 Sep-15 NO CLASS (SPRINT REVIEW)
-* 5.1 Sep-18
+* 5.1 Mon-Sep-18
 ** Monthly summary - check your engagement (10')
 
 What was your personal highlight this last month?
@@ -507,36 +507,49 @@ in the real world.
 - Where the fun is: experiment! An interesting little experiment of my
   own: getting ChatGPT to do what I want.
 
-* 5.2 Sep-20
+* 5.2 Wed-Sep-20
 
 ** Bitcoin club meets tonight Lyon 214
+
+[[https://img-9gag-fun.9cache.com/photo/aRAeMzj_460s.jpg][Be there or be square!]]
+
 #+attr_latex: :width 400px
 [[../img/bitcoin.png]]
 
-** TODO ACTEB talk: The Future of AI education (20')
+** ACTEB talk: The Future of AI education (20')
+#+attr_html: :width 600px
+[[../img/SDXL_09_Group_of_students_with_teacher_1.jpg]]
 
 - You can look at my slides [[https://github.com/birkenkrahe/org/blob/master/research/ACTEB_2023.org][here on GitHub]].
 - Take notes during the short (10 minutes) presentation.
-- Articulate questions or view points for the discussion (10 min)
+- Articulate questions or view points for the discussion
+- Split in two groups of "enthusiasts" and "enemies" of AI in
+  education: gather arguments for a debate! You will be judged!
 
-** TODO Review: First sprint review (30')
-
+  [[https://www.americandebateleague.org/what-is-debate.html#/][See also: what's a debate?]]
+    
 ** NEXT Read "The Unreasonable Effectiveness of Data"
+
+Read this article co-authored by Peter Norvig (Director of Research,
+Google) - figure out if you can what came to pass since then and what
+did not.
 
 - Handout in class (Halevy, Norvig, Pereira, 2009):
   #+begin_quote
   A. Halevy, P. Norvig and F. Pereira, "The Unreasonable Effectiveness
   of Data," in IEEE Intelligent Systems, vol. 24, no. 2, pp. 8-12,
-  March-April 2009, doi: 10.1109/MIS.2009.36.  Abstract: Problems that
-  involve interacting with humans, such as natural language
-  understanding, have not proven to be solvable by concise, neat
-  formulas like F = ma. Instead, the best approach appears to be to
-  embrace the complexity of the domain and address it by harnessing the
-  power of data: if other humans engage in the tasks and generate large
-  amounts of unlabeled, noisy data, new algorithms can be used to build
-  high-quality models from the data.  URL:
+  March-April 2009, doi: 10.1109/MIS.2009.36.
+
+  Abstract: Problems that involve interacting with humans, such as
+  natural language understanding, have not proven to be solvable by
+  concise, neat formulas like F = ma. Instead, the best approach
+  appears to be to embrace the complexity of the domain and address it
+  by harnessing the power of data: if other humans engage in the tasks
+  and generate large amounts of unlabeled, noisy data, new algorithms
+  can be used to build high-quality models from the data.  URL:
   https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4804817&isnumber=4804812
   #+end_quote
+
 - See also this talk from 2010 by Peter Norvig (Director of Research,
   Google) [[https://youtu.be/yvDCzhbjYWs?si=CQA3CGwwQYKQKQv7][on YouTube]]:
   #+begin_quote
@@ -575,6 +588,9 @@ A selection of interesting talks (judging from the title):
    Liquidity Illusion", Hannah Musso (U Central AR)
 4) Entrepreneurship: "The Importance of Entrepreneurs is Growing",
    Terrance Farrier (UA Pine Bluff)
+
+* 6.1 Mon-Sep-25
+** TODO Review: First sprint review (30')
 
 * References
 
