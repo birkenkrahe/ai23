@@ -8,8 +8,8 @@
 - Meeting place: Lyon Building computer lab room 104
 - Professor: Marcus Birkenkrahe
 - Office: Derby Science Center room 210
-- Office hours: Mon/Wed 2-3pm, Tue 4-4.45pm, Thu 9.30-10:45am
-- Phone: (870) 307-7254
+- Office hours: MWF 2-3pm, TTH 4-5pm, Thu 8-11am
+- Phone: (870) 307-7254 Cell: (501) 422-4725
 - Textbooks we'll be using (among others) - no need to buy:
   1) [[https://aima.cs.berkeley.edu/][AIMA - /Artificial Intelligence - A Modern Approach]] (4th
      edition)/, by Stuart Russell and Peter Norvig, Pearson 2021.
