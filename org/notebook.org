@@ -597,7 +597,13 @@ A selection of interesting talks (judging from the title):
    Terrance Farrier (UA Pine Bluff)
 
 * 6.1 Mon-Sep-25
-** TODO Review: First sprint review (30')
+** TODO Review: First sprint review
+** TODO Debate: Pro/Con AI in education
+* 6.2 Wed-Sep-27
+** TODO Review: Interacting with ChatGPT
+** TODO Debate: how will AI change the labor market?
+* 6.3 Fri-Sep-29
+
 
 * References
 
