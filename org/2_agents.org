@@ -314,11 +314,11 @@ The agent acts according to a ~rule~ whose condition
 matches the current ~state~, as defined by the ~percept~.
 
 Pseudocode:
-#+attr_html: :width 450px
+#+attr_html: :width 400px
 [[../img/simplecode.png]]
 
 Figure:
-#+attr_html: :width 450px
+#+attr_html: :width 400px
 [[../img/simple.png]]
 
 ** Model based agents
@@ -326,29 +326,29 @@ Figure:
 Requires: model on how the agent's world evolves
 
 Example: portfolio agent (stock market).
-
+#+attr_html: :width 400px
 [[../img/model.png]]
 
 ** Goal based agents
 
 Requires: explicit goal-checking
-
+#+attr_html: :width 400px
 [[../img/goal.png]]
 
 ** Utility based agents
 
 Requires: utility function.
-
+#+attr_html: :width 400px
 [[../img/utility.png]]
 
 ** Learning agents
 
 Requires: modifies own functions
-
+#+attr_html: :width 400px
 [[../img/learning.png]]
 
 ** All types
-
+#+attr_html: :width 400px
 [[../img/all_types.png]]
 
 ** Other classifications
@@ -484,16 +484,12 @@ ed). Pearson.
 
 ** Websites
 
-* mycroft.ai - MyCroft AI speech assistant
-* openai.com - OpenAI Codex for natural language translation to code
-* neuralink.com - brain interface software and hardware
-* jarvis.ai - blog writing software
-
-* Whiteboards
-
-* [[https://drive.google.com/drive/folders/1cVty0VxQ2pU99cOk8LD-rJPsOi0pOm7Z?usp=sharing][September 20, 2021]]
-* September 22, 2021
-* September 24, 2021
+ - mycroft.ai - MyCroft AI speech assistant
+ - openai.com - OpenAI Codex for natural language translation to code
+ - neuralink.com - brain interface software and hardware
+ - jarvis.ai - blog writing software
+ - [[https://drive.google.com/drive/folders/1cVty0VxQ2pU99cOk8LD-rJPsOi0pOm7Z?usp=sharing][September 20, 2021]]: which AI app will change the future of the
+   world?
 
 * Footnotes
 
