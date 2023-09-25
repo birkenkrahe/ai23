@@ -597,14 +597,33 @@ A selection of interesting talks (judging from the title):
    Terrance Farrier (UA Pine Bluff)
 
 * 6.1 Mon-Sep-25
-** TODO Review: First sprint review
+
+*SEVERAL OF YOU MISSED DATACAMP ASSIGNMENTS: COMPLETE THEM LATE (50%)*
+
+Planned for this week:
+1) AI in education pro/con debate
+2) The Unreasonable Effectiveness of Data (2009)
+3) How will generative AI change the labor market? (Mollick, 2023)
+4) Pick your solo presentation topic ([[https://lyon.instructure.com/courses/1446/pages/solo-presentations-and-protocols][Canvas]])
+
+** TODO Reading assignment for Friday ([[https://lyon.instructure.com/courses/1446/assignments/18959][Canvas]])
+** TODO Review: First sprint review ([[https://lyon.instructure.com/courses/1446/assignments/17992][Canvas]])
 ** TODO Debate: Pro/Con AI in education
 * 6.2 Wed-Sep-27
 ** TODO Review: Interacting with ChatGPT
-** TODO Debate: how will AI change the labor market?
+** TODO The Unreasonable Effectiveness of Data ([[https://lyon.instructure.com/courses/1446/assignments/18845][Canvas]])
 * 6.3 Fri-Sep-29
+** TODO REMINDER: pick solo presentation topic by today
+** TODO Debate: how will AI change the labor market?
 
+Reading assignment from Monday.
 
+* 7.1. Mon-Oct-2
+
+Planned for this week:
+1) Lecture on intelligent agents
+
+** TODO Lecture: intelligent agents
 * References
 
 Butlin P, Long R, Elmoznino E, Bengio Y, Birch J, Constant A, Deane G,
