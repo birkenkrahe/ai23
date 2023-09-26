@@ -604,7 +604,7 @@ Planned for this week:
 1) AI in education pro/con debate
 2) The Unreasonable Effectiveness of Data (2009)
 3) How will generative AI change the labor market? (Mollick, 2023)
-4) Pick your solo presentation topic ([[https://lyon.instructure.com/courses/1446/pages/solo-presentations-and-protocols][Canvas]])
+e4) Pick your solo presentation topic ([[https://lyon.instructure.com/courses/1446/pages/solo-presentations-and-protocols][Canvas]])
 
 ** DONE Review: First sprint review ([[https://lyon.instructure.com/courses/1446/assignments/17992][Canvas]])
 ** DONE How are you getting prepared for Thursday?
@@ -618,7 +618,11 @@ Planned for this week:
 * 6.3 Fri-Sep-29
 ** TODO REMINDER: pick solo presentation topic by today
 ** TODO Debate: how will AI change the labor market?
+[[../img/tonfilm1927.png]]
 
+- The first motion picture with sound came into the cinema in 1927.
+- 22,000 musicians from silent movie theatres lost their jobs.
+  
 Reading assignment from Monday.
 
 * 7.1. Mon-Oct-2
