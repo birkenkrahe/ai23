@@ -615,10 +615,10 @@ e4) Pick your solo presentation topic ([[https://lyon.instructure.com/courses/14
 * 6.2 Wed-Sep-27
 [[../img/die.jpg]]
 
-** DONE Review: Interacting with ChatGPT
+** Review: Interacting with ChatGPT (DataCamp)
 
-Answer a question or ask a question! If you get a number already used,
-take the next number.
+Answer a question (1-11) or ask a question (12-20)! If you get a
+number already used, take the next number.
 
 1) +What is ChatGPT, technically?+
 2) What can you do if ChatGPT refuses to give you an answer?
@@ -645,7 +645,7 @@ More on prompt engineering:
 - [[https://realpython.com/practical-prompt-engineering/][A deeper look at prompt engineering (realpython.com)]] - 1 hr
 - [[https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/][ChatGPT Prompt Engineering for Developers (DeepLearning.ai)]] - 1 hr
 
-** TODO The Unreasonable Effectiveness of Data ([[https://lyon.instructure.com/courses/1446/assignments/18845][Canvas]])
+** The Unreasonable Effectiveness of Data ([[https://lyon.instructure.com/courses/1446/assignments/18845][Canvas]])
 
 Answer a question! If you get a number already used, take the next.
 
