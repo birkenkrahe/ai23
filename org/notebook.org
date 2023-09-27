@@ -606,15 +606,46 @@ Planned for this week:
 3) How will generative AI change the labor market? (Mollick, 2023)
 e4) Pick your solo presentation topic ([[https://lyon.instructure.com/courses/1446/pages/solo-presentations-and-protocols][Canvas]])
 
-** DONE Review: First sprint review ([[https://lyon.instructure.com/courses/1446/assignments/17992][Canvas]])
-** DONE How are you getting prepared for Thursday?
-** DONE New reading assignment for Friday ([[https://lyon.instructure.com/courses/1446/assignments/18959][Canvas]])
-** DONE Remember your old reading assignment ([[https://lyon.instructure.com/courses/1446/assignments/18845][Canvas]])
-** TODO Debate: Pro/Con AI in education
+** Review: First sprint review ([[https://lyon.instructure.com/courses/1446/assignments/17992][Canvas]])
+** How are you getting prepared for Thursday?
+** New reading assignment for Friday ([[https://lyon.instructure.com/courses/1446/assignments/18959][Canvas]])
+** Remember your old reading assignment ([[https://lyon.instructure.com/courses/1446/assignments/18845][Canvas]])
+** Debate: Pro/Con AI in education
 
 * 6.2 Wed-Sep-27
+[[../img/die.jpg]]
+
 ** TODO Review: Interacting with ChatGPT
+
+1) What is ChatGPT, technically?
+2) What can you do if ChatGPT refuses to give you an answer?
+3) How can ChatGPT deliver "business value"? (1-4)
+4) What are some limitations of ChatGPT? (1-5)
+5) Which sources were used to train ChatGPT?
+6) How does ChatGPT interpret your prompt?
+7) What is "prompt engineering"?
+8) What are characteristics of a good prompt? (1-3)
+9) What happens if you ask the same question twice?
+10) In which way does ChatGPT "understand" language?
+11) Improve these prompts: "Emacs or VSCode?", "Python or R?"
+
+More on prompt engineering:
+- [[https://realpython.com/practical-prompt-engineering/][A deeper look at prompt engineering (realpython.com)]] - 1 hr
+- [[https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/][ChatGPT Prompt Engineering for Developers (DeepLearning.ai)]] - 1 hr
+
 ** TODO The Unreasonable Effectiveness of Data ([[https://lyon.instructure.com/courses/1446/assignments/18845][Canvas]])
+
+1) 
+2) 
+3) 
+4) 
+5) 
+6) 
+7) 
+8) 
+9) 
+10) 
+
 * 6.3 Fri-Sep-29
 ** TODO REMINDER: pick solo presentation topic by today
 ** TODO Debate: how will AI change the labor market?
