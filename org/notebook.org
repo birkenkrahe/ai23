@@ -615,31 +615,31 @@ e4) Pick your solo presentation topic ([[https://lyon.instructure.com/courses/14
 * 6.2 Wed-Sep-27
 [[../img/die.jpg]]
 
-** TODO Review: Interacting with ChatGPT
+** DONE Review: Interacting with ChatGPT
 
 Answer a question or ask a question! If you get a number already used,
 take the next number.
 
-1) What is ChatGPT, technically?
+1) +What is ChatGPT, technically?+
 2) What can you do if ChatGPT refuses to give you an answer?
-3) How can ChatGPT deliver "business value"? (1-4)
+3) +How can ChatGPT deliver "business value"? (1-4)+
 4) What are some limitations of ChatGPT? (1-5)
-5) Which sources were used to train ChatGPT?
+5) +Which sources were used to train ChatGPT?+
 6) How does ChatGPT interpret your prompt?
 7) What is "prompt engineering"?
-8) What are characteristics of a good prompt? (1-3)
+8) +What are characteristics of a good prompt? (1-3)+
 9) What happens if you ask the same question twice?
-10) In which way does ChatGPT "understand" language?
+10) +In which way does ChatGPT "understand" language?+
 11) Improve these prompts: "Emacs or VSCode?", "Python or R?"
 12) 
-13) 
-14) 
-15) 
+13) What methods do people use with ChatGPT?
+14) Is ChatGPT not just a pyramid of IF-ELSE statements?
+15) Is ChatGPT a better Rogerian Therapist than "Eliza"?
 16) 
 17) 
-18) 
+18) Will ChatGPT ever hallucinate 100%? (Like Microsoft "Tay") 
 19) 
-20) 
+20) For math problems, does ChatGPT compute from scratch?
 
 More on prompt engineering:
 - [[https://realpython.com/practical-prompt-engineering/][A deeper look at prompt engineering (realpython.com)]] - 1 hr
@@ -649,25 +649,25 @@ More on prompt engineering:
 
 Answer a question! If you get a number already used, take the next.
 
-1) What is the purpose of Natural Language Processing (NLP)?
-2) What is a Corpus (like the [[https://en.wikipedia.org/wiki/Brown_Corpus][Brown Corpus]], or [[https://www.english-corpora.org/googlebooks/][Google's Corpora]])?
+1) +What is the purpose of Natural Language Processing (NLP)?+
+2) +What is a Corpus (like the [[https://en.wikipedia.org/wiki/Brown_Corpus][Brown Corpus]], or [[https://www.english-corpora.org/googlebooks/][Google's Corpora]])?+
 3) What were the greatest successes in NLP machine learning (ML)? 
 4) What are [[https://towardsdatascience.com/visualizing-part-of-speech-tags-with-nltk-and-spacy-42056fcd777e]["part-of-speech" (PoS) tags]]?
-5) Why is NLP ML more difficult than machine translation?
-6) What are [[https://www.mathworks.com/discovery/ngram.html#:~:text=An%20n%2Dgram%20is%20a,text%20classification%2C%20and%20text%20generation.][n-grams]]?
-7) What is an example for the task of [[http://graphics.cs.cmu.edu/projects/scene-completion/images/teaser.jpg][scene completion]]?
-8) What is the number of possible 2 MB photos?
+5) +Why is NLP ML more difficult than machine translation?+
+6) +What are [[https://www.mathworks.com/discovery/ngram.html#:~:text=An%20n%2Dgram%20is%20a,text%20classification%2C%20and%20text%20generation.][n-grams]]?+
+7) +What is an example for the task of [[http://graphics.cs.cmu.edu/projects/scene-completion/images/teaser.jpg][scene completion]]?+
+8) +What is the number of possible 2 MB photos?+
 9) Why can a small number of general rules not explain human language?
-10) What is the "curse of dimensionality and of overfitting to data"?
+10) +What is the "curse of dimensionality and of overfitting to data"?+
 11) Why is "throwing away rare events" a bad idea?
 12) Which three "orthogonal" problems arise in NLP?
 13) What is the Semantic Web?
-14) What is the semantic interpretation problem?
-15) What is [[https://chat.openai.com/share/6607ddfe-da72-485b-89ff-00a1e9837cf5][ontology writing]]?
-16) Which skills are involved in creating a database-backed Web Service?
-17) What is the inaccuracy and deception problem of the Semantic Web?
+14) +What is the semantic interpretation problem?+
+15) +What is [[https://chat.openai.com/share/6607ddfe-da72-485b-89ff-00a1e9837cf5][ontology writing]]?+
+16) +Which skills are involved in creating a database-backed Web Service?+
+17) +What is the inaccuracy and deception problem of the Semantic Web?+
 18) What is a schema?
-19) What does "follow the data" mean?
+19) +What does "follow the data" mean?+
 20) Why don't you necessarily need a parametric model for web data?
 
 * 6.3 Fri-Sep-29
