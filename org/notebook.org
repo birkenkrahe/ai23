@@ -672,13 +672,49 @@ Answer a question! If you get a number already used, take the next.
 
 * 6.3 Fri-Sep-29
 ** TODO REMINDER: pick solo presentation topic by today
-** TODO Debate: how will AI change the labor market?
+** TODO Scenarios: how will AI change the labor market?
 [[../img/tonfilm1927.png]]
 
 - The first motion picture with sound came into the cinema in 1927.
 - 22,000 musicians from silent movie theatres lost their jobs.
   
-Reading assignment from Monday.
+[[https://lyon.instructure.com/courses/1446/assignments/18959][Reading assignment]] from Monday: Mollick, Everybody is above average
+
+Quote of the week (what do you think of this morphed metaphor?):
+#+begin_quote
+ "Give a person a Language Model, and they'll be busy for a
+ week. Teach a person how to build a model, and they'll be busy for a
+ lifetime." -- Andreas Welsch (VP at SAP)
+#+end_quote
+
+** TODO Scenario building
+#+attr_latex: :width 400px
+[[../img/laborscenario.png]]
+
+- [[https://youtu.be/yVgxZnRT54E?si=95ntV8bWVAHWWYg7][Introduction to scenario planning video]] (2012)
+
+- Build four scenarios in groups:
+  1) Use of AI is low. Workforce is highly skilled and continously
+     adapting to technological changes.
+  2) Use of AI is low. Workforce lacks necessary skills, and adaptation
+     to technological advancements is slow.
+  3) Use of AI is high. Workforce is highly skilled and continously
+     adapting to technological changes.
+  4) Use of AI is high. Workforce lacks necessary skills, and adaptation
+     to technological advancements is slow.
+
+- In four groups, work out aspects of one scenario per group. Discuss
+  [[https://ideaboardz.com/for/THE%20FUTURE%20OF%20LABOR/5077865][the questions]] posed by ChatGPT: [[https://tinyurl.com/FutureOfLabor][tinyurl.com/FutureOfLabor]]
+  #+attr_latex: :width 400px  
+  [[../img/scenarios.png]]
+
+- Instead of answering these questions (which would require a fair
+  amount of research for which we don't have the time), develop a
+  PERSONA and record your results on the Kanban board:
+  1. What would the day of a person living and working in that
+     scenario world look like?
+  2. What would be his challenges at work?
+  3. What kind of education should he pursue?
 
 * 7.1. Mon-Oct-2
 
