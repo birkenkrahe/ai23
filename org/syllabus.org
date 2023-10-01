@@ -81,7 +81,7 @@ Notes:
 |    3 | Sep 04-Sep 08 | AI agents        | +Harnessing AI in organizations+  |      |
 |    4 | Sep 11-Sep 15 | State-of-the-Art | +The human side of AI+            | 1st  |
 |    5 | Sep 18-Sep 22 | Future of AI     | +Interacting with ChatGPT+        |      |
-|    6 | Sep 25-Sep 29 | Machine Learning | Adopting ChatGPT                |      |
+|    6 | Sep 25-Sep 29 | Machine Learning | +Adopting ChatGPT+              |      |
 |    7 | Oct 02-Oct 06 | Sales/marketing  | What is Machine Learning        |      |
 |    8 | Oct 09-Oct 13 | Natural Language | Machine Learning Models         | 2nd  |
 |    9 | Oct 16-Oct 20 | Medical AI       | Deep Learning                   |      |

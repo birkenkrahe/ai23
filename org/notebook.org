@@ -719,10 +719,30 @@ Quote of the week (what do you think of this morphed metaphor?):
 
 * 7.1. Mon-Oct-2
 
-Planned for this week:
-1) Lecture on intelligent agents
+Review: Adopting ChatGPT - USE CASES
+#+begin_quote
+Elements of a use case (a software development model):
+1) System, e.g. food delivery app
+2) Scenario, e.g. user places food order
+3) Actors, e.g. customer, restaurant, app developers
+4) Requirements, e.g. app processes payments
+#+end_quote
 
-** TODO Lecture: intelligent agents
+"The desired workflow is one that has ChatGPT doing much of the
+legwork, so a person only has to finalize tasks before completion."
+#+caption: Image created by DALL-E 3 using Bing chat from this prompt
+#+attr_latex: :width 400px
+[[../img/chatgpt_workflow.jpeg]]
+
+- Design experiment for tech use to decide about ChatGPT use.
+- Use the use case framework to decide if ChatGPT adoption is safe.
+
+
+* Mon, 16-Oct
+
+Monthly summary
+
+
 * References
 
 Butlin P, Long R, Elmoznino E, Bengio Y, Birch J, Constant A, Deane G,
