@@ -753,6 +753,18 @@ Which technical tasks are "legwork" and could or should be replaced?
 4) +Automating repetitive tasks?+
 #+end_quote
 
+* 7.2. Wed, 4-Oct
+** Preview: Understanding machine learning (2-3 hrs)
+
+As before, all of these courses are no-code. To get most out of the
+DataCamp experience, it makes sense to couple them with a few
+code-based courses, either in R or in Python. Ask me for
+recommendations (books, courses, tutorials) if you're interested.
+
+- What is machine learning (ML)?
+- Supervised and unsupervised ML models.
+- Deep learning with neural networks.
+
 ** Review: Adopting ChatGPT - USE CASES
 #+begin_quote
 Elements of a use case (a software development model):
@@ -770,6 +782,53 @@ few typical student use cases:
 4) present your examples (one per pair)
    #+attr_html: :width 400px
    [[../img/chatgpt_usecases.png]]
+
+** ChatGPT for coding - group experiment
+
+Go into one of three groups: documenters, syntaxers, and debuggers.
+
+This is the exercise that we'll do in our next meeting: 
+
+1) Documentation: Find (or better: write) a simple piece of code or
+   (better) a library that you know well so that you can judge the
+   quality of the output, and that is not documented or well
+   commented, and ask ChatGPT to document it. Ask for improvements.
+
+2) Syntax information: Ask ChatGPT about computer syntax that you know
+   well so that you can judge the quality of the output. This could be
+   a function or a more complicated statement or a function call, or
+   an API. Ask for improvements or explanations.
+
+3) Debugging code: take a piece of code (not too long, perhaps a game
+   or something like it), code that you either wrote or understand
+   well, and mess it up, then ask ChatGPT to debug it. Ask for
+   explanations or for debugging with value changes, parameter sweeps,
+   etc.
+
+4) Visualize data: ask ChatGPT to visualize data that you understand
+   and that you've visualized before or seen visualized well. Ask
+   ChatGPT for customizations and improvements.
+
+5) Communicate results: ask ChatGPT to explain an analysis or a
+   result, and customize the explanation for a specific audience. Ask
+   additional question.
+   
+Your job until then (and in the remainder of today's session) is to
+identify targets for your group activity.
+
+On Friday, you'll do the experiment with ChatGPT, record and present
+your experiences. Depending on the outcome, we might take another
+step after the break, perhaps with GitHub Copilot or Google Bard.
+
+To emphasize: the deeper your knowledge and understanding of the
+underlying material (documentation, syntax, error, dataset), the
+better your ability to judge ChatGPT's output.
+
+The more you know, the more you'll learn.
+
+* Friday, 6-Oct
+
+Group experiment: ChatGPT for coding
 
 * Mon, 16-Oct
 
