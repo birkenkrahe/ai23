@@ -783,6 +783,7 @@ few typical student use cases:
    #+attr_html: :width 400px
    [[../img/chatgpt_usecases.png]]
 
+* Friday, 6-Oct
 ** ChatGPT for coding - group experiment
 
 Go into one of three groups: documenters, syntaxers, and debuggers.
@@ -825,10 +826,6 @@ underlying material (documentation, syntax, error, dataset), the
 better your ability to judge ChatGPT's output.
 
 The more you know, the more you'll learn.
-
-* Friday, 6-Oct
-
-Group experiment: ChatGPT for coding
 
 * Mon, 16-Oct
 
