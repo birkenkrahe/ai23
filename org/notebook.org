@@ -790,17 +790,17 @@ Go into one of three groups: documenters, syntaxers, and debuggers.
 
 This is the exercise that we'll do in our next meeting: 
 
-1) Documentation: Find (or better: write) a simple piece of code or
+1) +Documentation+: Find (or better: write) a simple piece of code or
    (better) a library that you know well so that you can judge the
    quality of the output, and that is not documented or well
    commented, and ask ChatGPT to document it. Ask for improvements.
 
-2) Syntax information: Ask ChatGPT about computer syntax that you know
+2) +Syntax information:+ Ask ChatGPT about computer syntax that you know
    well so that you can judge the quality of the output. This could be
    a function or a more complicated statement or a function call, or
    an API. Ask for improvements or explanations.
 
-3) Debugging code: take a piece of code (not too long, perhaps a game
+3) +Debugging code+: take a piece of code (not too long, perhaps a game
    or something like it), code that you either wrote or understand
    well, and mess it up, then ask ChatGPT to debug it. Ask for
    explanations or for debugging with value changes, parameter sweeps,
