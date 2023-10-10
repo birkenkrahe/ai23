@@ -165,11 +165,11 @@ or equally complex?[fn:5]
 
 Identify PEAS elements for each of these agent types!
 
-* Medical diagnosis system
-* Satellite image analysis system
-* Part-picking robot
-* Refinery controller
-* Interactive English tutor
+ - Medical diagnosis system
+ - Satellite image analysis system
+ - Part-picking robot
+ - Refinery controller
+ - Interactive English tutor
 
 [[[https://github.com/birkenkrahe/ai23/blob/main/img/challenge.png][Solution]], [[aima][AIMA]] table 2.5]
 

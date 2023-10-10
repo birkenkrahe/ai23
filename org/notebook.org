@@ -717,7 +717,7 @@ lifetime." -- Andreas Welsch (VP at SAP)
   3. What kind of education should he pursue?
   4. What should his company do to succeed in this scenario?
 
-* 7.1. Mon-Oct-2
+* 7.1 Mon-Oct-2
 ** [[https://lyon.instructure.com/courses/1446/pages/solo-presentations-and-protocols][Solo presentations and protocols agreed!]]
 ** SXSW Pitch - College Student Startups (see AI Chat)
 ** Review: ChatGPT response ownership
@@ -753,7 +753,7 @@ Which technical tasks are "legwork" and could or should be replaced?
 4) +Automating repetitive tasks?+
 #+end_quote
 
-* 7.2. Wed, 4-Oct
+* 7.2 Wed-Oct-4
 ** Preview: Understanding machine learning (2-3 hrs)
 
 As before, all of these courses are no-code. To get most out of the
@@ -783,12 +783,12 @@ few typical student use cases:
    #+attr_html: :width 400px
    [[../img/chatgpt_usecases.png]]
 
-* 7.3. Friday, 6-Oct
+* 7.3 Fri-Oct-6
 ** ChatGPT for coding - group experiment
 
 Go into one of three groups: documenters, syntaxers, and debuggers.
 
-This is the exercise that we'll do in our next meeting: 
+This is the exercise that we'll do in our next meeting:
 
 1) +Documentation+: Find (or better: write) a simple piece of code or
    (better) a library that you know well so that you can judge the
@@ -813,7 +813,7 @@ This is the exercise that we'll do in our next meeting:
 5) Communicate results: ask ChatGPT to explain an analysis or a
    result, and customize the explanation for a specific audience. Ask
    additional question.
-   
+
 Your job until then (and in the remainder of today's session) is to
 identify targets for your group activity.
 
@@ -829,12 +829,88 @@ The more you know, the more you'll learn.
 #+attr_html: :width 400px
 [[../img/chatgpt_for_coding.png]]
 
-* Mon, 16-Oct
+* 8.1 Wed-Oct-11 - AI-assisted coding
 
-Monthly summary
+AI-assisted coding with GitHub Codespaces.
 
+* 8.2 Fri-Oct-13 - Supervised machine learning
+#+attr_latex: :width 400px
+[[../img/mlworkflow.png]]
+
+Python coding: Supervised learning with decision tree models to
+predict diabetes mellitus (cp. Naviani, 2023).
+
+* 9.1 Mon-Oct-16 - 2nd sprint review
+
+- Monthly summary
+
+- Second sprint review
+
+* 9.2 Wed-Oct-18 - Unsupervised machine learning
+#+attr_latex: :width 400px
+[[../img/mlworkflow.png]]
+
+Python coding: Unsupervised ML - k-means clustering with Python
+(cp. Babitz, 2023).
+
+* 9.3 Fri-Oct-20 - Deep learning from scratch
+
+Deep learning: simple neural net with Python from scratch
+(cp. Kneusel, 2021, Kitsios, 2019)
+
+* 10.1 Mon-Oct-23 - Deep learning w/frameworks
+
+- Deep learning: neural nets with Python frameworks (Keras,
+  TensorFlow) - cp. Willems (2019), Kelta (2023), K (2023)
+
+- Deep learning w/C++: [[https://www.geeksforgeeks.org/ml-neural-network-implementation-in-c-from-scratch/][NN implementation in C++ from scratch (2022).]]
+
+* 10.2 Wed, 25-Oct meeting in Derby 209 (via Zoom)
+#+attr_latex: :width 400px
+[[../img/uams.jpg]]
+
+As a follow-up from the Career fair, Dr. Clare Brown (BA psych Lyon
+'07) and Dr. Mandana Rezaeiahari will present a research showcase and
+give an introduction to the [[https://publichealth.uams.edu/academics/masters/academics-masters-mshcda/][UAMS healthcare analytics programs]]
+(Master and Graduate certificate).
+
+The meeting will take place on October 25, 9-9.50 AM via Zoom:
+https://lyon-edu.zoom.us/j/83316335723 (no passcode) - or you can join
+us in room 209 in the Derby building.
+
+* 10.3 Fri-Oct-27 SCOTSFEST VISIT
+#+attr_html: :width 400px
+[[../img/scotsfest.jpg]]
+
+WRMC presentation (August 2023) - Medical AI: supporting residents'
+research with generative AI
+
+* 11.1 Mon-Oct-30: Speech recognition (Andrei)
+* 11.2 Wed-Nov-1: Gait tracking AI (Aisha)
+* 11.3 Fri-Nov-3: Autonomous vehicles (Nate)
+* 12.1 Mon-Nov-6: AI + research skills (Aidan)
+* 12.2 Wed-Nov-8: Recommender systems (Nikola)
+* 12.3 Fri-Nov-10: Imitating celebrities (Jordan)
+* 13.1 Mon-Nov-13: Image recognition (Marlon)
+* 13.2 Wed-Nov-15: Game development (Fowler)
+* 13.3 Fri-Nov-17: AI + stockmarket (Timothy)
+* 14.1 Mon-Nov-20: Smart NPCs (Boogie)
+* 15.1 Mon-Nov-27: Artificial X posts (Hunter)
+* 15.2 Wed-Nov-29: Behavior detection (Ryan)
+* 15.3 Fri-Dec-1: ??? (Keidrick)
+* 16.1 Mon-Dec-4: Presentations I
+* 16.2 Wed-Dec-6: Presentations II
+* 16.3 Fri-Dec-8: Presentations III
+
+* Last lectures:
+
+- Stemming and lemmatization in NLP (cp. Pykes, 2023)
+- 
 
 * References
+
+Babitz K. Introduction to k-Means Clustering with skicit-learn in
+Python. URL: [[https://app.datacamp.com/learn/tutorials/k-means-clustering-python][datacamp.com]] [11 Oct 2023]
 
 Butlin P, Long R, Elmoznino E, Bengio Y, Birch J, Constant A, Deane G,
 Fleming SM, Frith C, Ji X, Kanai R. Consciousness in Artificial
@@ -844,6 +920,26 @@ preprint arXiv:2308.08708. 2023 Aug 17.
 Daly N. What Is a Use Case? (April 25, 2022). URL:
 [[https://www.wrike.com/blog/what-is-a-use-case/][wrike.com/blog/what-is-a-use-case]] [27 Aug 2023]
 
+Bharath K. Introduction to Deep Neural Networks. URL: [[https://www.datacamp.com/tutorial/introduction-to-deep-neural-networks][datacamp.com]] [11
+Oct 2023]
+
+Kelta Z. Convolutional Neural Networks (CNN) with TensorFlow
+Tutorial. URL: [[https://app.datacamp.com/learn/tutorials/cnn-tensorflow-python][datacamp.com]] [11 Oct 2023].
+
+Kitsios K. How to build a simple Neural Network from scratch with
+Python. URL: [[https://towardsdatascience.com/how-to-build-a-simple-neural-network-from-scratch-with-python-9f011896d2f3][towardsdatascience.com]] [11 Oct 2023]
+
+Kneusel R T. Practical Deep Learning. NoStarch, 2021.
+
+ML - Neural Network Implementation in C++ From Scratch. URL:
+[[https://www.geeksforgeeks.org/ml-neural-network-implementation-in-c-from-scratch/][geeksforgeeks.org]] [11 Oct 2023]
+
+Pykes K. Stemming and Lemmatization in Python. URL: [[https://app.datacamp.com/learn/tutorials/stemming-lemmatization-python][datacamp.com]] [11
+Oct 2023] - with [[https://app.datacamp.com/workspace/w/ca79eb90-d03f-497b-b031-d7387bad4881][DataCamp workspace notebook]].
+
 Weizenbaum J. ELIZA—a computer program for the study of natural
 language communication between man and machine. Commun
 ACM. 1966;9(1):36-45. doi:10.1145/365153.365168
+
+Willems K. Keras Tutorial: Deep Learning in Python. URL: [[https://app.datacamp.com/learn/tutorials/deep-learning-python][datacamp.com]]
+[11 Oct 2023]
