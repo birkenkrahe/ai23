@@ -832,6 +832,7 @@ The more you know, the more you'll learn.
 * 8.1 Wed-Oct-11 - AI-assisted coding
 
 ** Review DataCamp lesson "What is Machine Learning?"
+
 1. AlphaZero and quantum computing? What's the connection? ([[https://www.nature.com/articles/s41534-019-0241-0][link]])
 2. How are you using machine learning daily? ([[https://blog.google/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/][link]])([[https://ml4a.net/][link]])([[https://www.itransition.com/machine-learning/statistics][link]])
 3. What is ML? (Specifically, as opposed to AI)
@@ -840,8 +841,8 @@ The more you know, the more you'll learn.
      without being explicitly programmed."
    - Prediction: future outcomes based on historical data
    - Inferences: causes and patterns based on historical data
-   - Inferences help make predictions
-   - Relies on "high quality" data
+   - Inferences help make predictions (cp. Judeah Pearl, DAG)
+   - Relies on "high quality" data (most ppl use linear models)
    - All ML is data science, but some data science is not machine
      learning (e.g. Exploratory Data Analysis)
    #+end_quote
@@ -874,7 +875,7 @@ The more you know, the more you'll learn.
 8. What are the problems with the data?
    #+begin_quote
    - Origin: We need to know where they come from.
-   - Bias: We need to know if they're biased.
+   - Bias: We need to know if they're biased and if so, how
    - Stats: We only have a finite sample for an infinite population.
    - Performance: We may not be able to process all the data.
    - Quantification: the data may not encode what we're after.
