@@ -1,0 +1,24 @@
+digraph DecisionTree {
+"Outlook
+Value: Sunny" [shape=box, color=black];
+"Outlook
+Value: Sunny" -> "Outlook" [label="True"];
+"No" [shape=ellipse, color=black];
+"Outlook
+Value: Sunny" -> "Outlook" [label="False"];
+"Outlook
+Value: Rainy" [shape=box, color=black];
+"Outlook
+Value: Rainy" -> "Outlook" [label="True"];
+"Wind
+Value: Weak" [shape=box, color=black];
+"Wind
+Value: Weak" -> "Wind" [label="True"];
+"Yes" [shape=ellipse, color=black];
+"Wind
+Value: Weak" -> "Wind" [label="False"];
+"No" [shape=ellipse, color=black];
+"Outlook
+Value: Rainy" -> "Outlook" [label="False"];
+"Yes" [shape=ellipse, color=black];
+}
