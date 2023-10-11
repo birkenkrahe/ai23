@@ -1,7 +1,7 @@
 #+title: AI - Notebook
 #+startup: overview hideblocks indent inlineimages
 #+property: header-args:R :results output :noweb yes
-#+property: header-args:python :results output :noweb yes
+#+property: header-args:python :results output :noweb yes :session *Python*
 #+options: toc:1 num:1
 * 1.1 Aug-23
 #+attr_latex: :width 400px
@@ -831,7 +831,266 @@ The more you know, the more you'll learn.
 
 * 8.1 Wed-Oct-11 - AI-assisted coding
 
-AI-assisted coding with GitHub Codespaces.
+** Review DataCamp lesson "What is Machine Learning?"
+1. AlphaZero and quantum computing? What's the connection? ([[https://www.nature.com/articles/s41534-019-0241-0][link]])
+2. How are you using machine learning daily? ([[https://blog.google/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/][link]])([[https://ml4a.net/][link]])([[https://www.itransition.com/machine-learning/statistics][link]])
+3. What is ML? (Specifically, as opposed to AI)
+   #+begin_quote
+   - "A set of tools for making inferences and predictions from data
+     without being explicitly programmed."
+   - Prediction: future outcomes based on historical data
+   - Inferences: causes and patterns based on historical data
+   - Inferences help make predictions
+   - Relies on "high quality" data
+   - All ML is data science, but some data science is not machine
+     learning (e.g. Exploratory Data Analysis)
+   #+end_quote
+4. What are the three types of machine learning? What do they mean?
+   #+begin_quote
+   - Reinforcement learning (robotics)
+   - Supervised learning (learning from labelled data) e.g. decision
+     tree models, which are based on feature rules and correlations
+   - Unsupervised learning (learning unlabelled data) e.g. k-means
+     clustering, based on similarity (distance) measures.
+   #+end_quote
+5. What type of learning is "deep learning"?
+6. What's the machine learning workflow?
+   #+begin_quote
+   1. Extract features from raw data
+   2. Split dataset into training and testing data
+   3. Train machine learning model
+   4. Evaluate model checking performance on (unseen) test data
+   5. Put model into production or retrain/fine-tune
+   #+end_quote
+7. If that's the workflow, what is this?
+   #+attr_latex: :width 400px
+   #+caption: ML workflow, source: DataCamp.
+   [[../img/mlworkflow.png]]
+   #+begin_quote
+   A more detailed macro-picture workflow with more emphasis on valid
+   data that also aligns with people's roles in organizations that
+   apply ML.
+   #+end_quote
+8. What are the problems with the data?
+   #+begin_quote
+   - Origin: We need to know where they come from.
+   - Bias: We need to know if they're biased.
+   - Stats: We only have a finite sample for an infinite population.
+   - Performance: We may not be able to process all the data.
+   - Quantification: the data may not encode what we're after.
+   #+end_quote
+
+** AI-assisted coding with GitHub Codespaces
+
+Preparation for a future session! [[https://lyon.instructure.com/courses/1446/assignments/19613][See also Canvas]]. Do this now!
+
+1) Register at GitHub.com using your Lyon email address!
+
+2) Get a GitHub Copilot subscription as part of the student developer
+   pack ([[https://education.github.com/pack?WT.mc_id=academic-88217-leestott][free for students]]) - needed for Codespaces and Copilot:
+   - Login to GitHub using your Lyon account.
+   - Open [[https://education.github.com/pack?WT.mc_id=academic-88217-leestott][this page]] and follow the instructions (you'll need to
+     upload a photo of your student ID).
+   - Once submitted, you'll be certified within 4 days.
+
+** Decision tree model with Python from scratch
+
+This was inspired by Google for Developers (2022).
+
+Demonstration "Simple Decision Tree model with Python from Scratch
+#+attr_latex: :width 400px
+[[../img/training_data.png]]
+
+#+attr_latex: :width 400px
+[[../img/decisiontreefromscratch.png]]
+
+1. [[https://chat.openai.com/share/9e844618-143d-40d0-aabc-d317053dc543][ChatGPT session protocol]] (GPT-4 + noteable.io plugin/09-25-2023)
+2. [[https://app.noteable.io/published/02ae511b-41f9-403b-9db3-b39d2b0a9506/DecisionTreeFromScratch][Auto-generated noteable.io notebook]] (you have to register)
+3. [[https://app.datacamp.com/workspace/w/725f9eb2-bac7-495b-b007-29a70f7bb0c0/edit][DataCamp workspace notebook copy]] of the noteable.io notebook
+4. [[https://app.datacamp.com/workspace/w/df1ea3dd-44c8-4632-a1ed-215f86c72919/edit][DataCamp workspace notebook]] worked through with all prompts
+
+*** Prompts (detailed - ChatGPT)
+
+1. Introduction to Decision Trees
+   - What is a decision tree?
+   - How are decision trees used in machine learning?
+
+2. Creating a Simple Dataset
+   - Can you create a simple dataset with features and labels?
+   - What are the features and labels in our dataset?
+
+3. Understanding Gini Impurity
+   - What is Gini impurity?
+   - How can we calculate the Gini impurity for a set of labels?
+
+4. Partitioning the Dataset
+   - How can we split a dataset based on a feature and its value?
+   - Why is partitioning important in building a decision tree?
+
+5. Finding the Best Split
+   - How do we determine the best feature and value to split on?
+   - What criteria can we use to evaluate the quality of a split?
+
+6. Building the Decision Tree
+   - How can we use recursion to build a decision tree?
+   - What are the base cases and recursive cases in our tree-building algorithm?
+
+7. Making Predictions
+   - How can we use a decision tree to make predictions on new data?
+   - Can you implement a function to predict the label of a data point using our decision tree?
+
+8. Evaluating the Decision Tree
+   - How can we measure the accuracy of our decision tree?
+   - Can you calculate the accuracy of our decision tree on a test dataset?
+
+9. Visualizing the Decision Tree
+   - How can we represent our decision tree visually?
+   - Can you create a textual representation of our decision tree?
+   - How about a graphical representation using tools like Graphviz?
+
+10. Conclusion and Next Steps
+    - What did we learn in this session?
+    - What are the key takeaways and concepts to remember?
+    - What should we explore next to deepen our understanding of
+      machine learning?
+
+** Trying this with the free version of ChatGPT
+
+Stopped short of the 'optimization' step (accuracy of 30% was quite
+bad).
+
+1) Build a decision tree model from scratch. Split the data in
+   training and test data, and make a prediction using the model. Then
+   compute the accuracy of the model.
+   #+begin_src python
+     from random import shuffle
+     from sklearn.metrics import accuracy_score
+
+     # Create the dataset
+     data_list = [
+         {'Color': 'Red', 'Diameter': 7.5, 'Fruit Type': 'Apple'},
+         {'Color': 'Purple', 'Diameter': 2.5, 'Fruit Type': 'Grape'},
+         {'Color': 'Yellow', 'Diameter': 6.0, 'Fruit Type': 'Lemon'},
+         {'Color': 'Green', 'Diameter': 4.0, 'Fruit Type': 'Apple'},
+         {'Color': 'Yellow', 'Diameter': 5.5, 'Fruit Type': 'Lemon'}
+     ]
+
+     # Shuffle the data for randomness
+     shuffle(data_list)
+
+     # Split the data into training and test sets (80% training, 20% testing)
+     split_ratio = 0.8
+     split_index = int(len(data_list) * split_ratio)
+     train_data = data_list[:split_index]
+     test_data = data_list[split_index:]
+
+     # Define a simple decision tree classifier
+     def decision_tree_classifier(data):
+         predictions = []
+         for item in data:
+             if item['Diameter'] <= 3.0:
+                 predictions.append('Grape')
+             elif item['Color'] == 'Red':
+                 predictions.append('Apple')
+             else:
+                 predictions.append('Lemon')
+         return predictions
+
+     # Train the model and make predictions on the test data
+     train_labels = [item['Fruit Type'] for item in train_data]
+     test_labels = [item['Fruit Type'] for item in test_data]
+
+     # Make predictions using the decision tree classifier
+     predicted_labels = decision_tree_classifier(test_data)
+
+     # Calculate the accuracy
+     accuracy = accuracy_score(test_labels, predicted_labels)
+
+     # Display the accuracy
+     print(f"Accuracy: {accuracy * 100:.2f}%")
+   #+end_src
+
+   #+RESULTS:
+   : Accuracy: 100.00%
+
+2) Make a larger dataset of 1000 lines and split it into shuffled
+   training and test data in the ratio 70:30.
+   #+begin_src python
+     import random
+     from sklearn.model_selection import train_test_split
+
+     # Create a list of fruit types
+     fruit_types = ['Apple', 'Grape', 'Lemon']
+
+     # Create a larger dataset with 1000 data points
+     data_list = []
+
+     for _ in range(1000):
+         color = random.choice(['Red', 'Purple', 'Yellow', 'Green'])
+         diameter = round(random.uniform(2.0, 8.0), 2)
+         fruit_type = random.choice(fruit_types)
+         data_list.append({'Color': color, 'Diameter': diameter, 'Fruit Type': fruit_type})
+
+     # Shuffle the dataset for randomness
+     random.shuffle(data_list)
+
+     # Split the data into training and test sets (70% training, 30% testing)
+     split_ratio = 0.7
+     split_index = int(len(data_list) * split_ratio)
+     train_data = data_list[:split_index]
+     test_data = data_list[split_index:]
+
+     # Display the sizes of the training and test sets
+     print(f"Training data size: {len(train_data)}")
+     print(f"Test data size: {len(test_data)}")
+   #+end_src
+
+   #+RESULTS:
+   : Training data size: 700
+   : Test data size: 300
+
+3) Run the decision tree model from earlier on this new dataset and
+   compute the accuracy of the prediction.
+   #+begin_src python
+     from sklearn.metrics import accuracy_score
+
+     # Define the decision tree classifier function
+     def decision_tree_classifier(data):
+         predictions = []
+         for item in data:
+             if item['Diameter'] <= 3.0:
+                 predictions.append('Grape')
+             elif item['Color'] == 'Red':
+                 predictions.append('Apple')
+             else:
+                 predictions.append('Lemon')
+         return predictions
+
+     # Split the new dataset into features and labels
+     test_labels = [item['Fruit Type'] for item in test_data]
+
+     # Make predictions using the decision tree classifier
+     predicted_labels = decision_tree_classifier(test_data)
+
+     # Calculate the accuracy
+     accuracy = accuracy_score(test_labels, predicted_labels)
+
+     # Display the accuracy
+     print(f"Accuracy: {accuracy * 100:.2f}%")
+   #+end_src
+
+   #+RESULTS:
+   : Accuracy: 30.67%
+
+** Visualizing data in R with ChatGPT
+
+#+attr_latex: :width 400px
+[[../img/mtcars.svg]]
+
+- [[https://chat.openai.com/share/fc7d9c85-e45d-4d69-8683-62cd73edb697][ChatGPT session protocol]]
+- [[https://app.noteable.io/published/353ee86f-18f4-46c3-8a70-b7076fe7aef5/Visualizing-mtcars-in-R][noteable.io notebook]]
+- [[https://app.datacamp.com/workspace/w/6a1b3c79-4192-4bfd-a1f1-627622e4c682][DataCamp workspace copy]]
+
 
 * 8.2 Fri-Oct-13 - Supervised machine learning
 #+attr_latex: :width 400px
@@ -861,7 +1120,8 @@ Deep learning: simple neural net with Python from scratch
 * 10.1 Mon-Oct-23 - Deep learning w/frameworks
 
 - Deep learning: neural nets with Python frameworks (Keras,
-  TensorFlow) - cp. Willems (2019), Kelta (2023), K (2023)
+  TensorFlow) - cp.  Enthought (2018), Willems (2019), Kelta (2023), K
+  (2023)
 
 - Deep learning w/C++: [[https://www.geeksforgeeks.org/ml-neural-network-implementation-in-c-from-scratch/][NN implementation in C++ from scratch (2022).]]
 
@@ -877,6 +1137,8 @@ give an introduction to the [[https://publichealth.uams.edu/academics/masters/ac
 The meeting will take place on October 25, 9-9.50 AM via Zoom:
 https://lyon-edu.zoom.us/j/83316335723 (no passcode) - or you can join
 us in room 209 in the Derby building.
+#+attr_latex: :width 400px
+[[../img/healthcareLLM.jpg]]
 
 * 10.3 Fri-Oct-27 SCOTSFEST VISIT
 #+attr_html: :width 400px
@@ -902,15 +1164,18 @@ research with generative AI
 * 16.2 Wed-Dec-6: Presentations II
 * 16.3 Fri-Dec-8: Presentations III
 
-* Last lectures:
+* Last lectures/practice:
 
 - Stemming and lemmatization in NLP (cp. Pykes, 2023)
-- 
+- AI coding with GitHub Copilot and Codespaces (cp. Zingaro, 2023)
 
 * References
 
 Babitz K. Introduction to k-Means Clustering with skicit-learn in
 Python. URL: [[https://app.datacamp.com/learn/tutorials/k-means-clustering-python][datacamp.com]] [11 Oct 2023]
+
+Bharath K. Introduction to Deep Neural Networks. URL: [[https://www.datacamp.com/tutorial/introduction-to-deep-neural-networks][datacamp.com]] [11
+Oct 2023]
 
 Butlin P, Long R, Elmoznino E, Bengio Y, Birch J, Constant A, Deane G,
 Fleming SM, Frith C, Ji X, Kanai R. Consciousness in Artificial
@@ -920,8 +1185,12 @@ preprint arXiv:2308.08708. 2023 Aug 17.
 Daly N. What Is a Use Case? (April 25, 2022). URL:
 [[https://www.wrike.com/blog/what-is-a-use-case/][wrike.com/blog/what-is-a-use-case]] [27 Aug 2023]
 
-Bharath K. Introduction to Deep Neural Networks. URL: [[https://www.datacamp.com/tutorial/introduction-to-deep-neural-networks][datacamp.com]] [11
-Oct 2023]
+Enthought. Getting Started with TensorFlow and Deep Learning | SciPy
+2018 Tutorial | Josh Gordon. URL: [[https://youtu.be/tYYVSEHq-io?si=CVTTjQum34N63SCc][youtube.com]].
+
+Google for Developers. Machine Learning Recipes with Josh Gordon:
+Let's Write a Decision Tree Classifier from Scratch - Machine Learning
+Recipes #8. URL: [[https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal][youtube.com]].
 
 Kelta Z. Convolutional Neural Networks (CNN) with TensorFlow
 Tutorial. URL: [[https://app.datacamp.com/learn/tutorials/cnn-tensorflow-python][datacamp.com]] [11 Oct 2023].
@@ -933,6 +1202,9 @@ Kneusel R T. Practical Deep Learning. NoStarch, 2021.
 
 ML - Neural Network Implementation in C++ From Scratch. URL:
 [[https://www.geeksforgeeks.org/ml-neural-network-implementation-in-c-from-scratch/][geeksforgeeks.org]] [11 Oct 2023]
+
+Porter L, Zingaro D. Learn AI-Assisted Python Programming With GitHub
+Copilot and ChatGPT. URL: [[https://www.manning.com/books/learn-ai-assisted-python-programming][manning.com]] [12 Oct 2023].
 
 Pykes K. Stemming and Lemmatization in Python. URL: [[https://app.datacamp.com/learn/tutorials/stemming-lemmatization-python][datacamp.com]] [11
 Oct 2023] - with [[https://app.datacamp.com/workspace/w/ca79eb90-d03f-497b-b031-d7387bad4881][DataCamp workspace notebook]].
