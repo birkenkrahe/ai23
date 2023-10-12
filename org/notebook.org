@@ -1092,7 +1092,6 @@ bad).
 - [[https://app.noteable.io/published/353ee86f-18f4-46c3-8a70-b7076fe7aef5/Visualizing-mtcars-in-R][noteable.io notebook]]
 - [[https://app.datacamp.com/workspace/w/6a1b3c79-4192-4bfd-a1f1-627622e4c682][DataCamp workspace copy]]
 
-
 * 8.2 Fri-Oct-13 - Supervised machine learning
 #+attr_latex: :width 400px
 [[../img/mlworkflow.png]]
