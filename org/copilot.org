@@ -11,9 +11,8 @@
 - [[https://youtu.be/XQ4Negbmtk4][David Smith - Copilot for R (1hr 20min)]] (Lander analytics)
 
 * What is GitHub Copilot?
-#+attr_latex: :width 400px
-#+caption: Illustration in 60s cartoon style showing Copilot, portrayed as a retro robot with antennas and tape reels, actively assisting a stressed programmer who is surrounded by stacks of paper and a ticking clock.
-[[./img/copilot.png]]
+#+attr_latex: :width 400px#+caption: Illustration in 60s cartoon style showing Copilot, portrayed as a retro robot with antennas and tape reels, actively assisting a stressed programmer who is surrounded by stacks of paper and a ticking clock.
+[[../img/copilot.png]]
 
 AI English language coding assistant best for Python, JavaScript,
 Go. Live since 06/2021, most widely used professional AI developer
@@ -56,7 +55,7 @@ different programming languages. Licensed exclusively to Microsoft.
    ~print("Hello Copilot")~, which you can confirm with ~TAB~ and run with
    ~CTRL + F5~ (run without debugging).
    #+attr_html: :width 400px
-   [[./img/copilot_first_program.png]]
+   [[../img/copilot_first_program.png]]
 
 6) You may be asked to install the 'Pylint' extension - do it. Pylint
    is a static code analyzer (grammar checker) for Python.
@@ -200,7 +199,7 @@ plt.savefig('heatmap.png')
 
 3) You may be asked to install the "Rainbow CSV" extension. This is
    not a political statement! It's only extended syntax highlighting.
-   [[./img/rainbowcsv.png]]
+   [[../img/rainbowcsv.png]]
 
 4) Create a new Python file and name it ~nfl_data.py~.
 
@@ -449,7 +448,7 @@ plt.savefig('heatmap.png')
   #+end_src
 
   #+ATTR_html: :width 400px
-  [[./img/copilot_step3.png]]
+  [[../img/copilot_step3.png]]
 
 ** Extended NFL example with Code Interpreter
 
@@ -534,7 +533,7 @@ plt.savefig('heatmap.png')
   #+end_src
 
   #+ATTR_html: :width 400px
-  [[./img/code_interpreter_step3.png]]
+  [[../img/code_interpreter_step3.png]]
 
 ** Extended NFL ex. (step 1) in Bard, Claude, ChatGPT
 
