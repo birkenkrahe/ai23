@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-10-12 Thu 23:37 -->
+<!-- 2023-10-13 Fri 08:07 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>&lrm;</title>
+<title>copilot</title>
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -195,50 +195,45 @@
 </head>
 <body>
 <div id="content" class="content">
+<h1 class="title">copilot</h1>
+<p>
+Code transcript from Copilot:
+</p>
 <div class="org-src-container">
-<pre class="src src-python"><span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">load the mtcars dataset</span>
+<pre class="src src-python"><span style="color: #9ac8e0;">'''</span>
+<span style="color: #9ac8e0;">Upload a CSV file from a URL into a dataframe. Name the dataframe "pima".</span>
+<span style="color: #9ac8e0;">The URL is: https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv</span>
+<span style="color: #9ac8e0;">Name columns as follows: 'pregnant','glucose','bp','skin','insulin','bmi','pedigree','age','label'</span>
+<span style="color: #9ac8e0;">'''</span>
 <span style="color: #b6a0ff; font-weight: bold;">import</span> pandas <span style="color: #b6a0ff; font-weight: bold;">as</span> pd
-<span style="color: #00d3d0;">df</span> = pd.read_csv<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'data/mtcars.csv'</span><span style="color: #ffffff;">)</span>
-<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">display the first 5 rows of the dataframe</span>
-<span style="color: #f78fe7; font-weight: bold;">print</span><span style="color: #ffffff;">(</span>df.head<span style="color: #ff66ff;">()</span><span style="color: #ffffff;">)</span>
-<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">get the sum of the mpg column</span>
-<span style="color: #f78fe7; font-weight: bold;">print</span><span style="color: #ffffff;">(</span>df<span style="color: #ff66ff;">[</span><span style="color: #79a8ff;">'mpg'</span><span style="color: #ff66ff;">]</span>.<span style="color: #f78fe7; font-weight: bold;">sum</span><span style="color: #ff66ff;">()</span><span style="color: #ffffff;">)</span>
-<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">get the mean of the mpg column</span>
-<span style="color: #f78fe7; font-weight: bold;">print</span><span style="color: #ffffff;">(</span>df<span style="color: #ff66ff;">[</span><span style="color: #79a8ff;">'mpg'</span><span style="color: #ff66ff;">]</span>.mean<span style="color: #ff66ff;">()</span><span style="color: #ffffff;">)</span>
-<span style="color: #79a8ff;">'''Plot the mpg column as a histogram'''</span>
-<span style="color: #b6a0ff; font-weight: bold;">import</span> matplotlib.pyplot <span style="color: #b6a0ff; font-weight: bold;">as</span> plt
-df<span style="color: #ffffff;">[</span><span style="color: #79a8ff;">'mpg'</span><span style="color: #ffffff;">]</span>.plot<span style="color: #ffffff;">(</span>kind=<span style="color: #79a8ff;">'hist'</span><span style="color: #ffffff;">)</span>
-<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">customize the plot</span>
-plt.title<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'Histogram of mpg'</span><span style="color: #ffffff;">)</span>
-plt.xlabel<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'mpg'</span><span style="color: #ffffff;">)</span>
-plt.ylabel<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'Frequency'</span><span style="color: #ffffff;">)</span>
-<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">save the plot</span>
-plt.savefig<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'histogram.png'</span><span style="color: #ffffff;">)</span>
+<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">load the data</span>
+<span style="color: #00d3d0;">url</span> = <span style="color: #79a8ff;">'https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv'</span>
+<span style="color: #00d3d0;">pima</span> = pd.read_csv<span style="color: #ffffff;">(</span>url, names=<span style="color: #ff66ff;">[</span><span style="color: #79a8ff;">'pregnant'</span>,<span style="color: #79a8ff;">'glucose'</span>,<span style="color: #79a8ff;">'bp'</span>,<span style="color: #79a8ff;">'skin'</span>,<span style="color: #79a8ff;">'insulin'</span>,<span style="color: #79a8ff;">'bmi'</span>,<span style="color: #79a8ff;">'pedigree'</span>,<span style="color: #79a8ff;">'age'</span>,<span style="color: #79a8ff;">'label'</span><span style="color: #ff66ff;">]</span><span style="color: #ffffff;">)</span>
+<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">print the first 5 rows of the dataframe</span>
+<span style="color: #f78fe7; font-weight: bold;">print</span><span style="color: #ffffff;">(</span>pima.head<span style="color: #ff66ff;">(</span>5<span style="color: #ff66ff;">)</span><span style="color: #ffffff;">)</span>
+<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">remove the first row of the dataframe</span>
+<span style="color: #00d3d0;">pima</span> = pima.iloc<span style="color: #ffffff;">[</span>1:<span style="color: #ffffff;">]</span>
+<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">print the first 5 rows of the dataframe again</span>
+<span style="color: #f78fe7; font-weight: bold;">print</span><span style="color: #ffffff;">(</span>pima.head<span style="color: #ff66ff;">(</span>5<span style="color: #ff66ff;">)</span><span style="color: #ffffff;">)</span>
 
-<span style="color: #79a8ff;">'''plot mpg vs. wt as a scatter plot'''</span>
-df.plot<span style="color: #ffffff;">(</span>kind=<span style="color: #79a8ff;">'scatter'</span>, x=<span style="color: #79a8ff;">'mpg'</span>, y=<span style="color: #79a8ff;">'wt'</span><span style="color: #ffffff;">)</span>
-<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">customize the plot</span>
-plt.title<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'Scatter plot of mpg vs. wt'</span><span style="color: #ffffff;">)</span>
-plt.xlabel<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'mpg'</span><span style="color: #ffffff;">)</span>
-plt.ylabel<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'wt'</span><span style="color: #ffffff;">)</span>
-<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">save the plot</span>
-plt.savefig<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'scatter.png'</span><span style="color: #ffffff;">)</span>
-<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">draw a red trend line using linear regression</span>
+<span style="color: #79a8ff;">'''</span>
+<span style="color: #79a8ff;">Visualize the missing data in the dataframe as a heatmap.</span>
+<span style="color: #79a8ff;">'''</span>
+<span style="color: #b6a0ff; font-weight: bold;">import</span> matplotlib.pyplot <span style="color: #b6a0ff; font-weight: bold;">as</span> plt
 <span style="color: #b6a0ff; font-weight: bold;">import</span> seaborn <span style="color: #b6a0ff; font-weight: bold;">as</span> sns
-sns.regplot<span style="color: #ffffff;">(</span>x=<span style="color: #79a8ff;">'mpg'</span>, y=<span style="color: #79a8ff;">'wt'</span>, data=df, color=<span style="color: #79a8ff;">'red'</span><span style="color: #ffffff;">)</span>
+<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">create a heatmap of the missing data using corr()</span>
+sns.heatmap<span style="color: #ffffff;">(</span>pima.corr<span style="color: #ff66ff;">()</span>, annot=<span style="color: #00bcff;">True</span><span style="color: #ffffff;">)</span>
 <span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">customize the plot</span>
-plt.title<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'Scatter plot of mpg vs. wt'</span><span style="color: #ffffff;">)</span>
-plt.xlabel<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'mpg'</span><span style="color: #ffffff;">)</span>
-plt.ylabel<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'wt'</span><span style="color: #ffffff;">)</span>
+plt.title<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'Heatmap of missing data'</span><span style="color: #ffffff;">)</span>
+plt.xlabel<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'Columns'</span><span style="color: #ffffff;">)</span>
+plt.ylabel<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'Columns'</span><span style="color: #ffffff;">)</span>
 <span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">save the plot</span>
-plt.savefig<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'scatter.png'</span><span style="color: #ffffff;">)</span>
-<span style="color: #ff9f80;"># </span><span style="color: #ff9f80;">display the plot</span>
-plt.show<span style="color: #ffffff;">()</span>
+plt.savefig<span style="color: #ffffff;">(</span><span style="color: #79a8ff;">'heatmap.png'</span><span style="color: #ffffff;">)</span>
 </pre>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2023-10-12 Thu 23:37</p>
+<p class="date">Created: 2023-10-13 Fri 08:07</p>
 </div>
 </body>
 </html>
