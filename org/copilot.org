@@ -2,17 +2,25 @@
 #+startup: overview hideblocks indent inlineimages
 #+options: toc:nil num:nil ^:nil
 #+property: header-args:python :results output :noweb yes
+* News
+
+- [[https://twitter.com/code/status/1682435342610079761][July 20: VS Code enhancements for Copilot]]
+
+- Chatbot [[https://bard.google.com][Bard]] integrated in replit.com (already has [[https://replit.com/site/ghostwriter][Ghostwriter]])
+
+- [[https://youtu.be/XQ4Negbmtk4][David Smith - Copilot for R (1hr 20min)]] (Lander analytics)
+
 * What is GitHub Copilot?
 #+attr_latex: :width 400px
 #+caption: Illustration in 60s cartoon style showing Copilot, portrayed as a retro robot with antennas and tape reels, actively assisting a stressed programmer who is surrounded by stacks of paper and a ticking clock.
-[[../img/copilot.png]]
+[[./img/copilot.png]]
 
 AI English language coding assistant best for Python, JavaScript,
 Go. Live since 06/2021, most widely used professional AI developer
 tool (Yao, 06/2023).
 
 Allows conversion of comments to executable code, autocomplete, and
-method/function creation.
+method/function creation. Especially useful for web development.
 
 Based on OpenAI Codex (modified GPT-3) trained on source code in
 different programming languages. Licensed exclusively to Microsoft.
@@ -48,7 +56,7 @@ different programming languages. Licensed exclusively to Microsoft.
    ~print("Hello Copilot")~, which you can confirm with ~TAB~ and run with
    ~CTRL + F5~ (run without debugging).
    #+attr_html: :width 400px
-   [[../img/copilot_first_program.png]]
+   [[./img/copilot_first_program.png]]
 
 6) You may be asked to install the 'Pylint' extension - do it. Pylint
    is a static code analyzer (grammar checker) for Python.
@@ -61,8 +69,127 @@ different programming languages. Licensed exclusively to Microsoft.
    are different packages and you have full control over the
    interface.
 
+* =mtcars= example with Copilot
+
+Tasks:
+1) load necessary libraries
+2) read the CSV file from the repo as a dataframe
+3) display the dataframe
+4) Sum a column across all records
+5) Compute the average of all records for one column
+6) Plot a column as a histogram
+7) Customize the histogram
+8) Save the file
+9) Create a scatterplot of two features
+10) Draw a colored trendline through the scatterplot
+   
+Here is the code after the session with Copilot:
+#+begin_src python
+  # load the mtcars dataset
+  import pandas as pd
+  df = pd.read_csv('data/mtcars.csv')
+  # display the first 5 rows of the dataframe
+  print(df.head())
+  # get the sum of the mpg column
+  print(df['mpg'].sum())
+  # get the mean of the mpg column
+  print(df['mpg'].mean())
+  '''Plot the mpg column as a histogram'''
+  import matplotlib.pyplot as plt
+  df['mpg'].plot(kind='hist')
+  # customize the plot
+  plt.title('Histogram of mpg')
+  plt.xlabel('mpg')
+  plt.ylabel('Frequency')
+  # save the plot
+  plt.savefig('histogram.png')
+  '''plot mpg vs. wt as a scatter plot'''
+  df.plot(kind='scatter', x='mpg', y='wt')
+  # customize the plot
+  plt.title('Scatter plot of mpg vs. wt')
+  plt.xlabel('mpg')
+  plt.ylabel('wt')
+  # save the plot
+  plt.savefig('scatter.png')
+  # draw a red trend line using linear regression
+  import seaborn as sns
+  sns.regplot(x='mpg', y='wt', data=df, color='red')
+  # customize the plot
+  plt.title('Scatter plot of mpg vs. wt')
+  plt.xlabel('mpg')
+  plt.ylabel('wt')
+  # save the plot
+  plt.savefig('scatter.png')
+  # display the plot
+  plt.show()
+#+end_src
+
+* =pima= example with Copilot
+
+The Pima dataset is more interesting because it has a bunch of missing
+values that are coded as 0s creating nonsensical patient data.
+
+Task:
+1) upload a CSV file from URL into dataframe
+2) rename the columns and delete the old column names
+3) visualize the missing data in the dataframe as a heatmap
+4) customize and save the plot.
+  
+Code transcript from Copilot:
+#+options: title:nil date:nil
+#+begin_src python
+'''
+Upload a CSV file from a URL into a dataframe. Name the dataframe "pima".
+The URL is: https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv
+Name columns as follows: 'pregnant','glucose','bp','skin','insulin','bmi','pedigree','age','label'
+'''
+import pandas as pd
+# load the data
+url = 'https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv'
+pima = pd.read_csv(url, names=['pregnant','glucose','bp','skin','insulin','bmi','pedigree','age','label'])
+# print the first 5 rows of the dataframe
+print(pima.head(5))
+# remove the first row of the dataframe
+pima = pima.iloc[1:]
+# print the first 5 rows of the dataframe again
+print(pima.head(5))
+
+'''
+Visualize the missing data in the dataframe as a heatmap.
+'''
+import matplotlib.pyplot as plt
+import seaborn as sns
+# create a heatmap of the missing data using corr()
+sns.heatmap(pima.corr(), annot=True)
+# customize the plot
+plt.title('Heatmap of missing data')
+plt.xlabel('Columns')
+plt.ylabel('Columns')
+# save the plot
+plt.savefig('heatmap.png')
+#+end_src
+
+#+RESULTS:
+#+begin_example
+      pregnant  glucose             bp  ...                  pedigree  age    label
+0  Pregnancies  Glucose  BloodPressure  ...  DiabetesPedigreeFunction  Age  Outcome
+1            6      148             72  ...                     0.627   50        1
+2            1       85             66  ...                     0.351   31        0
+3            8      183             64  ...                     0.672   32        1
+4            1       89             66  ...                     0.167   21        0
+
+[5 rows x 9 columns]
+  pregnant glucose  bp skin insulin   bmi pedigree age label
+1        6     148  72   35       0  33.6    0.627  50     1
+2        1      85  66   29       0  26.6    0.351  31     0
+3        8     183  64    0       0  23.3    0.672  32     1
+4        1      89  66   23      94  28.1    0.167  21     0
+5        0     137  40   35     168  43.1    2.288  33     1
+#+end_example
+
 * Extended example: NFL data
-* Step 1: Aaron Rodgers passing yards 2019-2022
+** With GitHub Copilot
+*** Step 1: Aaron Rodgers passing yards 2019-2022
 
 1) Download and extract the csv file from Kaggle to your PC:
    [[https://www.kaggle.com/datasets/dtrade84/nfl-offensive-stats-2019-2022][kaggle.com/datasets/dtrade84/nfl-offensive-stats-2019-2022]]
@@ -73,7 +200,7 @@ different programming languages. Licensed exclusively to Microsoft.
 
 3) You may be asked to install the "Rainbow CSV" extension. This is
    not a political statement! It's only extended syntax highlighting.
-   [[../img/rainbowcsv.png]]
+   [[./img/rainbowcsv.png]]
 
 4) Create a new Python file and name it ~nfl_data.py~.
 
@@ -85,51 +212,100 @@ different programming languages. Licensed exclusively to Microsoft.
    '''
    #+end_example
 
-6) At the end of the comment, press ENTER to get the first code
-   suggestion. Accept it with TAB, or enter CTRL + ENTER to get
-   suggestions, which you can review and accept:
-   #+begin_example python
-   import pandas as pd
-   # read the csv file into a dataframe
-   df = pd.read_csv('data/nfl_offensive_stats.csv')
-   # display the first 5 rows of the dataframe
-   df.head()
-   #+end_example
-   
-7) You can click on the yellow bulb. It will suggest several Copilot
-   actions (you can also open them with CTRL + .).
-
-8) Next prompt:
-   #+begin_src python
+6) Entering ~TAB~ repeatedly generated this output, which generates an
+   error because the ~csv~ library has not been imported:
+   #+begin_src python :results silent
      '''
-     In the data we just read in, the fourth column is the player's name.
-     and the 8th column is the number of passing yards for that player.
-     Get the sum of yards from column 8 where the 4th column value is
-     "Aaron Rodgers".
+     open the csv file called ./data/nfl_data.csv and read in
+     the csv data from the file
      '''
-     total_passing_yards = 0
-     for row in nfl:
-         if row[3] == "Aaron Rodgers":
-             total_passing_yards += int(row[7])
-             print(total_passing_yards)
+     def read_nfl_data():
+         with open('./data/nfl_data.csv', 'r') as nfl_data:
+             reader = csv.reader(nfl_data)
+             nfl_data = list(reader)
+         return nfl_data     # return the data as a list of lists
    #+end_src
 
-   #+RESULTS:
-   : 13852
+7) This version works but it suggests printing the entire file without
+   being asked; also, it did not pick up that the file path needed to
+   be complete (relative, including the directory, or absolute,
+   including the whole path from /workspaces):
+   #+begin_example python
+     import csv  # import the csv module to read in the csv file
 
-9) Summary on Copilot:
-   1) It's a powerful tool - basic human prompts can produce correct
-      code and output for a basic data analysis task.
-   2) Breaking problems into small tasks is important - significantly
-      increases the likelihood of Copilot generating the right code.
-   3) We still need to understand code - see e.g. the attempt at
-      using Bard below: the data set is accepted but the code is
-      wrong and because the errors relate to a knowledge of the
-      dataset and the syntax, they'd be hard to fix without code
-      experience.
-   4) Testing is important.
+     # open the csv file called nfl_offensive_stats.csv
+     with open('fun_with_copilot/nfl_offensive_stats.csv',\
+               encoding="utf-8") as csv_file:
+         # read in the csv data from the file
+         csv_reader = csv.reader(csv_file, delimiter=',')
+         # skip the header row
+         next(csv_reader)
+         # loop through each row in the csv file
+         for row in csv_reader:
+             # print out the row
+             print(row)
+   #+end_example
 
-** Step 2: Quarterback performance comparison
+8) This is the version suggested in the book (except that Copilot
+   missed the ~import csv~ command and the path to the file).
+   #+begin_src python :results silent
+     import csv
+     with open('data/nfl.csv', 'r') as nfl_file:
+         nfl_reader = csv.reader(nfl_file)
+         nfl_data = list(nfl_reader)
+   #+end_src
+
+9) The debugger (Pylint) suggests to specify the text encoding as
+   parameter ~'encoding="utf-8"~ - Copilot suggest to print out the first
+   row with the column headers ~print(nfl_data[0])~:
+   #+name: nfldata
+   #+begin_src python
+     import csv
+     with open('data/nfl.csv','r') as f:
+         reader = csv.reader(f)
+         nfl = list(reader)
+         #print(nfl[0])
+   #+end_src
+
+10) Let's try it with pandas:
+    #+begin_src python
+      import pandas as pd
+      df = pd.read_csv('./data/nfl.csv')
+      print(df.head())
+    #+end_src
+
+11) Next prompt:
+    #+begin_src python
+      <<nfldata>>
+      '''
+      In the data we just read in, the fourth column is the player's name.
+      and the 8th column is the number of passing yards for that player.
+      Get the sum of yards from column 8 where the 4th column value is
+      "Aaron Rodgers".
+      '''
+      total_passing_yards = 0
+      for row in nfl:
+          if row[3] == "Aaron Rodgers":
+              total_passing_yards += int(row[7])
+              print(total_passing_yards)
+    #+end_src
+
+    #+RESULTS:
+    : 13852
+
+12) Summary on Copilot:
+    1) It's a powerful tool - basic human prompts can produce correct
+       code and output for a basic data analysis task.
+    2) Breaking problems into small tasks is important - significantly
+       increases the likelihood of Copilot generating the right code.
+    3) We still need to understand code - see e.g. the attempt at
+       using Bard below: the data set is accepted but the code is
+       wrong and because the errors relate to a knowledge of the
+       dataset and the syntax, they'd be hard to fix without code
+       experience.
+    4) Testing is important.
+
+*** Step 2: Quarterback performance comparison
 
 - Copilot@Codespaces alone could not solve this. I had to get it
   started using ChatGPT's GPT-4 with Code Interpreter ([[https://sharegpt.com/c/h1hmCjr][share link]]).
@@ -206,7 +382,7 @@ different programming languages. Licensed exclusively to Microsoft.
              print(player, passing_yards[player])
   #+end_example
 
-** Step 3: plotting the stats
+*** Step 3: plotting the stats
 
 - Establishing the player/summed yards dictionary ~passing_yards~:
   #+name: dict
@@ -273,5 +449,611 @@ different programming languages. Licensed exclusively to Microsoft.
   #+end_src
 
   #+ATTR_html: :width 400px
-  [[../img/copilot_step3.png]]
+  [[./img/copilot_step3.png]]
 
+** Extended NFL example with Code Interpreter
+
+- Three prompts are sufficient for ChatGPT's "Code Interpreter"
+  plugin. [[https://shareg.pt/s2QyrPq][Link to the shared conversation]].
+
+- Step 1: "Read the csv file and save it as a list."
+  #+name: step1
+  #+begin_src python
+    import pandas as pd
+
+    # Load the CSV file into a pandas dataframe
+    df = pd.read_csv("./data/nfl.csv")
+
+    # Convert the dataframe to a list of dictionaries,
+    # which is more similar to a list format
+    data_list = df.to_dict('records')
+    #print(data_list[:5])  # display the first 5 records for review
+  #+end_src
+
+- Step 2: "Create a dictionary whose key is the name of every player
+  whose position is a quarterback (position == 'QB') and whose value
+  is the sum of all passing yards (pass_yds) of that player. Sort the
+  dictionary and print the top 10 players with their passing yard
+  count."
+  #+name: step2
+  #+begin_src python
+    <<step1>>
+    # Filter the list for records where the position is 'QB'
+    qb_data =\
+        [record for record in data_list if record['position '] == 'QB']
+
+    # Initialize an empty dictionary to hold the sum of passing yards for each QB
+    qb_pass_yds = {}
+
+    # Iterate over the QB data
+    for record in qb_data:
+        # If the player's name is not already a key in the dictionary, add it with the current record's passing yards as the value
+        if record['player'] not in qb_pass_yds:
+            qb_pass_yds[record['player']] = record['pass_yds']
+            # If the player's name is already a key in the dictionary, add the current record's passing yards to the existing value
+        else:
+            qb_pass_yds[record['player']] += record['pass_yds']
+
+    # Sort the dictionary by values (passing yards) in descending order and get the first 10 items
+    sorted_qb_pass_yds = dict(sorted(qb_pass_yds.items(),
+                                     key=lambda item: item[1],
+                                     reverse=True)[:10])
+
+    #print(sorted_qb_pass_yds)
+  #+end_src
+
+  #+RESULTS:
+  : {'Patrick Mahomes': 16132, 'Tom Brady': 15876, 'Aaron Rodgers': 13852, 'Josh Allen': 13758, 'Derek Carr': 13271, 'Matt Ryan': 13015, 'Matthew Stafford': 12657, 'Kirk Cousins': 12503, 'Russell Wilson': 12211, 'Jared Goff': 12164}
+
+- Step 3: "Plot the players by their number of passing yards only for
+  players with more than 4,000 passing yards."
+  #+begin_src python :results silent
+    <<step2>>
+    import matplotlib.pyplot as plt
+
+    # Filter the dictionary to include only players
+    # with more than 4000 passing yards
+    filtered_qb_pass_yds = {player: yds for player,
+                            yds in qb_pass_yds.items() if yds > 4000}
+
+    # Sort the filtered dictionary by values
+    # (passing yards) in descending order
+    sorted_filtered_qb_pass_yds =\
+        dict(sorted(filtered_qb_pass_yds.items(),
+                    key=lambda item: item[1],
+                    reverse=True))
+
+    # Plot the players by their number of passing yards
+    plt.figure(figsize=(10,10))
+    plt.barh(list(sorted_filtered_qb_pass_yds.keys()),
+             list(sorted_filtered_qb_pass_yds.values()))
+    plt.xlabel('Passing Yards')
+    plt.title('Quarterbacks with more than 4000 Passing Yards')
+    plt.gca().invert_yaxis()
+    plt.show()
+  #+end_src
+
+  #+ATTR_html: :width 400px
+  [[./img/code_interpreter_step3.png]]
+
+** Extended NFL ex. (step 1) in Bard, Claude, ChatGPT
+
+- Prompt: "For the dataset
+  https://www.kaggle.com/datasets/dtrade84/nfl-offensive-stats-2019-2022,
+  give me the number of passing yards for Aaron Rodgers."
+
+- The first attempt returns the wrong numerical result but the correct
+  code (apart from the wrong column names - ~'Player'~ instead of
+  ~'player'~, and ~'Passing Yards'~ instead of ~'pass_yds'~, and offers a
+  nonsensical explanation for its error:
+  #+begin_quote
+  I checked the dataset again and found that the column for passing
+  yards is actually called Passing Yards. I had misread it as Passing
+  Yards **Total**.
+  #+end_quote
+
+- The code works:
+  #+begin_src python
+    import pandas as pd
+
+    # Load the dataset
+    df = pd.read_csv('./data/nfl.csv')
+
+    # Select the rows for Aaron Rodgers
+    rodgers_data = df[df['player'] == 'Aaron Rodgers']
+
+    # Get the number of passing yards
+    passing_yards = rodgers_data['pass_yds'].sum()
+
+    print(passing_yards)
+  #+end_src
+
+  #+RESULTS:
+  : 13852
+
+- Asked to reproduce the result "without pandas, with standard library
+  Python only, Bard replies with incorrect code, mixing up the column
+  vector indices, and doesn't even get it right after repeated
+  corrections, until it is finally instructed to use ~row[3]~ for the
+  player and ~row[7]~ for the passing yards.
+  #+begin_src python
+    import csv
+
+    # Open the dataset in read mode
+    with open('./data/nfl.csv', 'r') as csvfile:
+
+        # Create a reader object
+        reader = csv.reader(csvfile, delimiter=',')
+
+        # Skip header
+        next(reader, None)
+
+        # Initialize a counter for passing yards
+        passing_yards = 0
+
+        # Iterate over the rows in the dataset
+        for row in reader:
+
+            # Check if the player is Aaron Rodgers
+            if row[3] == 'Aaron Rodgers':
+
+                # Increment the passing yards counter
+                passing_yards += int(row[7])
+
+        # Print the total number of passing yards
+        print(passing_yards)
+  #+end_src
+
+  #+RESULTS:
+  : 13852
+
+- Claude cannot load the dataset (too large).
+
+- ChatGPT does a good job right away with the full dataset uploaded:
+  #+begin_example python
+    import pandas as pd
+
+    # Load the dataset
+    nfl_data = pd.read_csv("/mnt/data/nfl.csv")
+
+    # Check the first few rows of the dataset to understand its structure
+    nfl_data.head()
+  #+end_example
+
+- It applies the accurate reasoning to solve the problem:
+  #+begin_quote
+  The dataset contains numerous columns, but for your specific
+  request, we are interested in the ~'player'~ and ~'pass_yds'~
+  columns. To get the total passing yards for Aaron Rodgers, I will
+  filter the dataset for rows where the ~'player'~ column matches ~'Aaron
+  Rodgers'~, and then sum up the ~'pass_yds'~ column. Let's proceed with
+  that.
+  #+end_quote
+
+- The code results in the right number ~13852~ and it is arguably the
+  most elegant, using nested indexing by row and column:
+  #+begin_example python
+  # Filter the data for Aaron Rodgers and calculate the sum of his passing yards
+  aaron_rodgers_pass_yds = nfl_data[nfl_data['player'] == 'Aaron Rodgers']['pass_yds'].sum()
+  aaron_rodgers_pass_yds
+  #+end_example
+
+- Let's check it here (with a few changes):
+  #+begin_src python
+    import pandas as pd
+    # store CSV data in data frame
+    df = pd.read_csv("./data/nfl.csv")
+    # print data frame dimension attribute
+    print(df.shape)
+    # print first few rows of data frame
+    print(df.head())
+    # save all records with Aaron Rodgers' data
+    aaron_rodgers_df = df[df['player'] == 'Aaron Rodgers']
+    aaron_rodgers_pass_yds = aaron_rodgers_df['pass_yds'].sum()
+    print(aaron_rodgers_pass_yds)
+  #+end_src
+
+  #+RESULTS:
+  #+begin_example
+  (19973, 69)
+          game_id player_id position   ... Vegas_Favorite Over_Under  game_date
+  0  201909050chi  RodgAa00        QB  ...            CHI       47.0   9/5/2019
+  1  201909050chi  JoneAa00        RB  ...            CHI       47.0   9/5/2019
+  2  201909050chi  ValdMa00        WR  ...            CHI       47.0   9/5/2019
+  3  201909050chi  AdamDa01        WR  ...            CHI       47.0   9/5/2019
+  4  201909050chi  GrahJi00        TE  ...            CHI       47.0   9/5/2019
+
+  [5 rows x 69 columns]
+  13852
+  #+end_example
+
+** Extended NFL example manually
+*** Data import
+
+- Data import with standard library:
+  1) Import CSV file using ~csv~.
+  2) The function ~csv.reader~ returns an iterator
+  3) The ~list~ function turns the iterator in a list whose 1st element
+     contains the header names.
+  #+name: get_nfl_data_list
+  #+begin_src python
+    import csv
+    data = 'c:/Users/birkenkrahe/Documents/GitHub/admin/RoamNotes/data/nfl.csv'
+    file = open(data, 'r')
+    reader = csv.reader(file)
+    nfl_data = list(reader)
+    file.close()
+    #print(nfl_data[0]) # headers
+  #+end_src
+
+  #+RESULTS: get_nfl_data_list
+  : ['game_id', 'player_id', 'position ', 'player', 'team', 'pass_cmp', 'pass_att', 'pass_yds', 'pass_td', 'pass_int', 'pass_sacked', 'pass_sacked_yds', 'pass_long', 'pass_rating', 'rush_att', 'rush_yds', 'rush_td', 'rush_long', 'targets', 'rec', 'rec_yds', 'rec_td', 'rec_long', 'fumbles_lost', 'rush_scrambles', 'designed_rush_att', 'comb_pass_rush_play', 'comb_pass_play', 'comb_rush_play', 'Team_abbrev', 'Opponent_abbrev', 'two_point_conv', 'total_ret_td', 'offensive_fumble_recovery_td', 'pass_yds_bonus', 'rush_yds_bonus', 'rec_yds_bonus', 'Total_DKP', 'Off_DKP', 'Total_FDP', 'Off_FDP', 'Total_SDP', 'Off_SDP', 'pass_target_yds', 'pass_poor_throws', 'pass_blitzed', 'pass_hurried', 'rush_yds_before_contact', 'rush_yac', 'rush_broken_tackles', 'rec_air_yds', 'rec_yac', 'rec_drops', 'offense', 'off_pct', 'vis_team', 'home_team', 'vis_score', 'home_score', 'OT', 'Roof', 'Surface', 'Temperature', 'Humidity', 'Wind_Speed', 'Vegas_Line', 'Vegas_Favorite', 'Over_Under', 'game_date']
+
+- Code to understand the structure of the list:
+  #+begin_src python
+    <<get_nfl_data_list>>
+    print(len(nfl_data))
+    print(nfl_data[0])
+    print(nfl_data[0][3])
+    for i in range(5):
+        print(nfl_data[i])
+  #+end_src
+
+  #+RESULTS:
+  : 19974
+  : ['game_id', 'player_id', 'position ', 'player', 'team', 'pass_cmp', 'pass_att', 'pass_yds', 'pass_td', 'pass_int', 'pass_sacked', 'pass_sacked_yds', 'pass_long', 'pass_rating', 'rush_att', 'rush_yds', 'rush_td', 'rush_long', 'targets', 'rec', 'rec_yds', 'rec_td', 'rec_long', 'fumbles_lost', 'rush_scrambles', 'designed_rush_att', 'comb_pass_rush_play', 'comb_pass_play', 'comb_rush_play', 'Team_abbrev', 'Opponent_abbrev', 'two_point_conv', 'total_ret_td', 'offensive_fumble_recovery_td', 'pass_yds_bonus', 'rush_yds_bonus', 'rec_yds_bonus', 'Total_DKP', 'Off_DKP', 'Total_FDP', 'Off_FDP', 'Total_SDP', 'Off_SDP', 'pass_target_yds', 'pass_poor_throws', 'pass_blitzed', 'pass_hurried', 'rush_yds_before_contact', 'rush_yac', 'rush_broken_tackles', 'rec_air_yds', 'rec_yac', 'rec_drops', 'offense', 'off_pct', 'vis_team', 'home_team', 'vis_score', 'home_score', 'OT', 'Roof', 'Surface', 'Temperature', 'Humidity', 'Wind_Speed', 'Vegas_Line', 'Vegas_Favorite', 'Over_Under', 'game_date']
+  : player
+  : ['game_id', 'player_id', 'position ', 'player', 'team', 'pass_cmp', 'pass_att', 'pass_yds', 'pass_td', 'pass_int', 'pass_sacked', 'pass_sacked_yds', 'pass_long', 'pass_rating', 'rush_att', 'rush_yds', 'rush_td', 'rush_long', 'targets', 'rec', 'rec_yds', 'rec_td', 'rec_long', 'fumbles_lost', 'rush_scrambles', 'designed_rush_att', 'comb_pass_rush_play', 'comb_pass_play', 'comb_rush_play', 'Team_abbrev', 'Opponent_abbrev', 'two_point_conv', 'total_ret_td', 'offensive_fumble_recovery_td', 'pass_yds_bonus', 'rush_yds_bonus', 'rec_yds_bonus', 'Total_DKP', 'Off_DKP', 'Total_FDP', 'Off_FDP', 'Total_SDP', 'Off_SDP', 'pass_target_yds', 'pass_poor_throws', 'pass_blitzed', 'pass_hurried', 'rush_yds_before_contact', 'rush_yac', 'rush_broken_tackles', 'rec_air_yds', 'rec_yac', 'rec_drops', 'offense', 'off_pct', 'vis_team', 'home_team', 'vis_score', 'home_score', 'OT', 'Roof', 'Surface', 'Temperature', 'Humidity', 'Wind_Speed', 'Vegas_Line', 'Vegas_Favorite', 'Over_Under', 'game_date']
+  : ['201909050chi', 'RodgAa00', 'QB', 'Aaron Rodgers', 'GNB', '18', '30', '203', '1', '0', '5', '37', '47', '91.4', '3', '8', '0', '10', '0', '0', '0', '0', '0', '0', '1', '2', '38', '36', '2', 'GNB', 'CHI', '0', '0', '0', '0', '0', '0', '12.92', '12.92', '12.92', '12.92', '12.92', '12.92', '300', '5', '8', '6', '6', '2', '0', '0', '0', '0', '61', '100', 'GNB', 'CHI', '10', '3', 'FALSE', 'outdoors', 'grass', '65', '69', '10', '-3.5', 'CHI', '47', '9/5/2019']
+  : ['201909050chi', 'JoneAa00', 'RB', 'Aaron Jones', 'GNB', '0', '0', '0', '0', '0', '0', '0', '0', '0', '13', '39', '0', '9', '1', '1', '0', '0', '0', '0', '0', '13', '13', '0', '13', 'GNB', 'CHI', '0', '0', '0', '0', '0', '0', '4.9', '4.9', '4.4', '4.4', '4.4', '4.4', '0', '0', '0', '0', '21', '18', '1', '-1', '1', '0', '37', '61', 'GNB', 'CHI', '10', '3', 'FALSE', 'outdoors', 'grass', '65', '69', '10', '-3.5', 'CHI', '47', '9/5/2019']
+  : ['201909050chi', 'ValdMa00', 'WR', 'Marquez Valdes-Scantling', 'GNB', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '6', '4', '52', '0', '47', '0', '0', '1', '1', '0', '1', 'GNB', 'CHI', '0', '0', '0', '0', '0', '0', '9.2', '9.2', '7.2', '7.2', '7.2', '7.2', '0', '0', '0', '0', '0', '0', '0', '81', '2', '0', '41', '67', 'GNB', 'CHI', '10', '3', 'FALSE', 'outdoors', 'grass', '65', '69', '10', '-3.5', 'CHI', '47', '9/5/2019']
+  : ['201909050chi', 'AdamDa01', 'WR', 'Davante Adams', 'GNB', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '8', '4', '36', '0', '11', '0', '0', '0', '0', '0', '0', 'GNB', 'CHI', '0', '0', '0', '0', '0', '0', '7.6', '7.6', '5.6', '5.6', '5.6', '5.6', '0', '0', '0', '0', '0', '0', '0', '63.2', '19', '0', '59', '97', 'GNB', 'CHI', '10', '3', 'FALSE', 'outdoors', 'grass', '65', '69', '10', '-3.5', 'CHI', '47', '9/5/2019']
+
+- Note: when looping over the ~nfl_data~ by row, the header row is lost
+  somehow.
+
+- Data import with pandas library as data frame:
+  #+name:  get_nfl_data_frame
+  #+begin_src python
+    import pandas as pd
+    data = 'c:/Users/birkenkrahe/Documents/GitHub/admin/RoamNotes/data/nfl.csv'
+    df = pd.read_csv(data)
+    #print(df.columns)
+  #+end_src
+
+  #+RESULTS: get_nfl_data_frame
+  #+begin_example
+  Index(['game_id', 'player_id', 'position ', 'player', 'team', 'pass_cmp',
+         'pass_att', 'pass_yds', 'pass_td', 'pass_int', 'pass_sacked',
+         'pass_sacked_yds', 'pass_long', 'pass_rating', 'rush_att', 'rush_yds',
+         'rush_td', 'rush_long', 'targets', 'rec', 'rec_yds', 'rec_td',
+         'rec_long', 'fumbles_lost', 'rush_scrambles', 'designed_rush_att',
+         'comb_pass_rush_play', 'comb_pass_play', 'comb_rush_play',
+         'Team_abbrev', 'Opponent_abbrev', 'two_point_conv', 'total_ret_td',
+         'offensive_fumble_recovery_td', 'pass_yds_bonus', 'rush_yds_bonus',
+         'rec_yds_bonus', 'Total_DKP', 'Off_DKP', 'Total_FDP', 'Off_FDP',
+         'Total_SDP', 'Off_SDP', 'pass_target_yds', 'pass_poor_throws',
+         'pass_blitzed', 'pass_hurried', 'rush_yds_before_contact', 'rush_yac',
+         'rush_broken_tackles', 'rec_air_yds', 'rec_yac', 'rec_drops', 'offense',
+         'off_pct', 'vis_team', 'home_team', 'vis_score', 'home_score', 'OT',
+         'Roof', 'Surface', 'Temperature', 'Humidity', 'Wind_Speed',
+         'Vegas_Line', 'Vegas_Favorite', 'Over_Under', 'game_date'],
+        dtype='object')
+  #+end_example
+
+- You can also get a list from a data frame with ~pd.tolist~:
+  #+begin_src python
+    <<get_nfl_data_frame>>
+    print(df.values.tolist()[0][3])
+  #+end_src
+
+  #+RESULTS:
+  : Aaron Rodgers
+
+*** Step 1: Aaron Rodgers' passing yards result
+
+- Get the sum of passing yards (4th column) played by Aaron Rodgers
+  (player names in 8th column) - the loop goes over all list items
+  checking each item's 4th position for equality with the player
+  'Aaron Rodgers' and adding up (for that item/row) the values of the
+  8th position (passing yards):
+  #+begin_src python
+    <<get_nfl_data_list>>
+    total_passing_yards = 0
+    for row in nfl_data:
+        if row[3] == 'Aaron Rodgers':
+            total_passing_yards += int(row[7])
+            print(total_passing_yards)
+  #+end_src
+
+  #+RESULTS:
+  : 13852
+
+*** Step 2: Comparison of top quarterbacks
+
+- Load data as list:
+  #+name: 2_nfl_data_list
+  #+begin_src python
+    import csv
+    csv_data = './data/nfl.csv'
+    file = open(csv_data,'r')
+    nfl_data = list(csv.reader(file))
+    #print(len(nfl_data))  # number of rows
+    #print(len(nfl_data[0]))  # number of columns
+  #+end_src
+
+- The 3rd column in data is player position, the fourth column is the
+  player, and the 8th column is the passing yards. For each player
+  whose position in column 3 is "QB", determine the sum of yards from
+  column 8.
+
+- This code prints player name and yards for each game:
+  #+begin_src python :results silent
+    <<2_nfl_data_list>>
+    for row in nfl_data:
+        if row[2] == 'QB':
+            print(f'Player: {row[3]}, Yards: {row[7]}')
+  #+end_src
+
+- We want to store the sum of values in ~row[7]~ as ~sum_of_yards~ for
+  each player in ~row[3]~.
+
+- Create a similar but shorter list:
+  1) loop over list
+  2) when you find an ~'A'~ item, store the name and the value in a
+     dictionary ~res~
+  3) if the name is already in the dictionary, append another
+  #+begin_src python
+    # lst is a list of lists
+    lst = [['A','Joe','10'],
+           ['A','Jim','100'],
+           ['C','John','1000'],
+           ['A','Joe','11'],
+           ['C','Jill','1000'],
+           ['A','Jim','101']]
+    res = {}
+    cnt = 0
+    # iterate over list items
+    for row in lst:
+        if row[0]=='A':
+            # add dict item for each row if item not in there yet
+            if row[1] not in res:
+                res[row[1]] = [row[2]] # new key and value
+            else:
+                res[row[1]].append(row[2]) # old key, append value
+                # iterate over dictionary and sum converted values changing res
+    for key in res:
+        res[key] = sum(int(x) for x in res[key])
+        # print one item per line
+    for key, value in res.items():
+        print(f'{key}: {value}')
+  #+end_src
+
+  #+RESULTS:
+  : Joe: 21
+  : Jim: 201
+
+- Now, for the NFL data: ~row[3]~ holds the player name, ~row[7]~ the yards
+  #+begin_src python
+    <<2_nfl_data_list>>
+    res = {}
+    # iterate over rows
+    for row in nfl_data:
+        # if player position is quarterback
+        if row[2] == 'QB':
+            # if name is not in dictionary yet, add it with values
+            if row[3] not in res:
+                res[row[3]] = [row[7]]
+                # if name already in dictionary,
+                # append values to existing key
+            else:
+                res[row[3]].append(row[7])
+                # sum yards for each (unique) player
+    for key in res:
+        res[key] = sum(int(x) for x in res[key])
+        # print one item per line
+    for key, value in res.items():
+        print(f'{key}: {value}')
+  #+end_src
+
+  #+RESULTS:
+  #+begin_example
+  Aaron Rodgers: 13852
+  Mitchell Trubisky: 5435
+  Jared Goff: 12164
+  Cam Newton: 3913
+  Marcus Mariota: 1437
+  Ryan Tannehill: 11049
+  Baker Mayfield: 10867
+  Matthew Stafford: 12657
+  Kyler Murray: 11617
+  Dak Prescott: 11461
+  Eli Manning: 1042
+  Daniel Jones: 8398
+  Patrick Mahomes: 16132
+  Matt Moore: 659
+  Gardner Minshew II: 5969
+  Nick Foles : 2838
+  Ryan Fitzpatrick: 5633
+  Josh Rosen: 586
+  Lamar Jackson: 9472
+  Robert Griffin III: 267
+  Matt Ryan: 13015
+  Kirk Cousins: 12503
+  Ben Roethlisberger: 8610
+  Tom Brady: 15876
+  Josh Allen: 13758
+  Sam Darnold: 7759
+  Case Keenum: 2215
+  Carson Wentz: 10225
+  Jacoby Brissett: 4242
+  Tyrod Taylor: 1207
+  Philip Rivers: 9093
+  Russell Wilson: 12211
+  Andy Dalton: 7179
+  Jimmy Garoppolo: 9627
+  Jameis Winston: 6410
+  Deshaun Watson: 9310
+  Drew Brees: 6528
+  Taysom Hill: 2011
+  Joe Flacco: 3024
+  Derek Carr: 13271
+  Josh McCown: 198
+  Mason Rudolph: 2366
+  Teddy Bridgewater: 8169
+  Luke Falk: 416
+  Trevor Siemian: 1157
+  Kyle Allen: 4052
+  Sean Mannion: 315
+  Jarrett Stidham: 270
+  Matt Barkley: 556
+  Chase Daniel: 699
+  Dwayne Haskins: 2804
+  David Fales: 0
+  Devlin Hodges: 1063
+  Colt McCoy: 1237
+  Garrett Gilbert: 437
+  Matt Schaub: 580
+  Mike Glennon: 1918
+  Tim Boyle: 541
+  Brett Hundley: 49
+  Nick Mullens: 2584
+  Brandon Allen: 1589
+  Brian Hoyer: 729
+  Jeff Driskel: 1117
+  Ryan Finley: 638
+  Blake Bortles: 3
+  A.J. McCarron: 245
+  David Blough: 1033
+  Drew Lock: 4740
+  Ryan Griffin: 18
+  Alex Tanney: 1
+  Will Grier: 228
+  Trace McSorley: 90
+  Joe Burrow: 8404
+  Chris Streveler: 141
+  Justin Herbert: 9350
+  Brett Rypien: 295
+  Jalen Hurts: 4463
+  C.J. Beathard: 820
+  Alex Smith: 1582
+  Tua Tagovailoa: 4467
+  Blaine Gabbert: 210
+  Chad Henne: 396
+  Easton Stick: 4
+  Ben DiNucci: 219
+  Phillip Walker: 368
+  Jake Luton: 624
+  Tyler Bray: 18
+  Logan Woodside: 7
+  Nathan Peterman: 25
+  Kendall Hinton: 13
+  Geno Smith: 735
+  Tyler Huntley: 1156
+  Taylor Heinicke: 3862
+  Tommy Stevens: 0
+  Joshua Dobbs: 2
+  Nate Sudfeld: 32
+  John Wolford: 265
+  Zach Wilson: 2334
+  Trey Lance: 603
+  Trevor Lawrence: 3641
+  Jordan Love: 411
+  Mac Jones: 4033
+  Justin Fields: 1870
+  Davis Mills: 2664
+  Jacob Eason: 25
+  Feleipe Franks: 0
+  Mike White: 953
+  P.J. Walker: 362
+  Cooper Rush: 422
+  Josh Johnson: 638
+  Sam Ehlinger: 0
+  Davis Webb: 0
+  Kurt Benkert: 0
+  Jake Fromm: 210
+  Ian Book: 135
+  Kellen Mond: 5
+  #+end_example
+
+*** Step 3: Plotting results
+
+- Plot the players by their number of passing yards only for players
+  with more than 4,000 passing yards.
+
+* Summary
+
+You installed Python and VSCode and set up Copilot so you are able to
+work along with the book and start writing code yourself!
+
+- The VSCode interface has areas for file management, code editing,
+  and running code that will be used throughout the book.
+
+- Prompts are how we tell Copilot to generate code and, when written
+  carefully, can be a highly effective way of creating software.
+
+- Data analysis is a common programming task and .csv files are a
+  common way for storing data to be processed by computers.
+
+- Copilot may generate code that requires you to install additional
+  Python modules.
+
+- Copilot is a powerful tool that is capable of producing code that
+  is as sophisticated (or more) as that produced by college students
+  finishing their first programming course.
+
+* Observations:
+
+- Copilot is not always able to find the right (or the best) result
+- OpenAI's Code Interpreter, equipped with good prompts, is faster and
+  more accurate.
+- Copilot presents alternatives, which OpenAI does not (unless asked)
+
+* [[https://youtu.be/NGM7Z1Dd9fE][GitHub Copilot for R - First Impressions]]
+
+- ChatGPT/VoxScript summary:
+  #+begin_quote
+  The video titled "GitHub Copilot for R - First impressions" by the
+  channel ggnot2 is a walkthrough and first impressions review of
+  GitHub Copilot, an AI tool designed to assist with coding.
+
+  The video starts with the presenter explaining her intent to learn
+  and use GitHub Copilot for the first time. She signs up for a free
+  trial of GitHub Copilot and sets it up on Visual Studio Code (VS
+  Code), as RStudio, her usual IDE, does not support GitHub Copilot.
+
+  She then tests GitHub Copilot by creating a function in R. The AI
+  tool suggests code snippets as she types, which she finds
+  impressive. She also appreciates that GitHub Copilot is integrated
+  into the IDE, which saves her time from switching between the
+  browser and the IDE, a problem she encountered while using ChatGPT.
+
+  She then tries to create a Shiny app, a web application framework
+  for R. GitHub Copilot successfully suggests the necessary code, but
+  she encounters some issues running the app in VS Code. She also
+  notes that GitHub Copilot automatically suggests the runApp()
+  function, which she had initially forgotten to include.
+
+  Towards the end of the video, she discusses the possibility of
+  integrating GitHub Copilot into RStudio. She finds a GitHub issue
+  requesting this functionality, but it appears that it's not
+  currently planned. An alternative mentioned is GPT-3 Studio, which
+  offers similar functionality but is not the same as GitHub Copilot.
+
+  She concludes the video by discussing the cost of using GitHub
+  Copilot, which she finds reasonable at $100 per year, especially
+  considering the time it could save for daily programming. She
+  compares this to the pay-as-you-go model of the OpenAI API, which
+  could potentially be more expensive depending on usage. However, she
+  appreciates that GitHub Copilot has a fixed cost, allowing unlimited
+  use without worrying about the cost per use.
+
+  She ends the video by asking viewers for their thoughts and
+  experiences with both GitHub Copilot and ChatGPT, and which they
+  would recommend.
+  #+end_quote
+
+* References
+
+One Year On, GitHub Copilot Adoption Soars, by Deborah Yao, AI
+Business. URL: [[https://aibusiness.com/companies/one-year-on-github-copilot-adoption-soars][aibusiness.com]].
