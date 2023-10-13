@@ -1,0 +1,277 @@
+#+title: copilot
+#+startup: overview hideblocks indent inlineimages
+#+options: toc:nil num:nil ^:nil
+#+property: header-args:python :results output :noweb yes
+* What is GitHub Copilot?
+#+attr_latex: :width 400px
+#+caption: Illustration in 60s cartoon style showing Copilot, portrayed as a retro robot with antennas and tape reels, actively assisting a stressed programmer who is surrounded by stacks of paper and a ticking clock.
+[[../img/copilot.png]]
+
+AI English language coding assistant best for Python, JavaScript,
+Go. Live since 06/2021, most widely used professional AI developer
+tool (Yao, 06/2023).
+
+Allows conversion of comments to executable code, autocomplete, and
+method/function creation.
+
+Based on OpenAI Codex (modified GPT-3) trained on source code in
+different programming languages. Licensed exclusively to Microsoft.
+
+(See also: [[https://en.wikipedia.org/wiki/GitHub_Copilot][Wikipedia]]).
+
+* Setup for Copilot with Github Codespaces
+
+1) Register at GitHub.com using your Lyon email address!
+
+2) Get a GitHub Copilot subscription as part of the student developer
+   pack ([[https://education.github.com/pack?WT.mc_id=academic-88217-leestott][free for students]]) - needed for Codespaces and Copilot:
+   - Login to GitHub using your Lyon account.
+   - Open [[https://education.github.com/pack?WT.mc_id=academic-88217-leestott][this page]] and follow the instructions (you'll need to
+     upload a photo of your student ID).
+   - Once submitted, you'll be certified within 4 days.
+
+3) Go to [[https://github.com/github/haikus-for-codespaces][github.com/github/haikus-for-codespaces]] and click on
+   - ~Use this template~
+   - ~Open in a codespace~
+
+4) Open the VS Code extension market place (~CTRL + SHIFT + X~), search
+   and install the following extensions:
+   - Python and Pylint
+   - GitHub CoPilot
+
+5) To test the setup, create a new ~File > New File > Python File~,
+   enter the following line:
+   #+begin_example python
+   # output "Hello Copilot" to the screen
+   #+end_example
+   When you press ~Enter~, Copilot should now generate this code:
+   ~print("Hello Copilot")~, which you can confirm with ~TAB~ and run with
+   ~CTRL + F5~ (run without debugging).
+   #+attr_html: :width 400px
+   [[../img/copilot_first_program.png]]
+
+6) You may be asked to install the 'Pylint' extension - do it. Pylint
+   is a static code analyzer (grammar checker) for Python.
+
+7) As an alternative, on your own computer, you can download the VS
+   Code editor and load the same extensions there.
+
+8) If you use Emacs, [[https://robert.kra.hn/posts/2023-02-22-copilot-emacs-setup/][see here for using Copilot inside Emacs]] (to be
+   preferred by all means over VSCode if you can manage Emacs). There
+   are different packages and you have full control over the
+   interface.
+
+* Extended example: NFL data
+* Step 1: Aaron Rodgers passing yards 2019-2022
+
+1) Download and extract the csv file from Kaggle to your PC:
+   [[https://www.kaggle.com/datasets/dtrade84/nfl-offensive-stats-2019-2022][kaggle.com/datasets/dtrade84/nfl-offensive-stats-2019-2022]]
+
+2) Create a directory ~data~ in your current Copilot Python working
+   directory and upload the CSV file there (right click on the
+   directory name and select ~Upload ...~).
+
+3) You may be asked to install the "Rainbow CSV" extension. This is
+   not a political statement! It's only extended syntax highlighting.
+   [[../img/rainbowcsv.png]]
+
+4) Create a new Python file and name it ~nfl_data.py~.
+
+5) Write the prompt in a docstring:
+   #+begin_example python
+   '''
+   open the csv file called ./data/nfl_data.csv and
+   read in the csv data from the file.
+   '''
+   #+end_example
+
+6) At the end of the comment, press ENTER to get the first code
+   suggestion. Accept it with TAB, or enter CTRL + ENTER to get
+   suggestions, which you can review and accept:
+   #+begin_example python
+   import pandas as pd
+   # read the csv file into a dataframe
+   df = pd.read_csv('data/nfl_offensive_stats.csv')
+   # display the first 5 rows of the dataframe
+   df.head()
+   #+end_example
+   
+7) You can click on the yellow bulb. It will suggest several Copilot
+   actions (you can also open them with CTRL + .).
+
+8) Next prompt:
+   #+begin_src python
+     '''
+     In the data we just read in, the fourth column is the player's name.
+     and the 8th column is the number of passing yards for that player.
+     Get the sum of yards from column 8 where the 4th column value is
+     "Aaron Rodgers".
+     '''
+     total_passing_yards = 0
+     for row in nfl:
+         if row[3] == "Aaron Rodgers":
+             total_passing_yards += int(row[7])
+             print(total_passing_yards)
+   #+end_src
+
+   #+RESULTS:
+   : 13852
+
+9) Summary on Copilot:
+   1) It's a powerful tool - basic human prompts can produce correct
+      code and output for a basic data analysis task.
+   2) Breaking problems into small tasks is important - significantly
+      increases the likelihood of Copilot generating the right code.
+   3) We still need to understand code - see e.g. the attempt at
+      using Bard below: the data set is accepted but the code is
+      wrong and because the errors relate to a knowledge of the
+      dataset and the syntax, they'd be hard to fix without code
+      experience.
+   4) Testing is important.
+
+** Step 2: Quarterback performance comparison
+
+- Copilot@Codespaces alone could not solve this. I had to get it
+  started using ChatGPT's GPT-4 with Code Interpreter ([[https://sharegpt.com/c/h1hmCjr][share link]]).
+
+- Copilot then solved some small changes, like sorting the results in
+  descending order and printing only one result per line.
+
+- LLama (at perplexity.ai) did not get it right either.
+
+- Final code (~nfl_data2.py~):
+  #+name: nfl_data2_copilot
+  #+begin_src python
+    '''
+    Code obtained from ChatGPT/GPT-4/Code Interpreter:
+    https://shareg.pt/h1hmCjr
+    '''
+    import pandas as pd
+
+    # Read the CSV file
+    nfl_data = pd.read_csv('./data/nfl.csv')
+    nfl_data.head()
+
+    # Convert the DataFrame to a list of dictionaries, each representing a row
+    data = nfl_data.to_dict('records')
+    data[:5]  # Display the first 5 rows
+
+    # Convert the DataFrame to a list of dictionaries, each representing a row
+    data = nfl_data.to_dict('records')
+    data[:5]  # Display the first 5 rows
+
+    # Initialize a dictionary to store the passing yards for each quarterback
+    qb_passing_yards = {}
+
+    # Loop over the rows in the data
+    for row in data:
+        # Check if the player's position is "QB"
+        if row['position '] == 'QB':
+            # If the player is not yet in the dictionary, add them with their passing yards
+            # If they are already in the dictionary, add their passing yards to their current total
+            qb_passing_yards[row['player']] = qb_passing_yards.get(row['player'], 0) + row['pass_yds']
+            '''
+            This addition by Copilot:
+            sort the qb_passing_yards dictionary by the values (passing yards) in descending order
+            '''
+            sorted_qb_passing_yards = sorted(qb_passing_yards.items(), key=lambda x: x[1], reverse=True)
+            '''
+            print the top 10 quarterbacks by passing yards one per line and their passing yards
+            '''
+    for i in range(10):\
+        print(sorted_qb_passing_yards[i][0], sorted_qb_passing_yards[i][1])
+  #+end_src
+
+  #+RESULTS:
+  #+begin_example
+  Patrick Mahomes 16132
+  Tom Brady 15876
+  Aaron Rodgers 13852
+  Josh Allen 13758
+  Derek Carr 13271
+  Matt Ryan 13015
+  Matthew Stafford 12657
+  Kirk Cousins 12503
+  Russell Wilson 12211
+  Jared Goff 12164
+  #+end_example
+
+- The final experiment, to exclude Tom Brady, lead to more convoluted
+  code by Copilot. The answer is:
+  #+begin_example python
+     for player in sorted(qb_passing_yards,
+                          key=passing_yards.get,
+                          reverse=True):
+         if player != "Tom Brady":
+             print(player, passing_yards[player])
+  #+end_example
+
+** Step 3: plotting the stats
+
+- Establishing the player/summed yards dictionary ~passing_yards~:
+  #+name: dict
+  #+begin_src python
+    # import and save csv data as list
+    import csv
+    with open('./data/nfl.csv','r') as f:
+        data = list(csv.reader(f))
+
+    # create dictionary to hold player name and passing yards
+    passing_yards = {}
+
+    # loop through data
+    for row in data:
+        if row[2] == 'QB':   # checks for quarterback
+            if row[3] in passing_yards: # checks for existing name
+                passing_yards[row[3]] += int(row[7]) # add yards
+            else:
+                passing_yards[row[3]] = int(row[7]) # add item
+
+  #+end_src
+
+- Plot the players by their number of passing yards only for players
+  with more than 4,000 passing yards.
+  #+begin_src python :results silent
+    <<dict>>
+
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    # create list of players and of passing yards
+    players = []
+    yards = []
+
+    # for each player in the dictionary
+    for player in passing_yards:
+        # for players with more than 4,000 yards
+        if passing_yards[player] > 4000:
+            players.append(player)  # add player to player list
+            yards.append(passing_yards[player]) # add yards to yard list
+
+    # create a numpy array of passing yards and of players
+    yards = np.array(yards)
+    players = np.array(players)
+
+    # sort players by passing yards
+    print(np.argsort(yards))
+    players = players[np.argsort(yards)]
+
+    # sort passing yards
+    yards = np.sort(yards)
+
+    # create figure
+    plt.figure()
+
+    # create bar chart of players and their passing yards
+    plt.bar(players,yards)
+
+    # rotate x axis labels (names are too long)
+    plt.xticks(rotation=90)
+
+    # show the plot
+    plt.show()
+  #+end_src
+
+  #+ATTR_html: :width 400px
+  [[../img/copilot_step3.png]]
+
