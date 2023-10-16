@@ -3,7 +3,8 @@
 #+property: header-args:R :results output :noweb yes
 #+property: header-args:python :results output :noweb yes :session *Python*
 #+options: toc:1 num:1
-* 1.1 Aug-23
+* First part of term
+** 1.1 Aug-23
 #+attr_latex: :width 400px
 [[../img/motivation.png]]
 
@@ -28,9 +29,9 @@ Review questions:
 - What is the problem with intelligence?
 #+end_quote
 
-* 1.2 Aug-25
+** 1.2 Aug-25
 
-** Summary:
+*** Summary:
 
 - There are many different use cases for Generative AI (like ChatGPT)
 - Learning with AI assistance may require (more) self-control
@@ -38,7 +39,7 @@ Review questions:
 - "Large language models are not knowledge bases but they are
   stochastic models of knowledge bases." (Tom Dietterich)
 
-** Review questions ([[https://app.datacamp.com/learn/courses/understanding-artificial-intelligence][DataCamp]], [[https://lyon.instructure.com/courses/1446/assignments/syllabus][Syllabus]]):
+*** Review questions ([[https://app.datacamp.com/learn/courses/understanding-artificial-intelligence][DataCamp]], [[https://lyon.instructure.com/courses/1446/assignments/syllabus][Syllabus]]):
 
 - What's the relationship between an AI algorithm and an "AI system"?
   #+begin_notes
@@ -91,7 +92,7 @@ Review questions:
      payments, communicate with restaurant.
   #+end_notes
 
-** Links (AI App/Team project ideas):
+*** Links (AI App/Team project ideas):
 
 - Assignment: [[https://lyon.instructure.com/courses/1446/discussion_topics/5436][Your solo project / your protocol]]
 - Assignment: [[https://lyon.instructure.com/courses/1446/assignments/17992][1st sprint review assignment (ideation)]]
@@ -100,14 +101,14 @@ Review questions:
 - Use case: [[https://www.tesmanian.com/blogs/tesmanian-blog/elon-musk-shows-fsd-beta-v12-live-test-drive-on-x][Elon Musk test-drives an autonomous Tesla]]
 - Insight: [[https://youtu.be/cEyHsMzbZBs?si=yDVgScmS_0BfczUD&t=1329][What's wrong with LLMs and what we should be building instead]]
 
-** Plan for week 2
+*** Plan for week 2
 
 - What is AI?
 - History of AI
 - Details on team project, solo presentation, solo protocol
 
-* 2.1 Aug-28
-** Summary ([[https://drive.google.com/drive/folders/15g6RM7VjrKkfp6w02BZfqyzAMmnTxY6v?usp=drive_link][Whiteboard photos]])
+** 2.1 Aug-28
+*** Summary ([[https://drive.google.com/drive/folders/15g6RM7VjrKkfp6w02BZfqyzAMmnTxY6v?usp=drive_link][Whiteboard photos]])
 
 - Most of the current discussion is about the AI system without the
   algorithm (because it is a black-box algorithm)
@@ -117,8 +118,8 @@ Review questions:
   and consciousness, moral and ethical reasoning, and social
   intelligence.
 
-* 2.2 Aug-30
-** Links (solo presentation / AI app ideas?)
+** 2.2 Aug-30
+*** Links (solo presentation / AI app ideas?)
 
 - Consciousness: "Consciousness in AI: insights from the science of
   consciousness" (23 Aug 2023) - 80 page report.
@@ -182,7 +183,7 @@ Review questions:
 
 - Freak show: [[https://twitter.com/The_DailyAi/status/1696087222255222866?s=20][Adding animation to Midjourney images]] (Aug 28)
 
-** Projects
+*** Projects
 
 - Pick a team and a team topic by Sep-6
 
@@ -190,7 +191,7 @@ Review questions:
 
 - Pick a solo presentation topic, date, and protocol date by Sep-29
 
-** Reading assignment: ELIZA
+*** Reading assignment: ELIZA
 
 - Read: Weizenbaum's 1966 article on ELIZA ([[https://dl.acm.org/doi/10.1145/365153.365168][pdf]] / [[https://en.wikipedia.org/wiki/ELIZA][wiki]]) - BY WED SEP-6
 
@@ -201,7 +202,7 @@ Review questions:
   story is old and no longer relevant, gramps. You can quietly retire
   it."
 
-** Schedule
+*** Schedule
 
 - On Friday, September 1, we will watch a classic film on AI together
 
@@ -210,9 +211,9 @@ Review questions:
   September 22 (go to ACTEB @Lyon instead - I'll give a short talk on
   [[roam:https://github.com/birkenkrahe/org/blob/master/research/ACTEB_2023.org][the role of AI in Education]].
 
-* 2.3 Sep-1
+** 2.3 Sep-1
 
-** Summary
+*** Summary
 
 - Among the four AI approaches (machines behaving like humans,
   machines thinking like humans, rational machines, rational agents),
@@ -222,11 +223,11 @@ Review questions:
 - Values and objectives of the machine must be aligned with those of
   the human (as in Asimov's robot laws).
 
-* 3.1 Sep-6
-** Watching "The Thinking Machine" (1961)
-** Ideation next Monday: must pick projects/teams
-* 3.2 Sep-8
-** Discussion: [[https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film]["Thinking machines" (1961)]]
+** 3.1 Sep-6
+*** Watching "The Thinking Machine" (1961)
+*** Ideation next Monday: must pick projects/teams
+** 3.2 Sep-8
+*** Discussion: [[https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film]["Thinking machines" (1961)]]
 
 [[https://chat.openai.com/share/f5b9b0ec-96fa-454c-b079-96e257de989c][ChatGPT auto-generated summary]]
 
@@ -237,9 +238,9 @@ Questions:
 
 [[https://github.com/birkenkrahe/ai23/blob/main/pdf/ThinkingMachine.pdf][Summary (PDF)]]
 
-* 4.1 Sep-11
+** 4.1 Sep-11
 
-** Vote for Lyon College this week!
+*** Vote for Lyon College this week!
 
 Put this in your daily calendar for daily vote through September 15!
 From Lyon marketing:
@@ -252,7 +253,7 @@ You can vote once per day through Sept. 15! Go Scots!
 https://arkansasmoneypolitics.secondstreetapp.com/og/e404fba6-f03f-4d70-939a-b72afd1dcb42/gallery/396819790
 #+end_quote
 
-** Discussion: Weizenbaum's Eliza article
+*** Discussion: Weizenbaum's Eliza article
 
 - Script: [[https://chat.openai.com/c/9f7e208f-d5b7-43ee-84e6-bde501cb7170][Imitating Eliza with ChatGPT]]
 - Using Eliza (JavaScript implementation): [[https://www.masswerk.at/elizabot/][masswerk.at/elizabot/]]
@@ -274,7 +275,7 @@ Questions:
 
 [[https://github.com/birkenkrahe/ai23/blob/main/pdf/Weizenbaum.pdf][Answers (PDF)]]
 
-** Review: DataCamp "[[https://app.datacamp.com/learn/courses/understanding-artificial-intelligence][Harnessing AI in organizations]]"
+*** Review: DataCamp "[[https://app.datacamp.com/learn/courses/understanding-artificial-intelligence][Harnessing AI in organizations]]"
 
 1. What's a "roadmap" in this context? Is there no GPS?
    #+begin_quote
@@ -314,15 +315,15 @@ Questions:
    cultures or knowledge background (e.g. research vs. truckers).
    #+end_quote
 
-** Project canvas ("Ideation")
+*** Project canvas ("Ideation")
 
 - Make sure you have signed your project up [[https://lyon.instructure.com/courses/1446/pages/team-project][here in Canvas]].
 - [[https://drive.google.com/drive/folders/1IDiZv7PlySRaseCbWd2cLRUjusBt9Rzl?usp=sharing][Access the link]] and copy the project canvas to your own GDrive.
 - Review "[[https://campus.datacamp.com/courses/understanding-artificial-intelligence/112672?ex=1][Harnessing AI in Organisations]]" for the ideation.
 
-* 4.2 Sep-13
+** 4.2 Sep-13
 
-** Vote for Lyon College this week!
+*** Vote for Lyon College this week!
 
 Put this in your daily calendar for daily vote through September 15!
 From Lyon marketing:
@@ -335,7 +336,7 @@ You can vote once per day through Sept. 15! Go Scots!
 https://arkansasmoneypolitics.secondstreetapp.com/og/e404fba6-f03f-4d70-939a-b72afd1dcb42/gallery/396819790
 #+end_quote
 
-** Ideation with the [[https://github.com/birkenkrahe/ai23/blob/main/pdf/OTF-ProjectCanvas_EN.pdf][Project Canvas]]
+*** Ideation with the [[https://github.com/birkenkrahe/ai23/blob/main/pdf/OTF-ProjectCanvas_EN.pdf][Project Canvas]]
 
 1) "[[https://youtu.be/uQ3HizQyXYs?si=2VS8xe10V8KwyNxm][The Project Canvas-a Tool For Your Project Journeys]]".
 
@@ -357,9 +358,9 @@ https://arkansasmoneypolitics.secondstreetapp.com/og/e404fba6-f03f-4d70-939a-b72
 
 7) You will get additional comments from me via Google Docs (slides).
 
-* 4.3 Sep-15 NO CLASS (SPRINT REVIEW)
-* 5.1 Mon-Sep-18
-** Monthly summary - check your engagement (10')
+** 4.3 Sep-15 NO CLASS (SPRINT REVIEW)
+** 5.1 Mon-Sep-18
+*** Monthly summary - check your engagement (10')
 
 What was your personal highlight this last month?
 
@@ -372,7 +373,7 @@ and engineers, and learnt a lot about the reception of generative AI
 in the real world.
 #+end_quote
 
-*** Content summary from 9 classroom sessions:
+**** Content summary from 9 classroom sessions:
 1) Positioned generative AI (like ChatGPT, Midjourney).
 2) Looked at different ChatGPT use cases.
 3) Discussed different aspects of intelligence.
@@ -388,13 +389,13 @@ in the real world.
 9) Shared lots of links, articles, videos and ideas via the AI Chat.
 10) Learnt about the history of Artificial Intelligence research.
 
-*** Film recommendations:
+**** Film recommendations:
 1) [[https://en.wikipedia.org/wiki/Metropolis_(1927_film)][Metropolis]] (1927)
 2) [[https://en.wikipedia.org/wiki/Blade_Runner][Blade Runner]] (1982)
 3) [[https://en.wikipedia.org/wiki/Eureka_(2006_TV_series)][Eureka]] (2006-2012)
 4) Person of Interest (???)
 
-*** Video recommendations:
+**** Video recommendations:
 1) [[https://youtu.be/5p248yoa3oE?si=YdjFIHqqSJxMGP3n][Opportunities in AI - 2023]]
 2) [[https://youtu.be/aihq6jhdW-Q?si=ZHVjwRoQk0NaKqfO][I Tried to Convince Intelligent AI NPCs They are Living in a Simulation]]
 3) [[https://x.com/sebo_gm/status/1696422321538441528?s=20][Web scraping with ChatGPT's Code Interpreter is a game-changer]]
@@ -405,7 +406,7 @@ in the real world.
 8) [[https://youtu.be/zxQyTK8quyY][Transformer Neural Networks]]
 9) [[https://youtu.be/yfHHvmaMkcA?si=16GK_8ECmaA-0P9C][Vector embeddings]]
 
-*** Paper and article recommendations:
+**** Paper and article recommendations:
 1) [[https://medium.com/incerto/iq-is-largely-a-pseudoscientific-swindle-f131c101ba39][IQ is largely a pseudoscientific swindle]]
 2) [[https://www.datacamp.com/cheat-sheet/chatgpt-cheat-sheet-data-science][ChatGPT Cheat Sheet]]
 3) [[https://arxiv.org/pdf/2308.07540.pdf][CALYPSO: LLMs as Dungeon Masters' Assistants]]
@@ -421,7 +422,7 @@ in the real world.
 13) [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321][Navigating the Jagged Technological Frontier]]
 14) [[https://aisel.aisnet.org/icis1985/4/][Towards a More Precise Concept of Information Technology]]
 
-** Review: "The human side of AI" (15')
+*** Review: "The human side of AI" (15')
 
 1. What does "democratizing AI" mean, and what are potential issues
    with this approach?
@@ -491,8 +492,8 @@ in the real world.
 
    #+end_quote
 
-** SHAP tutorial (with notebook, 20')
-** Preview: Interacting with ChatGPT (5')
+*** SHAP tutorial (with [[https://app.datacamp.com/workspace/w/e57f62c7-df65-40bc-9b18-54acf0ab8637/edit][workspace]], 20')
+*** Preview: Interacting with ChatGPT (5')
 
 - Covers:
   1) What can ChatGPT do,
@@ -507,15 +508,15 @@ in the real world.
 - Where the fun is: experiment! An interesting little experiment of my
   own: getting ChatGPT to do what I want.
 
-* 5.2 Wed-Sep-20
-** Bitcoin club meets tonight Lyon 214
+** 5.2 Wed-Sep-20
+*** Bitcoin club meets tonight Lyon 214
 
 [[https://img-9gag-fun.9cache.com/photo/aRAeMzj_460s.jpg][Be there or be square!]]
 
 #+attr_latex: :width 400px
 [[../img/bitcoin.png]]
 
-** ACTEB talk: The Future of AI education (20')
+*** ACTEB talk: The Future of AI education (20')
 #+attr_html: :width 600px
 [[../img/SDXL_09_Group_of_students_with_teacher_1.jpg]]
 
@@ -535,7 +536,7 @@ in the real world.
     problem?
   - What about copyright issue with the input for training the model?
 
-** Read "The Unreasonable Effectiveness of Data"
+*** Read "The Unreasonable Effectiveness of Data"
 
 Read this article co-authored by Peter Norvig (Director of Research,
 Google) - figure out if you can what came to pass since then and what
@@ -574,7 +575,7 @@ did not.
   accomplished with the resulting models."
   #+end_quote
 
-* 5.3 No meeting on Sep-22 go to [[https://www.lyon.edu/acteb-conference][ACTEB]] instead!
+** 5.3 No meeting on Sep-22 go to [[https://www.lyon.edu/acteb-conference][ACTEB]] instead!
 
 Extra credit: get a [[https://docs.google.com/document/d/1nya8YnjmXJRtSAi3VLCj-llfHgOie9RGd87rJ5H-YAI/edit?usp=sharing][signature]] from me for attending either the plenary
 session (9am-12pm) of from a session chair (1-3 pm) for points!
@@ -596,7 +597,7 @@ A selection of interesting talks (judging from the title):
 4) Entrepreneurship: "The Importance of Entrepreneurs is Growing",
    Terrance Farrier (UA Pine Bluff)
 
-* 6.1 Mon-Sep-25
+** 6.1 Mon-Sep-25
 
 *SEVERAL OF YOU MISSED DATACAMP ASSIGNMENTS: COMPLETE THEM LATE (50%)*
 
@@ -606,16 +607,16 @@ Planned for this week:
 3) How will generative AI change the labor market? (Mollick, 2023)
 e4) Pick your solo presentation topic ([[https://lyon.instructure.com/courses/1446/pages/solo-presentations-and-protocols][Canvas]])
 
-** Review: First sprint review ([[https://lyon.instructure.com/courses/1446/assignments/17992][Canvas]])
-** How are you getting prepared for Thursday?
-** New reading assignment for Friday ([[https://lyon.instructure.com/courses/1446/assignments/18959][Canvas]])
-** Remember your old reading assignment ([[https://lyon.instructure.com/courses/1446/assignments/18845][Canvas]])
-** Debate: Pro/Con AI in education
+*** Review: First sprint review ([[https://lyon.instructure.com/courses/1446/assignments/17992][Canvas]])
+*** How are you getting prepared for Thursday? ([[https://drive.google.com/file/d/1Q8yLcn_cdfM1A9F3PcXzwgKERPhDrlEL/view?usp=drive_link][list]])
+*** New reading assignment for Friday ([[https://lyon.instructure.com/courses/1446/assignments/18959][Canvas]])
+*** Remember your old reading assignment ([[https://lyon.instructure.com/courses/1446/assignments/18845][Canvas]])
+*** Debate: Pro/Con AI in education ([[https://drive.google.com/file/d/1UJpilUEDOU1GYkzr5DvPFxnEWDMgLs9t/view?usp=sharing][results]])
 
-* 6.2 Wed-Sep-27
+** 6.2 Wed-Sep-27
 [[../img/die.jpg]]
 
-** Review: Interacting with ChatGPT (DataCamp)
+*** Review: Interacting with ChatGPT (DataCamp)
 
 Answer a question (1-11) or ask a question (12-20)! If you get a
 number already used, take the next number.
@@ -645,7 +646,7 @@ More on prompt engineering:
 - [[https://realpython.com/practical-prompt-engineering/][A deeper look at prompt engineering (realpython.com)]] - 1 hr
 - [[https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/][ChatGPT Prompt Engineering for Developers (DeepLearning.ai)]] - 1 hr
 
-** The Unreasonable Effectiveness of Data ([[https://lyon.instructure.com/courses/1446/assignments/18845][Canvas]])
+*** The Unreasonable Effectiveness of Data ([[https://lyon.instructure.com/courses/1446/assignments/18845][Canvas]])
 
 Answer a question! If you get a number already used, take the next.
 
@@ -670,9 +671,9 @@ Answer a question! If you get a number already used, take the next.
 19) +What does "follow the data" mean?+
 20) Why don't you necessarily need a parametric model for web data?
 
-* 6.3 Fri-Sep-29
-** TODO REMINDER: pick solo presentation topic by today
-** TODO Scenarios: how will AI change the labor market?
+** 6.3 Fri-Sep-29
+*** TODO REMINDER: pick solo presentation topic by today
+*** TODO Scenarios: how will AI change the labor market?
 [[../img/tonfilm1927.png]]
 
 - The first motion picture with sound came into the cinema in 1927.
@@ -687,7 +688,7 @@ week. Teach a person how to build a model, and they'll be busy for a
 lifetime." -- Andreas Welsch (VP at SAP)
 #+end_quote
 
-** TODO Scenario building
+*** TODO Scenario building
 #+attr_latex: :width 400px
 [[../img/laborscenario.png]]
 
@@ -717,10 +718,10 @@ lifetime." -- Andreas Welsch (VP at SAP)
   3. What kind of education should he pursue?
   4. What should his company do to succeed in this scenario?
 
-* 7.1 Mon-Oct-2
-** [[https://lyon.instructure.com/courses/1446/pages/solo-presentations-and-protocols][Solo presentations and protocols agreed!]]
-** SXSW Pitch - College Student Startups (see AI Chat)
-** Review: ChatGPT response ownership
+** 7.1 Mon-Oct-2
+*** [[https://lyon.instructure.com/courses/1446/pages/solo-presentations-and-protocols][Solo presentations and protocols agreed!]]
+*** SXSW Pitch - College Student Startups (see AI Chat)
+*** Review: ChatGPT response ownership
 
 When can you claim ownership over the content created by ChatGPT?
 #+begin_quote
@@ -733,7 +734,7 @@ When can you claim ownership over the content created by ChatGPT?
    someone's rights.
 #+end_quote
 
-** Claim: ChatGPT can do "much of the legwork"
+*** Claim: ChatGPT can do "much of the legwork"
 
 Workflow: "The desired workflow is one that has ChatGPT doing much
 of the legwork, so a person only has to finalize tasks before
@@ -753,8 +754,8 @@ Which technical tasks are "legwork" and could or should be replaced?
 4) +Automating repetitive tasks?+
 #+end_quote
 
-* 7.2 Wed-Oct-4
-** Preview: Understanding machine learning (2-3 hrs)
+** 7.2 Wed-Oct-4
+*** Preview: Understanding machine learning (2-3 hrs)
 
 As before, all of these courses are no-code. To get most out of the
 DataCamp experience, it makes sense to couple them with a few
@@ -765,7 +766,7 @@ recommendations (books, courses, tutorials) if you're interested.
 - Supervised and unsupervised ML models.
 - Deep learning with neural networks.
 
-** Review: Adopting ChatGPT - USE CASES
+*** Review: Adopting ChatGPT - USE CASES
 #+begin_quote
 Elements of a use case (a software development model):
 1) System, e.g. food delivery app
@@ -783,8 +784,8 @@ few typical student use cases:
    #+attr_html: :width 400px
    [[../img/chatgpt_usecases.png]]
 
-* 7.3 Fri-Oct-6
-** ChatGPT for coding - group experiment
+** 7.3 Fri-Oct-6
+*** ChatGPT for coding - group experiment
 
 Go into one of three groups: documenters, syntaxers, and debuggers.
 
@@ -829,9 +830,8 @@ The more you know, the more you'll learn.
 #+attr_html: :width 400px
 [[../img/chatgpt_for_coding.png]]
 
-* 8.1 Wed-Oct-11 - AI-assisted coding
-
-** Review DataCamp lesson "What is Machine Learning?"
+** 8.1 Wed-Oct-11 - AI-assisted coding
+*** Review DataCamp lesson "What is Machine Learning?"
 
 1. AlphaZero and quantum computing? What's the connection? ([[https://www.nature.com/articles/s41534-019-0241-0][link]])
 2. How are you using machine learning daily? ([[https://blog.google/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/][link]])([[https://ml4a.net/][link]])([[https://www.itransition.com/machine-learning/statistics][link]])
@@ -881,7 +881,7 @@ The more you know, the more you'll learn.
    - Quantification: the data may not encode what we're after.
    #+end_quote
 
-** AI-assisted coding with GitHub Codespaces
+*** AI-assisted coding with GitHub Codespaces
 
 Preparation for a future session! [[https://lyon.instructure.com/courses/1446/assignments/19613][See also Canvas]]. Do this now!
 
@@ -893,6 +893,111 @@ Preparation for a future session! [[https://lyon.instructure.com/courses/1446/as
    - Open [[https://education.github.com/pack?WT.mc_id=academic-88217-leestott][this page]] and follow the instructions (you'll need to
      upload a photo of your student ID).
    - Once submitted, you'll be certified within 4 days.
+
+** 8.2 Fri-Oct-13 - Supervised machine learning
+#+attr_latex: :width 400px
+[[../img/mlworkflow.png]]
+
+Python coding: Supervised learning with decision tree models to
+predict diabetes mellitus (cp. Naviani, 2023).
+
+* NEXT 9.1 Mon-Oct-16 - 2nd sprint review
+#+caption: Illustration of a set of 'AI Students from Lyon College' action figures encased in transparent plastic. A male student of Hispanic descent is depicted programming a small robot, his backpack filled with tech tools. Next to him, a female student with Middle Eastern features holds an AI book and a 3D-printed model of a neural network. The package emphasizes 'AI Aspirants!', 'Lyon Tech Titans!', 'Dynamic Data Divers!', and 'Cognitive Computing Champions!' portraying their courage, competence, and commitment to the field of AI.
+#+attr_latex: :width 700px
+[[../img/aistudentsactionfigures.png]]
+#+caption: Photo of a series of 'AI Students from Lyon College' action figures in clear plastic wrapping. The first figure is a female student with African descent, holding a digital tablet displaying AI algorithms. She's dressed in casual collegiate attire with a badge reading 'Lyon AI Leader'. Beside her, a male student of Asian descent stands confidently, equipped with a VR headset and a mini drone. The packaging highlights 'Innovative Intellects!', 'Diverse Data Dynamos!', 'Courageous Coders!', and 'AI Achievers!' showcasing their dedication to AI advancements and entrepreneurial spirit.
+#+attr_latex: :width 700px
+[[../img/aistudentsactionfigures1.png]]
+
+Are we on schedule? Yes, pretty much.
+
+** Monthly summary
+*** Extras
+
+1. Conference attendance ACTEB'23 (different parallel sessions)
+2. Abacus.ai webinar on deploying LLMs in enterprises
+3. Article "The unreasonable effectiveness of data" (Norvig)
+4. Article "Can large language models reason?" (Mitchell)
+5. Article "The Ramanujan machine" (2023)
+6. Integration of Bard (AI) in Google search (blog post)
+7. Star Wars 1923 - AI generated fanfiction short film
+8. Article: "Does a language model trained on “A is B” generalize to “B
+   is A?” (No)
+9. Ethan Mollick: cheat code to give ChatGPT external (file) memory
+10. Human-centered design thinking (process)
+11. Free course from MIT: TinyML and Efficient Deep Learning
+    Computing"
+12. Cultural dependence of ChatGPT" The culturally more distant a
+    place is from the US, the lower the correlation with GPT."
+13. No-code IT support assistants
+14. AI companies hire creative writers to help generative AI
+15. Article: connection between logic and probability
+16. Stackoverflow's journey on the road to generative AI
+17. Podcast: how will AI and ML influence the role of developers?
+18. Free (and math-free) course on AI in Business (U of Helsinki)
+19. AI teaching assistants: Khanmigo and Harvard CS50
+20. Prompt engineering deep dives (realpython.com and deeplearning.ai)
+21. ChatGPT project cheat sheet from KDNuggets
+22. Startup Pitch for the Governor's Cup in Arkansas (2024)
+23. Cooking with ChatGPT recipes
+24. Coding with ChatGPT - experiences from educators around the world
+25. Project progress: object detection ML
+26. Feynman's non-AI rule for solving problems
+27. Opinion: the dead Internet to come (gloom and doom)
+28. AI information at huggingface.co
+29. Article: Tiny language models
+30. Polymathic AI collaboration for scientific foundation models
+31. Article: Generative agents: Interactive behavior simulacra
+32. Presentation: State of LLMs in 1923
+33. Replit AI freely available
+34. Training an unbeatable AI in Trackmania
+35. Reinforcement learning examples and article
+36. FAQ by Mollick on generative AI
+37. Video: how China stopped kids from gaming
+38. Delivery by drone in Rwanda
+39. Formalizing mathematical proofs (Fermat's theorem) with AI
+40. Opportunity: internships and careers with Accenture
+41. Video: Quickstart for GitHub Copilot
+42. Report: Kaggle AI Report 2023
+43. Playing with DALL-E 3
+44. DALL-E 3 model bias in images of patients and doctors.
+45. FreeCodeCamp course: The Ethics of AI/ML (2 hrs)
+46. FreeCodeCamp course: Prompt Engineering for web developers (3 hrs)
+
+*** Concepts
+
+- SHapley Additive exPlanations (SHAP) values for ML models
+- The future of AI education (ACTEB talk)
+- A framework for debating difficult issues
+- How to prepare for a career fair
+- Scenario building: how will AI change the labor market?
+- How to interact with ChatGPT (prompts)
+- How and when to adopt ChatGPT (use cases)
+- Using GitHub Copilot for AI-assisted Python coding
+- Machine learning concepts and processes
+
+*** Experiments
+
+- AI in education: pro or con?
+- Lyon Career Fair October 2023
+- AI and the future labor market: four scenarios
+- ChatGPT for coding: arguments for developers
+- Using GitHub Copilot for AI-assisted Python coding
+
+** 2nd sprint review
+#+caption: Medieval colored woodcut illustration of a bustling town square. In the center, a large wooden stage is set up, where various project teams in medieval garb present their findings. Some teams show carved wooden models of their methods, while others unroll large scrolls detailing their literature reviews. Townspeople gather around, discussing the presentations, with a few minstrels playing soft tunes nearby.
+#+attr_latex: :width 400px
+[[../img/2ndSprintReview.png]]
+
+- Every team *presents* their project status briefly and informally.
+- Focus on the reviewed *literature* and your method or *approach*.
+- Comment on you general *progress*, pride, change issues.
+- Ask *questions* of the product owner and of other teams.
+- *Upload* any material to your project folder in GDrive.
+
+* 9.2 Wed-Oct-18 - Unsupervised machine learning
+#+attr_latex: :width 400px
+[[../img/mlworkflow.png]]
 
 ** Decision tree model with Python from scratch
 
@@ -1092,24 +1197,8 @@ bad).
 - [[https://app.noteable.io/published/353ee86f-18f4-46c3-8a70-b7076fe7aef5/Visualizing-mtcars-in-R][noteable.io notebook]]
 - [[https://app.datacamp.com/workspace/w/6a1b3c79-4192-4bfd-a1f1-627622e4c682][DataCamp workspace copy]]
 
-* 8.2 Fri-Oct-13 - Supervised machine learning
-#+attr_latex: :width 400px
-[[../img/mlworkflow.png]]
 
-Python coding: Supervised learning with decision tree models to
-predict diabetes mellitus (cp. Naviani, 2023).
-
-* 9.1 Mon-Oct-16 - 2nd sprint review
-
-- Monthly summary
-
-- Second sprint review
-
-* 9.2 Wed-Oct-18 - Unsupervised machine learning
-#+attr_latex: :width 400px
-[[../img/mlworkflow.png]]
-
-Python coding: Unsupervised ML - k-means clustering with Python
+** TODO Python coding: Unsupervised ML - k-means clustering with Python
 (cp. Babitz, 2023).
 
 * 9.3 Fri-Oct-20 - Deep learning from scratch
