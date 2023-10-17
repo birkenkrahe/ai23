@@ -901,7 +901,7 @@ Preparation for a future session! [[https://lyon.instructure.com/courses/1446/as
 Python coding: Supervised learning with decision tree models to
 predict diabetes mellitus (cp. Naviani, 2023).
 
-* NEXT 9.1 Mon-Oct-16 - 2nd sprint review
+* 9.1 Mon-Oct-16 - 2nd sprint review
 #+caption: Illustration of a set of 'AI Students from Lyon College' action figures encased in transparent plastic. A male student of Hispanic descent is depicted programming a small robot, his backpack filled with tech tools. Next to him, a female student with Middle Eastern features holds an AI book and a 3D-printed model of a neural network. The package emphasizes 'AI Aspirants!', 'Lyon Tech Titans!', 'Dynamic Data Divers!', and 'Cognitive Computing Champions!' portraying their courage, competence, and commitment to the field of AI.
 #+attr_latex: :width 700px
 [[../img/aistudentsactionfigures.png]]
@@ -911,8 +911,8 @@ predict diabetes mellitus (cp. Naviani, 2023).
 
 Are we on schedule? Yes, pretty much.
 
-** Monthly summary
-*** Extras
+* Monthly summary
+** Extras
 
 1. Conference attendance ACTEB'23 (different parallel sessions)
 2. Abacus.ai webinar on deploying LLMs in enterprises
@@ -964,7 +964,7 @@ Are we on schedule? Yes, pretty much.
 45. FreeCodeCamp course: The Ethics of AI/ML (2 hrs)
 46. FreeCodeCamp course: Prompt Engineering for web developers (3 hrs)
 
-*** Concepts
+** Concepts
 
 - SHapley Additive exPlanations (SHAP) values for ML models
 - The future of AI education (ACTEB talk)
@@ -976,7 +976,7 @@ Are we on schedule? Yes, pretty much.
 - Using GitHub Copilot for AI-assisted Python coding
 - Machine learning concepts and processes
 
-*** Experiments
+** Experiments
 
 - AI in education: pro or con?
 - Lyon Career Fair October 2023
@@ -995,6 +995,18 @@ Are we on schedule? Yes, pretty much.
 - Ask *questions* of the product owner and of other teams.
 - *Upload* any material to your project folder in GDrive.
 
+
+Comments:
+
+ALWAYS ask a question! Relationship building!
+
+1) IT Support bot
+2) Other languages? What is a personality? No literature on Eviebot?
+   Use literature not exactly on Eviebot but on similar tech. Ask
+   human psychology experts.
+3) Look at alternatives that the subject matter expert does not know
+   about.
+4) More references? 
 * 9.2 Wed-Oct-18 - Unsupervised machine learning
 #+attr_latex: :width 400px
 [[../img/mlworkflow.png]]
