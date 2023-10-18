@@ -903,16 +903,16 @@ predict diabetes mellitus (cp. Naviani, 2023).
 
 * 9.1 Mon-Oct-16 - 2nd sprint review
 #+caption: Illustration of a set of 'AI Students from Lyon College' action figures encased in transparent plastic. A male student of Hispanic descent is depicted programming a small robot, his backpack filled with tech tools. Next to him, a female student with Middle Eastern features holds an AI book and a 3D-printed model of a neural network. The package emphasizes 'AI Aspirants!', 'Lyon Tech Titans!', 'Dynamic Data Divers!', and 'Cognitive Computing Champions!' portraying their courage, competence, and commitment to the field of AI.
-#+attr_latex: :width 700px
+#+attr_latex: :width 400px
 [[../img/aistudentsactionfigures.png]]
 #+caption: Photo of a series of 'AI Students from Lyon College' action figures in clear plastic wrapping. The first figure is a female student with African descent, holding a digital tablet displaying AI algorithms. She's dressed in casual collegiate attire with a badge reading 'Lyon AI Leader'. Beside her, a male student of Asian descent stands confidently, equipped with a VR headset and a mini drone. The packaging highlights 'Innovative Intellects!', 'Diverse Data Dynamos!', 'Courageous Coders!', and 'AI Achievers!' showcasing their dedication to AI advancements and entrepreneurial spirit.
-#+attr_latex: :width 700px
+#+attr_latex: :width 400px
 [[../img/aistudentsactionfigures1.png]]
 
 Are we on schedule? Yes, pretty much.
 
-* Monthly summary
-** Extras
+** Monthly summary
+*** Extras
 
 1. Conference attendance ACTEB'23 (different parallel sessions)
 2. Abacus.ai webinar on deploying LLMs in enterprises
@@ -964,7 +964,7 @@ Are we on schedule? Yes, pretty much.
 45. FreeCodeCamp course: The Ethics of AI/ML (2 hrs)
 46. FreeCodeCamp course: Prompt Engineering for web developers (3 hrs)
 
-** Concepts
+*** Concepts
 
 - SHapley Additive exPlanations (SHAP) values for ML models
 - The future of AI education (ACTEB talk)
@@ -976,7 +976,7 @@ Are we on schedule? Yes, pretty much.
 - Using GitHub Copilot for AI-assisted Python coding
 - Machine learning concepts and processes
 
-** Experiments
+*** Experiments
 
 - AI in education: pro or con?
 - Lyon Career Fair October 2023
@@ -984,7 +984,7 @@ Are we on schedule? Yes, pretty much.
 - ChatGPT for coding: arguments for developers
 - Using GitHub Copilot for AI-assisted Python coding
 
-** 2nd sprint review
+*** 2nd sprint review
 #+caption: Medieval colored woodcut illustration of a bustling town square. In the center, a large wooden stage is set up, where various project teams in medieval garb present their findings. Some teams show carved wooden models of their methods, while others unroll large scrolls detailing their literature reviews. Townspeople gather around, discussing the presentations, with a few minstrels playing soft tunes nearby.
 #+attr_latex: :width 400px
 [[../img/2ndSprintReview.png]]
@@ -1007,7 +1007,7 @@ ALWAYS ask a question! Relationship building!
 3) Look at alternatives that the subject matter expert does not know
    about.
 4) More references? 
-* 9.2 Wed-Oct-18 - Unsupervised machine learning
+* 9.2 Wed-Oct-18 - Supervised machine learning
 #+attr_latex: :width 400px
 [[../img/mlworkflow.png]]
 
@@ -1072,7 +1072,7 @@ Demonstration "Simple Decision Tree model with Python from Scratch
     - What should we explore next to deepen our understanding of
       machine learning?
 
-** Trying this with the free version of ChatGPT
+** Trying this with the free version of ChatGPT (practice)
 
 Stopped short of the 'optimization' step (accuracy of 30% was quite
 bad).
@@ -1147,7 +1147,8 @@ bad).
          color = random.choice(['Red', 'Purple', 'Yellow', 'Green'])
          diameter = round(random.uniform(2.0, 8.0), 2)
          fruit_type = random.choice(fruit_types)
-         data_list.append({'Color': color, 'Diameter': diameter, 'Fruit Type': fruit_type})
+         data_list.append({'Color': color, 'Diameter': diameter,
+                           'Fruit Type': fruit_type})
 
      # Shuffle the dataset for randomness
      random.shuffle(data_list)
@@ -1213,12 +1214,12 @@ bad).
 ** TODO Python coding: Unsupervised ML - k-means clustering with Python
 (cp. Babitz, 2023).
 
-* 9.3 Fri-Oct-20 - Deep learning from scratch
+* 9.3 Fri-Oct-20 - Unsupervised machine learning
 
 Deep learning: simple neural net with Python from scratch
 (cp. Kneusel, 2021, Kitsios, 2019)
 
-* 10.1 Mon-Oct-23 - Deep learning w/frameworks
+* 10.1 Mon-Oct-23 - Deep learning
 
 - Deep learning: neural nets with Python frameworks (Keras,
   TensorFlow) - cp.  Enthought (2018), Willems (2019), Kelta (2023), K
