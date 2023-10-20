@@ -1210,16 +1210,18 @@ bad).
 - [[https://app.noteable.io/published/353ee86f-18f4-46c3-8a70-b7076fe7aef5/Visualizing-mtcars-in-R][noteable.io notebook]]
 - [[https://app.datacamp.com/workspace/w/6a1b3c79-4192-4bfd-a1f1-627622e4c682][DataCamp workspace copy]]
 
-
-** TODO Python coding: Unsupervised ML - k-means clustering with Python
-(cp. Babitz, 2023).
-
 * 9.3 Fri-Oct-20 - Unsupervised machine learning
 
-Deep learning: simple neural net with Python from scratch
-(cp. Kneusel, 2021, Kitsios, 2019)
+Python coding: Unsupervised ML - k-means clustering with Python
+(cp. Babitz, 2023, Khotijah, 2020). Practice file in workspace.
+
+Four more DataCamp chapters specifically for Large Language
+Models. Will bring this stuff in whenever we're short of material.
 
 * 10.1 Mon-Oct-23 - Deep learning
+
+- Deep learning: simple neural net with Python from scratch
+  (cp. Kneusel, 2021, Kitsios, 2019)
 
 - Deep learning: neural nets with Python frameworks (Keras,
   TensorFlow) - cp.  Enthought (2018), Willems (2019), Kelta (2023), K
@@ -1301,6 +1303,9 @@ Kitsios K. How to build a simple Neural Network from scratch with
 Python. URL: [[https://towardsdatascience.com/how-to-build-a-simple-neural-network-from-scratch-with-python-9f011896d2f3][towardsdatascience.com]] [11 Oct 2023]
 
 Kneusel R T. Practical Deep Learning. NoStarch, 2021.
+
+Kotijah S. K-Means Clustering of Iris Dataset. URL: [[https://www.kaggle.com/code/khotijahs1/k-means-clustering-of-iris-dataset][kaggle.com]] [19 Oct
+2023]
 
 ML - Neural Network Implementation in C++ From Scratch. URL:
 [[https://www.geeksforgeeks.org/ml-neural-network-implementation-in-c-from-scratch/][geeksforgeeks.org]] [11 Oct 2023]
