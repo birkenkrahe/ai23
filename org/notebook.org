@@ -3,7 +3,7 @@
 #+property: header-args:R :results output :noweb yes
 #+property: header-args:python :results output :noweb yes :session *Python*
 #+options: toc:1 num:1
-* First part of term
+* DONE First part of term
 ** 1.1 Aug-23
 #+attr_latex: :width 400px
 [[../img/motivation.png]]
@@ -901,7 +901,7 @@ Preparation for a future session! [[https://lyon.instructure.com/courses/1446/as
 Python coding: Supervised learning with decision tree models to
 predict diabetes mellitus (cp. Naviani, 2023).
 
-* 9.1 Mon-Oct-16 - 2nd sprint review
+* DONE 9.1 Mon-Oct-16 - 2nd sprint review
 #+caption: Illustration of a set of 'AI Students from Lyon College' action figures encased in transparent plastic. A male student of Hispanic descent is depicted programming a small robot, his backpack filled with tech tools. Next to him, a female student with Middle Eastern features holds an AI book and a 3D-printed model of a neural network. The package emphasizes 'AI Aspirants!', 'Lyon Tech Titans!', 'Dynamic Data Divers!', and 'Cognitive Computing Champions!' portraying their courage, competence, and commitment to the field of AI.
 #+attr_latex: :width 400px
 [[../img/aistudentsactionfigures.png]]
@@ -1007,7 +1007,7 @@ ALWAYS ask a question! Relationship building!
 3) Look at alternatives that the subject matter expert does not know
    about.
 4) More references? 
-* 9.2 Wed-Oct-18 - Supervised machine learning
+* DONE 9.2 Wed-Oct-18 - Supervised machine learning
 #+attr_latex: :width 400px
 [[../img/mlworkflow.png]]
 
@@ -1210,7 +1210,7 @@ bad).
 - [[https://app.noteable.io/published/353ee86f-18f4-46c3-8a70-b7076fe7aef5/Visualizing-mtcars-in-R][noteable.io notebook]]
 - [[https://app.datacamp.com/workspace/w/6a1b3c79-4192-4bfd-a1f1-627622e4c682][DataCamp workspace copy]]
 
-* 9.3 Fri-Oct-20 - Unsupervised machine learning
+* DONE 9.3 Fri-Oct-20 - Unsupervised machine learning
 
 Python coding: Unsupervised ML - k-means clustering with Python
 (cp. Babitz, 2023, Khotijah, 2020). Practice file in workspace.
@@ -1218,7 +1218,7 @@ Python coding: Unsupervised ML - k-means clustering with Python
 Four more DataCamp chapters specifically for Large Language
 Models. Will bring this stuff in whenever we're short of material.
 
-* 10.1 Mon-Oct-23 - Deep learning
+* DONE 10.1 Mon-Oct-23 - Deep learning
 
 - Deep learning: simple neural net with Python from scratch
   (cp. Kneusel, 2021, Kitsios, 2019)
@@ -1229,7 +1229,7 @@ Models. Will bring this stuff in whenever we're short of material.
 
 - Deep learning w/C++: [[https://www.geeksforgeeks.org/ml-neural-network-implementation-in-c-from-scratch/][NN implementation in C++ from scratch (2022).]]
 
-* 10.2 Wed, 25-Oct meeting in Derby 209 (via Zoom)
+* DONE 10.2 Wed, 25-Oct meeting in Derby 209 (via Zoom)
 #+attr_latex: :width 400px
 [[../img/uams.jpg]]
 
@@ -1244,7 +1244,7 @@ us in room 209 in the Derby building.
 #+attr_latex: :width 400px
 [[../img/healthcareLLM.jpg]]
 
-* 10.3 Fri-Oct-27 SCOTSFEST VISIT
+* DONE 10.3 Fri-Oct-27 SCOTSFEST VISIT
 #+attr_html: :width 400px
 [[../img/scotsfest.jpg]]
 
