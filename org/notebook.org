@@ -1006,7 +1006,7 @@ ALWAYS ask a question! Relationship building!
    human psychology experts.
 3) Look at alternatives that the subject matter expert does not know
    about.
-4) More references? 
+4) More references?
 * DONE 9.2 Wed-Oct-18 - Supervised machine learning
 #+attr_latex: :width 400px
 [[../img/mlworkflow.png]]
@@ -1252,6 +1252,43 @@ WRMC presentation (August 2023) - Medical AI: supporting residents'
 research with generative AI
 
 * 11.1 Mon-Oct-30: Speech recognition (Andrei)
+
+- [[https://lyon.instructure.com/courses/1446/assignments/20196][Third sprint review]] is live: abstract and keywords wanted!
+
+- [[https://lyon.instructure.com/courses/1446/assignments/19985][Next DataCamp lesson]] ("LLMs Concepts") is due on Wednesday.
+  
+- What are your thoughts on "language"? What context is necessary to
+  understand language? Where would you begin to research language if
+  you wanted to develop a machine learning app? What is special about
+  language? Would one use the same methods to investigate the
+  "language" of dolphins or whales and natural (human) language? What
+  are the specific challenges for language-based machine learning? If
+  your AI app customers speak a very specific, professional language,
+  how would you address their concerns? Do you read much, and what
+  does that do to your language understanding? Do you speak multiple
+  languages, and what has the effect of this been on you?
+
+- Example: radiologists' response to AI
+  #+begin_quote
+  Delving into AI, particularly in the medical field, is complex. To
+  illustrate, consider a recent study from July 2023: economists at MIT
+  conducted an experiment involving 180 tele-radiologists both within
+  and outside the US. With AI assistance, they encountered several
+  challenges, even though the AI's performance was on par with human
+  expertise. One author on Twitter: "We gave 180 radiologists an
+  expert-level AI for diagnosis. But instead of improving, their
+  performance didn't budge. Why? Radiologists implicitly discount AI
+  predictions, favoring their own judgement - a bias we call 'automation
+  neglect'."  A clinician [[https://twitter.com/dschan02/status/1686223670602072064][responded critically]], suggesting,
+  “AI proponents need to engage clinicians without undermining our
+  intelligence or alienating us.”
+
+  Reference: Agarwal N, Moehring A, Rajpurkar P, Salz T. Combining Human
+  Expertise with Artificial Intelligence: Experimental Evidence from
+  Radiology. MIT Department of Economics; National Bureau of Economic
+  Research. July 2023. (Link to the white paper.)
+  #+end_quote
+
 * 11.2 Wed-Nov-1: Gait tracking AI (Aisha)
 * 11.3 Fri-Nov-3: Autonomous vehicles (Nate)
 * 12.1 Mon-Nov-6: AI + research skills (Aidan)
