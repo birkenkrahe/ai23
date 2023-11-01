@@ -1251,45 +1251,72 @@ us in room 209 in the Derby building.
 WRMC presentation (August 2023) - Medical AI: supporting residents'
 research with generative AI
 
-* 11.1 Mon-Oct-30: Speech recognition (Andrei)
+* DONE 11.1 Mon-Oct-30: Speech recognition (Andrei)
 
 - [[https://lyon.instructure.com/courses/1446/assignments/20196][Third sprint review]] is live: abstract and keywords wanted!
 
 - [[https://lyon.instructure.com/courses/1446/assignments/19985][Next DataCamp lesson]] ("LLMs Concepts") is due on Wednesday.
-  
-- What are your thoughts on "language"? What context is necessary to
-  understand language? Where would you begin to research language if
-  you wanted to develop a machine learning app? What is special about
-  language? Would one use the same methods to investigate the
-  "language" of dolphins or whales and natural (human) language? What
-  are the specific challenges for language-based machine learning? If
-  your AI app customers speak a very specific, professional language,
-  how would you address their concerns? Do you read much, and what
-  does that do to your language understanding? Do you speak multiple
-  languages, and what has the effect of this been on you?
-
-- Example: radiologists' response to AI
-  #+begin_quote
-  Delving into AI, particularly in the medical field, is complex. To
-  illustrate, consider a recent study from July 2023: economists at MIT
-  conducted an experiment involving 180 tele-radiologists both within
-  and outside the US. With AI assistance, they encountered several
-  challenges, even though the AI's performance was on par with human
-  expertise. One author on Twitter: "We gave 180 radiologists an
-  expert-level AI for diagnosis. But instead of improving, their
-  performance didn't budge. Why? Radiologists implicitly discount AI
-  predictions, favoring their own judgement - a bias we call 'automation
-  neglect'."  A clinician [[https://twitter.com/dschan02/status/1686223670602072064][responded critically]], suggesting,
-  “AI proponents need to engage clinicians without undermining our
-  intelligence or alienating us.”
-
-  Reference: Agarwal N, Moehring A, Rajpurkar P, Salz T. Combining Human
-  Expertise with Artificial Intelligence: Experimental Evidence from
-  Radiology. MIT Department of Economics; National Bureau of Economic
-  Research. July 2023. (Link to the white paper.)
-  #+end_quote
 
 * 11.2 Wed-Nov-1: Gait tracking AI (Aisha)
+** Review questions LLMs Concepts (DataCamp)
+
+1. What is a large language model?
+   #+begin_quote
+   1. Large set of training data and computing power
+   2. Natural (human) language in the form of text documents
+   3. Pattern recognition using text data
+   #+end_quote
+2. Are all LLM-based generative AI apps commercial?
+   #+begin_quote
+   No, [[https://huggingface.co/chat/][HuggingChat]] is open source.
+   #+end_quote
+3. Which LLM applications do you know?
+   #+begin_quote
+   1. Sentiment analysis
+   2. Identifying themes (summarizing)
+   3. Translating text or speech
+   4. Generating code
+   5. Next-word prediction (writing)
+   #+end_quote
+4. What are some business opportunities for LLMs?
+   #+begin_quote
+   1. Automate tasks (e.g. check code, security)
+   2. Improve efficiency (e.g. write code, security)
+   3. Create revenue streams (e.g. create web pages, security)
+   4. Enable new capabilities (e.g. talk user through security)
+   #+end_quote   
+5. What are some finance applications of LLMs?
+   #+begin_quote
+   1. Market analysis
+   2. Portfolio management
+   3. Investment opportunities ([[https://chat.openai.com/share/a4fa5194-5d5a-442a-b817-acf5474ad736][example]])
+   #+end_quote
+6. What are some healthcare applications of LLMs?
+   #+begin_quote
+   1. Make personal recommendations.
+   2. Analyze and summarize patient data.
+   3. Create patient information material.
+   #+end_quote
+7. What are some education applications of LLMs?
+   #+begin_quote
+   1. Personalized coaching and feedback
+   2. Interactive learning
+   3. Developing tests and checklists for rehearsals
+   #+end_quote
+8. Can LLMs handle multi-modal input (e.g. images)?
+   #+begin_quote
+   Source: https://arxiv.org/abs/2302.14045
+   #+end_quote
+9. What is 'context modeling'?
+   #+begin_quote
+   Removing language ambiguities by providing context.
+   #+end_quote
+10. What is the 'long-range dependency' problem of LLMs?
+    #+begin_quote
+    Recognizing and connecting distant words or expressions in a
+    sentence (especially in German!).
+    #+end_quote
+
 * 11.3 Fri-Nov-3: Autonomous vehicles (Nate)
 * 12.1 Mon-Nov-6: AI + research skills (Aidan)
 * 12.2 Wed-Nov-8: Recommender systems (Nikola)
@@ -1305,10 +1332,52 @@ research with generative AI
 * 16.2 Wed-Dec-6: Presentations II
 * 16.3 Fri-Dec-8: Presentations III
 
-* Last lectures/practice:
+* Miscellaneous lectures/practice:
 
-- Stemming and lemmatization in NLP (cp. Pykes, 2023)
-- AI coding with GitHub Copilot and Codespaces (cp. Zingaro, 2023)
+This is stuff for when we have some time left after a short
+presentation (which won't often be the case, if ever):
+
+** Word stemming and lemmatization in Python
+
+Pykes K. Stemming and Lemmatization in Python, with DataCamp workbook,
+Oct '23.
+
+** LLMs: 10 questions on language.
+1. What are your thoughts on "language"?
+2. What context is necessary to understand language?
+3. Where would you begin to research language if you wanted to develop
+   a machine learning app?
+4. What is special about language?
+5. Would one  use the same methods to investigate the "language" of dolphins or
+   whales and natural (human) language?
+6. What are the specific challenges for language-based machine
+   learning?
+7. If your AI app customers speak a very specific, professional
+   language, how would you address their concerns?
+8. Do you read much, and what does that do to your language
+   understanding?
+9. Do you speak multiple languages, and what has the effect of this
+   been on you?
+10. Example: radiologists' response to AI
+    #+begin_quote
+    Delving into AI, particularly in the medical field, is complex. To
+    illustrate, consider a recent study from July 2023: economists at MIT
+    conducted an experiment involving 180 tele-radiologists both within
+    and outside the US. With AI assistance, they encountered several
+    challenges, even though the AI's performance was on par with human
+    expertise. One author on Twitter: "We gave 180 radiologists an
+    expert-level AI for diagnosis. But instead of improving, their
+    performance didn't budge. Why? Radiologists implicitly discount AI
+    predictions, favoring their own judgement - a bias we call 'automation
+    neglect'."  A clinician [[https://twitter.com/dschan02/status/1686223670602072064][responded critically]], suggesting,
+    “AI proponents need to engage clinicians without undermining our
+    intelligence or alienating us.”
+
+    Reference: Agarwal N, Moehring A, Rajpurkar P, Salz T. Combining Human
+    Expertise with Artificial Intelligence: Experimental Evidence from
+    Radiology. MIT Department of Economics; National Bureau of Economic
+    Research. July 2023. (Link to the white paper.)
+    #+end_quote
 
 * References
 
