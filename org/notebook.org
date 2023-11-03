@@ -1257,8 +1257,8 @@ research with generative AI
 
 - [[https://lyon.instructure.com/courses/1446/assignments/19985][Next DataCamp lesson]] ("LLMs Concepts") is due on Wednesday.
 
-* 11.2 Wed-Nov-1: Gait tracking AI (Aisha)
-** Review questions LLMs Concepts (DataCamp)
+* DONE 11.2 Wed-Nov-1: Gait tracking AI (Aisha)
+** DONE Review questions LLMs Concepts (DataCamp)
 
 1. What is a large language model?
    #+begin_quote
@@ -1317,9 +1317,32 @@ research with generative AI
     sentence (especially in German!).
     #+end_quote
 
-* 11.3 Fri-Nov-3: Autonomous vehicles (Nate)
+* NEXT 11.3 Fri-Nov-3: Autonomous vehicles (Nate)
+
+- *Discussion:* Regarding generative AI, "I don't need any special
+  skills, I just have to wait and let technology advance."
+  ([[https://chat.google.com/room/AAAAeuayDfs/d2u7DjTNkzo/d2u7DjTNkzo?cls=10][Ethan Mollick, Working with AI - two paths to prompting]])
+  1. Conversational prompting: as AI systems like DALL-E3
+     improve, they become more user-friendly and intuitive,
+     allowing users to interact with them conversationally
+     without needing to learn complex prompting techniques.
+  2. Structural prompting: users craft specific prompts that
+     encode their expertise, allowing others to benefit from
+     it. While this approach can yield better results for now, it
+     requires a significant investment of time and effort to
+     learn and perfect.
+
+- Based on your experiences, and on historic events, which of the
+  two approaches will win in the near to medium future (if any)?
+
+- Consider the implications of either approach for work, for
+  education, and for your own career as technologists.
+
 * 12.1 Mon-Nov-6: AI + research skills (Aidan)
 * 12.2 Wed-Nov-8: Recommender systems (Nikola)
+
+** TODO DataCamp review: Building blocks of LLMs
+
 * 12.3 Fri-Nov-10: Imitating celebrities (Jordan)
 * 13.1 Mon-Nov-13: Image recognition (Marlon)
 * 13.2 Wed-Nov-15: Game development (Fowler)
