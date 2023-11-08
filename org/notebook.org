@@ -1317,7 +1317,7 @@ research with generative AI
     sentence (especially in German!).
     #+end_quote
 
-* NEXT 11.3 Fri-Nov-3: Autonomous vehicles (Nate)
+* DONE 11.3 Fri-Nov-3: Autonomous vehicles (Nate)
 
 - *Discussion:* Regarding generative AI, "I don't need any special
   skills, I just have to wait and let technology advance."
@@ -1338,10 +1338,15 @@ research with generative AI
 - Consider the implications of either approach for work, for
   education, and for your own career as technologists.
 
-* 12.1 Mon-Nov-6: AI + research skills (Aidan)
+* DONE 12.1 Mon-Nov-6: AI + research skills (Aidan)
 * 12.2 Wed-Nov-8: Recommender systems (Nikola)
 
 ** TODO DataCamp review: Building blocks of LLMs
+
+Is this really true? Is university specialization the fine-tuning for
+school's pre-training?
+#+attr_html: :width 700px
+[[../img/llm.png]]
 
 * 12.3 Fri-Nov-10: Imitating celebrities (Jordan)
 * 13.1 Mon-Nov-13: Image recognition (Marlon)
