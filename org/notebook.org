@@ -1339,19 +1339,19 @@ research with generative AI
   education, and for your own career as technologists.
 
 * DONE 12.1 Mon-Nov-6: AI + research skills (Aidan)
-* 12.2 Wed-Nov-8: Recommender systems (Nikola)
+* DONE 12.2 Wed-Nov-8: AI + stockmarket (Timothy)
 
-** TODO DataCamp review: Building blocks of LLMs
+** DONE DataCamp review: Building blocks of LLMs
 
 Is this really true? Is university specialization the fine-tuning for
 school's pre-training?
 #+attr_html: :width 700px
 [[../img/llm.png]]
 
-* 12.3 Fri-Nov-10: Imitating celebrities (Jordan)
+* DONE 12.3 Fri-Nov-10: Imitating celebrities (Jordan)
 * 13.1 Mon-Nov-13: Image recognition (Marlon)
 * 13.2 Wed-Nov-15: Game development (Fowler)
-* 13.3 Fri-Nov-17: AI + stockmarket (Timothy)
+* 13.3 Fri-Nov-17: Recommender systems (Nikola)
 * 14.1 Mon-Nov-20: Smart NPCs (Boogie)
 * 15.1 Mon-Nov-27: Artificial X posts (Hunter)
 * 15.2 Wed-Nov-29: Behavior detection (Ryan)
