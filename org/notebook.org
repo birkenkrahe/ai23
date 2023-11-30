@@ -1356,9 +1356,11 @@ school's pre-training?
 * 15.1 Mon-Nov-27: Artificial X posts (Hunter)
 * 15.2 Wed-Nov-29: Behavior detection (Ryan)
 * 15.3 Fri-Dec-1: Morality in AI (Keidrick)
-* 16.1 Mon-Dec-4: Presentations I
-* 16.2 Wed-Dec-6: Presentations II
-* 16.3 Fri-Dec-8: Presentations III
+* Week 16: final presentations, summary
+#+attr_html: :width 600px
+[[../img/checklist.png]]
+
+** Friday, Dec 8: complete evaluation in class (bonus)
 
 * Miscellaneous lectures/practice:
 
